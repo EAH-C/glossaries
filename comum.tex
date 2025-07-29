@@ -1,0 +1,414 @@
+\newglossaryentry{comum}
+{type=symbols,
+  name= {Comum},
+  description={}
+}
+
+\newglossaryentry{matrixRotation}
+{type=symbols,
+  name = {\ensuremath{{\mathbf{R}}_{\mathcal{B}}^{\mathcal{A}}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{\mathbf{R}},
+  description={matrix transformation from $\mathcal{B}$ to $\mathcal{A}$}
+}
+
+\newglossaryentry{identityMatrix}
+{type=symbols,
+  name = {\ensuremath{\mathbf{I}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{\mathbf{I}},
+  description={identity matrix}
+}
+
+\newglossaryentry{zeroMatrix}
+{type=symbols,
+  name = {\ensuremath{\mathbf{0}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{\mathbf{0}},
+  description={zero matrix}
+}
+
+\newglossaryentry{timesOperator}
+{type=symbols,
+  name = \ensuremath{\times},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{\times},
+  description={cross product operator, $\boldsymbol{a}\times\boldsymbol{b}=\left\llbracket \boldsymbol{a}\right\rrbracket_{\times} \boldsymbol{b}$}
+}
+
+\newglossaryentry{matrixAntssymmetric}
+{type=symbols,
+  name = \ensuremath{{\left[\bullet\right]}_\glsentryname{timesOperator}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{\mathcal{A}},
+  description={antisymmetric matrix $\left[\boldsymbol{a}\right]_{\times}\boldsymbol{b}=\boldsymbol{a}\times\boldsymbol{b}$}
+}
+
+\newglossaryentry{transpose}
+{type=symbols,
+  name = \ensuremath{\mathbf{A}\TransposeSymbol},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{\intercal},
+  description={transpose matrix $\mathbf{A}$}
+}
+
+
+% coordinates systems
+\newglossaryentry{inertialSystem}
+{type=symbols,
+  name= \ensuremath{\mathrm{i}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \glsentryname{inertialSystem},
+  description={inertial coordinate system (\glsentryname{eci})}
+}
+
+\newglossaryentry{eciAxisx}
+{type=symbols,
+  name= \ensuremath{x_{\glsentryname{inertialSystem}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{x_{\glsentryname{inertialSystem}}},
+  description={inertial axis x}
+}
+\newglossaryentry{eciAxisy}
+{type=symbols,
+  name= \ensuremath{y_{\glsentryname{inertialSystem}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{y_{\glsentryname{inertialSystem}}},
+  description={inertial axis y}
+}
+
+\newglossaryentry{eciAxisz}
+{type=symbols,
+  name= \ensuremath{z_{\glsentryname{inertialSystem}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{z_{\glsentryname{inertialSystem}}},
+  description={inertial axis z}
+}
+
+\newglossaryentry{geographicSystem}
+{type=symbols,
+  name= \ensuremath{\mathrm{g}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \glsentryname{geographicSystem},
+  description={geographic coordinate system (\glsentryname{ecef})}
+}
+
+\newglossaryentry{navigationSystem}
+{type=symbols,
+  name= \ensuremath{\mathrm{n}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \glsentryname{navigationSystem},
+  description={navigation cordinate system  (\glsentryname{ned})}
+}
+
+
+
+\newglossaryentry{stabilitySystem}
+{type=symbols,
+  name= \ensuremath{\mathrm{}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \glsentryname{stabilitySystem},
+  description={stability coordinate system}
+}
+\newglossaryentry{localSurfaceSystem}
+{type=symbols,
+  name= \ensuremath{\mathcal{S}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \glsentryname{localSurfaceSystem},
+  description={local surface coordinate system}
+}
+
+\newglossaryentry{bodySystem}
+{type=symbols,
+  name= \ensuremath{\mathrm{b}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \glsentryname{bodySystem},
+  description={body coordinate system}
+}
+
+\newglossaryentry{windSystem}
+{type=symbols,
+  name= \ensuremath{\mathrm{w}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \glsentryname{windSystem},
+  description={wind coordinate system}
+}
+
+\newglossaryentry{windAxisx}
+{type=symbols,
+  name= \ensuremath{x_{\glsentryname{windSystem}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{x_{\glsentryname{windSystem}}},
+  description={wind axis x}
+}
+
+\newglossaryentry{windAxisy}
+{type=symbols,
+  name= \ensuremath{y_{\glsentryname{windSystem}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{y_{\glsentryname{windSystem}}},
+  description={wind axis y}
+}
+
+
+
+\newglossaryentry{windAxisz}
+{type=symbols,
+  name= \ensuremath{z_{\glsentryname{windSystem}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{z_{\glsentryname{windSystem}}},
+  description={wind axis z}
+}
+
+
+\newglossaryentry{bodyAxisx}
+{type=symbols,
+  name= \ensuremath{x_{\glsentryname{bodySystem}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{x_{\glsentryname{bodySystem}}},
+  description={body axis x}
+}
+
+\newglossaryentry{bodyAxisy}
+{type=symbols,
+  name= \ensuremath{y_{\glsentryname{bodySystem}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{y_{\glsentryname{bodySystem}}},
+  description={body axis y}
+}
+
+\newglossaryentry{bodyAxisz}
+{type=symbols,
+  name= \ensuremath{z_{\glsentryname{bodySystem}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{z_{\glsentryname{bodySystem}}},
+  description={body axis z}
+}
+
+
+
+\newglossaryentry{navigationAxisx}
+{type=symbols,
+  name= \ensuremath{x_{\glsentryname{navigationSystem}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{x_{\glsentryname{navigationSystem}}},
+  description={navigation axis x}
+}
+
+\newglossaryentry{navigationAxisy}
+{type=symbols,
+  name= \ensuremath{y_{\glsentryname{navigationSystem}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{y_{\glsentryname{navigationSystem}}},
+  description={navigation axis y}
+}
+
+\newglossaryentry{navigationAxisz}
+{type=symbols,
+  name= \ensuremath{z_{\glsentryname{navigationSystem}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{z_{\glsentryname{navigationSystem}}},
+  description={navigation axis z}
+}
+
+
+
+\newglossaryentry{inertialAxisx}
+{type=symbols,
+  name= \ensuremath{x_{\glsentryname{inertialSystem}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{x_{\glsentryname{inertialSystem}}},
+  description={inertial axis x}
+}
+
+\newglossaryentry{inertialAxisy}
+{type=symbols,
+  name= \ensuremath{y_{\glsentryname{inertialSystem}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{y_{\glsentryname{inertialSystem}}},
+  description={inertial axis y}
+}
+
+\newglossaryentry{inertialAxisz}
+{type=symbols,
+  name= \ensuremath{z_{\glsentryname{inertialSystem}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{z_{\glsentryname{inertialSystem}}},
+  description={inertial axis z}
+}
+
+\newglossaryentry{geographicAxisx}
+{type=symbols,
+  name= \ensuremath{x_{\glsentryname{geographicSystem}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{x_{\glsentryname{geographicSystem}}},
+  description={geographic axis x}
+}
+
+\newglossaryentry{geographicAxisy}
+{type=symbols,
+  name= \ensuremath{y_{\glsentryname{geographicSystem}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{y_{\glsentryname{geographicSystem}}},
+  description={geographic axis y}
+}
+
+\newglossaryentry{geographicAxisz}
+{type=symbols,
+  name= \ensuremath{z_{\glsentryname{geographicSystem}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{z_{\glsentryname{geographicSystem}}},
+  description={geographic axis z}
+}
+
+\newglossaryentry{earthRotationVelocity}
+{type=symbols,
+  name= \ensuremath{\omega_{\glsentryname{inertialSystem}\glsentryname{geographicSystem}}},
+  parent = {comum},
+  unit = \unexpanded{\si{\radian\per\second}},
+  symbol = \ensuremath{\omega_{\glsentryname{inertialSystem}\glsentryname{geographicSystem}}},
+  description={rotation velocity of \glsentryname{geographicSystem} relative to \glsentryname{inertialSystem}
+    }
+}
+
+
+
+\newglossaryentry{leftQuaternion}
+{type=symbols,
+  name= \ensuremath{\boldsymbol{\mathcal{S}}_{l}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{\boldsymbol{\mathcal{S}}_{l}},
+  description={left quaternion operator}
+}
+
+\newglossaryentry{rightQuaternion}
+{type=symbols,
+  name= \ensuremath{\boldsymbol{\mathcal{S}}_{r}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{\boldsymbol{\mathcal{S}}_{r}},
+  description={right quaternion operator}
+}
+\newglossaryentry{qi}
+{type=symbols,
+  name= \ensuremath{q_i},
+  parent = {comum},
+  unit = {},
+  symbol = \ensuremath{q},
+  description={component \ensuremath{i} of the quaternion \glsentrysymbol{quaternion}}
+}
+
+% coordinates systema
+
+\newglossaryentry{ecefSystem}
+{type=symbols,
+  name= \ensuremath{\mathrm{e}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{\mathrm{e}},
+  description={ECEF coordinate system}
+}
+
+\newglossaryentry{ecefAxisx}
+{type=symbols,
+  name= \ensuremath{x_{\glsentryname{ecefSystem}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{x_{\glsentryname{ecefSystem}}},
+  description={ECEF axis x}
+}
+
+\newglossaryentry{ecefAxisy}
+{type=symbols,
+  name= \ensuremath{y_{\glsentryname{ecefSystem}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{y_{\glsentryname{ecefSystem}}},
+  description={ECEF axis y}
+}
+
+\newglossaryentry{ecefAxisz}
+{type=symbols,
+  name= \ensuremath{z_{\glsentryname{ecefSystem}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{z_{\glsentryname{ecefSystem}}},
+  description={ECEF axis z}
+}
+
+\newglossaryentry{normalRadiusEarth}
+{type=symbols,
+  name= \ensuremath{R_{n}},
+  parent = {comum},
+  unit = \unexpanded{\si{\meter}},
+  symbol = \ensuremath{R_{n}},
+  description={normal radius of the earth}
+}
+
+\newglossaryentry{ellipsoidalHeight}
+{type=symbols,
+  name= \ensuremath{h},
+  parent = {comum},
+  unit = \unexpanded{\si{\meter}},
+  symbol = \ensuremath{h},
+  description={ellipsoidal height}
+}
+
+\newglossaryentry{nedSystem}
+{type=symbols,
+  name= \ensuremath{\mathrm{n}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{\mathrm{n}},
+  description={NED coordinate system}
+}
+
+\newglossaryentry{eccentricityEarth}
+{type=symbols,
+  name= \ensuremath{e},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{e},
+  description={eccentricity of the earth}
+}
+
+\newglossaryentry{semimajorAxisEarth}
+{type=symbols,
+  name= \ensuremath{a},
+  parent = {comum},
+  unit = \unexpanded{\si{\meter}},
+  symbol = \ensuremath{a},
+  description={semimajor axis of the earth}
+}

@@ -1,0 +1,1565 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass extarticle
+\use_default_options true
+\begin_modules
+subequations
+todonotes
+multicol
+\end_modules
+\maintain_unincluded_children strict
+\language american
+\language_package babel
+\inputencoding utf8
+\fontencoding T1
+\font_roman "md-utopia" "DejaVu Serif Condensed"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype true
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\float_alignment class
+\paperfontsize 12
+\spacing other 1.5
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize a4
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine biblatex
+\cite_engine_type authoryear
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\branch filho
+\selected 1
+\filename_suffix 0
+\color background background
+\end_branch
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 3cm
+\rightmargin 2cm
+\bottommargin 2cm
+\headheight 1cm
+\headsep 1cm
+\footskip 1cm
+\columnsep 0.1cm
+\secnumdepth 4
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation 1.5cm
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 2
+\paperpagestyle fancy
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\timeState}{\glssymbol{timeState}}
+{\ensuremath{t}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\flightSpeed}{\glssymbol{flightSpeed}}
+{\ensuremath{V}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\angleAttack}{\glssymbol{angleAttack}}
+{\ensuremath{\alpha}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\angleSideslip}{\glssymbol{angleSideslip}}
+{\ensuremath{\beta}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\machAngle}{\glssymbol{machAngle}}
+{\ensuremath{\mu}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\machNumber}{\glssymbol{machNumber}}
+{\ensuremath{M}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\liftForce}{\glssymbol{liftForce}}
+{\ensuremath{L}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\dragForce}{\glssymbol{dragForce}}
+{\ensuremath{D}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\momentAerodynamic}{\glssymbol{momentAerodynamic}}
+{\ensuremath{M}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\density}{\glssymbol{density}}
+{\ensuremath{\rho}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\velocity}{\glssymbol{velocity}}
+{\ensuremath{V}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\positionVector}{\glssymbol{positionVector}}
+{\ensuremath{\mathbf{p}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\velocityVector}{\glssymbol{velocityVector}}
+{\ensuremath{\mathbf{v}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\accelerationVector}{\glssymbol{accelerationVector}}
+{\ensuremath{\mathbf{a}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\velocityu}{\glssymbol{velocityu}}
+{\ensuremath{u}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\velocityv}{\glssymbol{velocityv}}
+{\ensuremath{v}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\velocityw}{\glssymbol{velocityw}}
+{\ensuremath{w}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\angularRatep}{\glssymbol{angularRatep}}
+{\ensuremath{p}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\angularRateq}{\glssymbol{angularRateq}}
+{\ensuremath{q}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\angularRater}{\glssymbol{angularRater}}
+{\ensuremath{r}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\soundSpeed}{\glssymbol{soundSpeed}}
+{\ensuremath{a}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\axialForceX}{\glssymbol{axialForceX}}
+{\ensuremath{X}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\lateralForceY}{\glssymbol{lateralForceY}}
+{\ensuremath{Y}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\normalForceZ}{\glssymbol{normalForceZ}}
+{\ensuremath{Z}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\axialForceXstability}{\glssymbol{axialForceXstability}}
+{\ensuremath{\ensuremath{A}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\lateralForceYstability}{\glssymbol{lateralForceYstability}}
+{\ensuremath{\ensuremath{S}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\normalForceZstability}{\glssymbol{normalForceZstability}}
+{\ensuremath{\ensuremath{N}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\momentRoll}{\glssymbol{momentRoll}}
+{\ensuremath{l}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\momentPitch}{\glssymbol{momentPitch}}
+{\ensuremath{m}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\momentYaw}{\glssymbol{momentYaw}}
+{\ensuremath{n}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\symmetricElevon}{\glssymbol{symmetricElevon}}
+{\ensuremath{\delta_{e}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\differentialElevon}{\glssymbol{differentialElevon}}
+{\ensuremath{\delta_{a}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\rudderDeflection}{\glssymbol{rudderDeflection}}
+{\ensuremath{\delta_{r}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\forceVector}{\glssymbol{forceVector}}
+{\ensuremath{\mathbf{f}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\forceVectorPropulsion}{\glssymbol{forceVectorPropulsion}}
+{\ensuremath{{\ensuremath{\mathbf{f}}}_{p}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\specificImpulse}{\glssymbol{specificImpulse}}
+{\ensuremath{I_\textrm{sp}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\forcePropulsion}{\glssymbol{forcePropulsion}}
+{\ensuremath{\ensuremath{f_{p}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\forceVectorAerodynamic}{\glssymbol{forceVectorAerodynamic}}
+{\ensuremath{{\ensuremath{\mathbf{f}}}_{a}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\forceXbody}{\glssymbol{forceXbody}}
+{\ensuremath{f_{x}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\forceYbody}{\glssymbol{forceYbody}}
+{\ensuremath{f_{y}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\forceZbody}{\glssymbol{forceZbody}}
+{\ensuremath{f_{z}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\momentVector}{\glssymbol{momentVector}}
+{\ensuremath{\mathbf{m}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\momentXbody}{\glssymbol{momentXbody}}
+{\ensuremath{m_{x}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\momentYbody}{\glssymbol{momentYbody}}
+{\ensuremath{m_{y}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\momentZbody}{\glssymbol{momentZbody}}
+{\ensuremath{m_{z}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\gravityVector}{\glssymbol{gravityVector}}
+{\ensuremath{\mathbf{g}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\gravitationalAccelerationNavigationSystem}{\glssymbol{gravitationalAccelerationNavigationSystem}}
+{\ensuremath{g}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\angularRateVector}{\glssymbol{angularRateVector}}
+{\ensuremath{\boldsymbol{\omega}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\angleBetweenFramesEcefInertial}{\glssymbol{angleBetweenFramesEcefInertial}}
+{\ensuremath{\theta_{\ensuremath{\mathrm{i}}\ensuremath{\mathrm{e}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\geodeticLatitude}{\glssymbol{geodeticLatitude}}
+{\ensuremath{\phi}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\geodeticLongitude}{\glssymbol{geodeticLongitude}}
+{\ensuremath{\lambda}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\quaternion}{\glssymbol{quaternion}}
+{\ensuremath{\mathbf{q}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\qv}{\glssymbol{qv}}
+{\ensuremath{\mathbf{q}_v}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cotangentMachAngle}{\glssymbol{cotangentMachAngle}}
+{\ensuremath{B}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\BCotTrailingEdge}{\glssymbol{BCotTrailingEdge}}
+{\ensuremath{g}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\completeEllipticIntegralFirstKind}{\glssymbol{completeEllipticIntegralFirstKind}}
+{\ensuremath{K^{\prime}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\completeEllipticIntegralSecondKind}{\glssymbol{completeEllipticIntegralSecondKind}}
+{\ensuremath{E^{\prime}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\parameterI}{\glssymbol{parameterI}}
+{\ensuremath{I}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\mNaca}{\glssymbol{mNaca}}
+{\ensuremath{m}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\geometricParameterOfWing}{\glssymbol{geometricParameterOfWing}}
+{\ensuremath{\omega}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\n}{\glssymbol{n}}
+{\ensuremath{n}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\wingSpan}{\glssymbol{wingSpan}}
+{\ensuremath{b}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\wingRootChord}{\glssymbol{wingRootChord}}
+{\ensuremath{c_{r}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\wingMeanAerodynamicChord}{\glssymbol{wingMeanAerodynamicChord}}
+{\ensuremath{\overline{c}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\wingTipChord}{\glssymbol{wingTipChord}}
+{\ensuremath{c_{t}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\wingArea}{\glssymbol{wingArea}}
+{\ensuremath{S}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\aspectRation}{\glssymbol{aspectRation}}
+{\ensuremath{A }}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\angleBetweenLeadingEdgeAndAxisSymmetry}{\glssymbol{angleBetweenLeadingEdgeAndAxisSymmetry}}
+{\ensuremath{\epsilon}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\angleBetweenTrailingEdgeAndAxisSymmetry}{\glssymbol{angleBetweenTrailingEdgeAndAxisSymmetry}}
+{\ensuremath{\delta}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\angleLeadingEdgeSweep}{\glssymbol{angleLeadingEdgeSweep}}
+{\ensuremath{\Lambda}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\taperRatio}{\glssymbol{taperRatio}}
+{\ensuremath{\lambda}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\caracteristLength}{\glssymbol{caracteristLength}}
+{\ensuremath{\ell}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\mass}{\glssymbol{mass}}
+{\ensuremath{m}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\massMomentOfInertiax}{\glssymbol{massMomentOfInertiax}}
+{\ensuremath{I_{x}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\massMomentOfInertiy}{\glssymbol{massMomentOfInertiy}}
+{\ensuremath{I_{y}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\massMomentOfInertiaz}{\glssymbol{massMomentOfInertiaz}}
+{\ensuremath{I_{z}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\tensorOfInertiaMatrix}{\glssymbol{tensorOfInertiaMatrix}}
+{\ensuremath{\ensuremath{\mathbf{I}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\propellantMass}{\glssymbol{propellantMass}}
+{\ensuremath{m_\mathrm{p}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\stageMass}{\glssymbol{stageMass}}
+{\ensuremath{m_\mathrm{s}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\dryMass}{\glssymbol{dryMass}}
+{\ensuremath{{m}_\mathrm{d}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cgDry}{\glssymbol{cgDry}}
+{\ensuremath{\mathbf{c}_\mathrm{g}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\cgPropellant}{\glssymbol{cgPropellant}}
+{\ensuremath{\mathbf{c}_\mathrm{p}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\stageCg}{\glssymbol{stageCg}}
+{\ensuremath{\mathbf{c}_\mathrm{s}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\dryCg}{\glssymbol{dryCg}}
+{\ensuremath{\mathbf{c}_\mathrm{d}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\propellantCg}{\glssymbol{propellantCg}}
+{\ensuremath{\mathbf{c}_\mathrm{p}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\totalCgBody}{\glssymbol{totalCgBody}}
+{\ensuremath{{\mathbf{c}}_\mathrm{b}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\stagePosition}{\glssymbol{stagePosition}}
+{\ensuremath{\mathbf{r}_\mathrm{s}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\stageInertia}{\glssymbol{stageInertia}}
+{\ensuremath{\mathbf{I}_\mathrm{s}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\inertiaDry}{\glssymbol{inertiaDry}}
+{\ensuremath{\mathbf{I}_\mathrm{d}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\inertiaPropellant}{\glssymbol{inertiaPropellant}}
+{\ensuremath{\mathbf{I}_\mathrm{p}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\displacementVectorDry}{\glssymbol{displacementVectorDry}}
+{\ensuremath{\mathbf{d}_\mathrm{d}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\displacementVectorProp}{\glssymbol{displacementVectorProp}}
+{\ensuremath{\mathbf{d}_\mathrm{p}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\displacementVector}{\glssymbol{displacementVector}}
+{\ensuremath{\mathbf{d}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\totalInertiaCG}{\glssymbol{totalInertiaCG}}
+{\ensuremath{\mathbf{I}_\mathrm{\glsentryname{cg}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\totalInertia}{\glssymbol{totalInertia}}
+{\ensuremath{\mathbf{I}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\vectorDistanceCGToSurface}{\glssymbol{vectorDistanceCGToSurface}}
+{\ensuremath{\ensuremath{\boldsymbol{\varsigma}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\vectorDistanceSurface}{\glssymbol{vectorDistanceSurface}}
+{\ensuremath{\boldsymbol{\varrho}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientMoments}{\glssymbol{coefficientMoments}}
+{\ensuremath{C_{\ensuremath{M}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientAxialForceBody}{\glssymbol{coefficientAxialForceBody}}
+{\ensuremath{C_{\ensuremath{X}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientNormalForceZBody}{\glssymbol{coefficientNormalForceZBody}}
+{\ensuremath{C_{\ensuremath{Z}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientAxialForceStability}{\glssymbol{coefficientAxialForceStability}}
+{\ensuremath{C_{\ensuremath{A}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\dynamicPressure}{\glssymbol{dynamicPressure}}
+{\ensuremath{\ensuremath{Q}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientDrag}{\glssymbol{coefficientDrag}}
+{\ensuremath{C_{\ensuremath{D}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientDragIncrementForAngleAtack}{\glssymbol{coefficientDragIncrementForAngleAtack}}
+{\ensuremath{C_{{\ensuremath{D}}_{\ensuremath{\alpha}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientDragIncrementForSymmetricElevon}{\glssymbol{coefficientDragIncrementForSymmetricElevon}}
+{\ensuremath{C_{{\ensuremath{D}}_{\ensuremath{\delta_{e}}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientDragZeroLift}{\glssymbol{coefficientDragZeroLift}}
+{\ensuremath{C_{{\ensuremath{D}}_{0}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientLift}{\glssymbol{coefficientLift}}
+{\ensuremath{C_{\ensuremath{L}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientLiftZero}{\glssymbol{coefficientLiftZero}}
+{\ensuremath{C_{\ensuremath{L}_{0}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientLiftIncrementForAngleAtack}{\glssymbol{coefficientLiftIncrementForAngleAtack}}
+{\ensuremath{C_{{\ensuremath{L}}_{\ensuremath{\alpha}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientLiftIncrementForDotAngleAtack}{\glssymbol{coefficientLiftIncrementForDotAngleAtack}}
+{\ensuremath{C_{{\ensuremath{L}}_{\dot{\ensuremath{\alpha}}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientLiftIncrementForAngularRateq}{\glssymbol{coefficientLiftIncrementForAngularRateq}}
+{\ensuremath{C_{{\ensuremath{L}}_{\ensuremath{q}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientLiftIncrementForSymmetricElevon}{\glssymbol{coefficientLiftIncrementForSymmetricElevon}}
+{\ensuremath{C_{{\ensuremath{L}}_{\ensuremath{\delta_{e}}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientPitchingMoment}{\glssymbol{coefficientPitchingMoment}}
+{\ensuremath{C_{\ensuremath{m}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientPitchingMomentZeroLift}{\glssymbol{coefficientPitchingMomentZeroLift}}
+{\ensuremath{C_{{\ensuremath{m}}_{0}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientPitchingMomentIncrementForAngleAtack}{\glssymbol{coefficientPitchingMomentIncrementForAngleAtack}}
+{\ensuremath{C_{{\ensuremath{m}}_{\ensuremath{\alpha}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientPitchingMomentIncrementForDotAngleAtack}{\glssymbol{coefficientPitchingMomentIncrementForDotAngleAtack}}
+{\ensuremath{C_{{\ensuremath{m}}_{\dot{\ensuremath{\alpha}}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientPitchingMomentIncrementForSymmetricElevon}{\glssymbol{coefficientPitchingMomentIncrementForSymmetricElevon}}
+{\ensuremath{C_{{\ensuremath{m}}_{\ensuremath{\delta_{e}}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientPitchingMomentIncrementForAngularRateq}{\glssymbol{coefficientPitchingMomentIncrementForAngularRateq}}
+{\ensuremath{C_{{\ensuremath{m}}_{\ensuremath{q}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientRollingMoment}{\glssymbol{coefficientRollingMoment}}
+{\ensuremath{C_{\ensuremath{l}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientRollingMomentZeroLift}{\glssymbol{coefficientRollingMomentZeroLift}}
+{\ensuremath{C_{\ensuremath{l}_{0}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientRollingMomentIncrementForAngleSideSlip}{\glssymbol{coefficientRollingMomentIncrementForAngleSideSlip}}
+{\ensuremath{C_{{\ensuremath{l}}_{\ensuremath{\beta}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientRollingMomentIncrementForAngularRatep}{\glssymbol{coefficientRollingMomentIncrementForAngularRatep}}
+{\ensuremath{C_{{\ensuremath{l}}_{\ensuremath{p}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientRollingMomentIncrementForDifferentialElevon}{\glssymbol{coefficientRollingMomentIncrementForDifferentialElevon}}
+{\ensuremath{C_{{\ensuremath{l}}_{\ensuremath{\delta_{a}}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientRollingMomentIncrementForRudderDeflection}{\glssymbol{coefficientRollingMomentIncrementForRudderDeflection}}
+{\ensuremath{C_{{\ensuremath{l}}_{\ensuremath{\delta_{r}}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientYawingMoment}{\glssymbol{coefficientYawingMoment}}
+{\ensuremath{C_\ensuremath{n}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientYawingMomentZeroLift}{\glssymbol{coefficientYawingMomentZeroLift}}
+{\ensuremath{C_{\ensuremath{n}_{0}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientYawingMomentIncrementForAngleSideSlip}{\glssymbol{coefficientYawingMomentIncrementForAngleSideSlip}}
+{\ensuremath{C_{{\ensuremath{n}}_{\ensuremath{\beta}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientYawingMomentIncrementForAngularRater}{\glssymbol{coefficientYawingMomentIncrementForAngularRater}}
+{\ensuremath{C_{{\ensuremath{n}}_{\ensuremath{r}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientYawingMomentIncrementForDifferentialElevon}{\glssymbol{coefficientYawingMomentIncrementForDifferentialElevon}}
+{\ensuremath{C_{{\ensuremath{n}}_{\ensuremath{\delta_{a}}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientYawingMomentIncrementForRudderDeflection}{\glssymbol{coefficientYawingMomentIncrementForRudderDeflection}}
+{\ensuremath{C_{{\ensuremath{n}}_{\ensuremath{\delta_{r}}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientYawingMomentIncrementForAngularRatep}{\glssymbol{coefficientYawingMomentIncrementForAngularRatep}}
+{\ensuremath{C_{{\ensuremath{n}}_{\ensuremath{p}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientLateralForceBody}{\glssymbol{coefficientLateralForceBody}}
+{\ensuremath{C_{\ensuremath{Y}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientLateralForceZeroLift}{\glssymbol{coefficientLateralForceZeroLift}}
+{\ensuremath{C_{\ensuremath{Y}_{0}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientLateralForceIncrementForAngleSideSlip}{\glssymbol{coefficientLateralForceIncrementForAngleSideSlip}}
+{\ensuremath{C_{{\ensuremath{Y}}_{\ensuremath{\beta}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientLateralForceIncrementForDifferentialElevon}{\glssymbol{coefficientLateralForceIncrementForDifferentialElevon}}
+{\ensuremath{C_{{\ensuremath{Y}}_{\ensuremath{\delta_{a}}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientLateralForceIncrementForRudderDeflection}{\glssymbol{coefficientLateralForceIncrementForRudderDeflection}}
+{\ensuremath{C_{{\ensuremath{Y}}_{\ensuremath{\delta_{r}}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientLateralForceIncrementForAngularRatep}{\glssymbol{coefficientLateralForceIncrementForAngularRatep}}
+{\ensuremath{C_{{\ensuremath{Y}}_{\ensuremath{p}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\matrixRotation}{\glssymbol{matrixRotation}}
+{\ensuremath{\mathbf{R}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\identityMatrix}{\glssymbol{identityMatrix}}
+{\ensuremath{\mathbf{I}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\zeroMatrix}{\glssymbol{zeroMatrix}}
+{\ensuremath{\mathbf{0}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\timesOperator}{\glssymbol{timesOperator}}
+{\ensuremath{\times}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\matrixAntssymmetric}{\glssymbol{matrixAntssymmetric}}
+{\ensuremath{\mathcal{A}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\transpose}{\glssymbol{transpose}}
+{\ensuremath{\intercal}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\inertialSystem}{\glssymbol{inertialSystem}}
+{\ensuremath{\mathrm{i}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\eciAxisx}{\glssymbol{eciAxisx}}
+{\ensuremath{x_{\ensuremath{\mathrm{i}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\eciAxisy}{\glssymbol{eciAxisy}}
+{\ensuremath{y_{\ensuremath{\mathrm{i}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\eciAxisz}{\glssymbol{eciAxisz}}
+{\ensuremath{z_{\ensuremath{\mathrm{i}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\geographicSystem}{\glssymbol{geographicSystem}}
+{\ensuremath{\mathrm{g}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\navigationSystem}{\glssymbol{navigationSystem}}
+{\ensuremath{\mathrm{n}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\stabilitySystem}{\glssymbol{stabilitySystem}}
+{\ensuremath{\mathrm{}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\localSurfaceSystem}{\glssymbol{localSurfaceSystem}}
+{\ensuremath{\mathcal{S}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\bodySystem}{\glssymbol{bodySystem}}
+{\ensuremath{\mathrm{b}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\windSystem}{\glssymbol{windSystem}}
+{\ensuremath{\mathrm{w}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\windAxisx}{\glssymbol{windAxisx}}
+{\ensuremath{x_{\ensuremath{\mathrm{w}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\windAxisy}{\glssymbol{windAxisy}}
+{\ensuremath{y_{\ensuremath{\mathrm{w}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\windAxisz}{\glssymbol{windAxisz}}
+{\ensuremath{z_{\ensuremath{\mathrm{w}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\bodyAxisx}{\glssymbol{bodyAxisx}}
+{\ensuremath{x_{\ensuremath{\mathrm{b}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\bodyAxisy}{\glssymbol{bodyAxisy}}
+{\ensuremath{y_{\ensuremath{\mathrm{b}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\bodyAxisz}{\glssymbol{bodyAxisz}}
+{\ensuremath{z_{\ensuremath{\mathrm{b}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\navigationAxisx}{\glssymbol{navigationAxisx}}
+{\ensuremath{x_{\ensuremath{\mathrm{n}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\navigationAxisy}{\glssymbol{navigationAxisy}}
+{\ensuremath{y_{\ensuremath{\mathrm{n}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\navigationAxisz}{\glssymbol{navigationAxisz}}
+{\ensuremath{z_{\ensuremath{\mathrm{n}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\inertialAxisx}{\glssymbol{inertialAxisx}}
+{\ensuremath{x_{\ensuremath{\mathrm{i}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\inertialAxisy}{\glssymbol{inertialAxisy}}
+{\ensuremath{y_{\ensuremath{\mathrm{i}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\inertialAxisz}{\glssymbol{inertialAxisz}}
+{\ensuremath{z_{\ensuremath{\mathrm{i}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\geographicAxisx}{\glssymbol{geographicAxisx}}
+{\ensuremath{x_{\ensuremath{\mathrm{g}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\geographicAxisy}{\glssymbol{geographicAxisy}}
+{\ensuremath{y_{\ensuremath{\mathrm{g}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\geographicAxisz}{\glssymbol{geographicAxisz}}
+{\ensuremath{z_{\ensuremath{\mathrm{g}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\earthRotationVelocity}{\glssymbol{earthRotationVelocity}}
+{\ensuremath{\omega_{\ensuremath{\mathrm{i}}\ensuremath{\mathrm{g}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\leftQuaternion}{\glssymbol{leftQuaternion}}
+{\ensuremath{\boldsymbol{\mathcal{S}}_{l}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\rightQuaternion}{\glssymbol{rightQuaternion}}
+{\ensuremath{\boldsymbol{\mathcal{S}}_{r}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\qi}{\glssymbol{qi}}
+{\ensuremath{q}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\ecefSystem}{\glssymbol{ecefSystem}}
+{\ensuremath{\mathrm{e}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\ecefAxisx}{\glssymbol{ecefAxisx}}
+{\ensuremath{x_{\ensuremath{\mathrm{e}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\ecefAxisy}{\glssymbol{ecefAxisy}}
+{\ensuremath{y_{\ensuremath{\mathrm{e}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\ecefAxisz}{\glssymbol{ecefAxisz}}
+{\ensuremath{z_{\ensuremath{\mathrm{e}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\normalRadiusEarth}{\glssymbol{normalRadiusEarth}}
+{\ensuremath{R_{n}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\ellipsoidalHeight}{\glssymbol{ellipsoidalHeight}}
+{\ensuremath{h}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\nedSystem}{\glssymbol{nedSystem}}
+{\ensuremath{\mathrm{n}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\eccentricityEarth}{\glssymbol{eccentricityEarth}}
+{\ensuremath{e}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\semimajorAxisEarth}{\glssymbol{semimajorAxisEarth}}
+{\ensuremath{a}}
+\end_inset
+
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,367 @@
+\newglossaryentry{coeficientes}
+{type=symbols,
+    name= {Aerodynamics Coeficientes},
+    description={}
+}
+
+\newglossaryentry{coefficientMoments}
+{type=symbols,
+    name= \ensuremath{C_{\glsentryname{momentAerodynamic}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{\glsentryname{momentAerodynamic}}},
+    description={moment coefficient}
+}
+
+\newglossaryentry{coefficientAxialForceBody}
+{type=symbols,
+    name= \ensuremath{C_{\glsentrysymbol{axialForceX}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{\glsentrysymbol{axialForceX}}},
+    description={axial force coefficient on body coordinates system \glsentrysymbol{bodySystem}}
+}
+
+\newglossaryentry{coefficientNormalForceZBody}
+{type=symbols,
+    name= \ensuremath{C_{\glsentrysymbol{normalForceZ}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{\glsentrysymbol{normalForceZ}}},
+    description={normal force coefficient on body coordinates system \glsentrysymbol{bodySystem}}
+}
+
+\newglossaryentry{coefficientAxialForceStability}
+{type=symbols,
+    name= \ensuremath{C_{\glsentryname{axialForceXstability}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{\glsentryname{axialForceXstability}}},
+    description={axial force coefficient on stability coordinates system \glsentrysymbol{stability}}
+}
+
+
+\newglossaryentry{dynamicPressure}
+{type=symbols,
+    name= \ensuremath{Q},
+    parent = {coeficientes},
+    unit = \unexpanded{\si{\newton\per\cubic\meter}},
+    symbol = \ensuremath{\glsentryname{dynamicPressure}},
+    description={dynamic pressure}
+}
+% drag coefficients
+\newglossaryentry{coefficientDrag}
+{type=symbols,
+    name= \ensuremath{C_{\glsentryname{dragForce}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{\glsentryname{dragForce}}},
+    description={drag coefficient}
+}
+
+\newglossaryentry{coefficientDragIncrementForAngleAtack}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentryname{dragForce}}_{\glsentrysymbol{angleAttack}}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentryname{dragForce}}_{\glsentrysymbol{angleAttack}}}},
+    description={drag increment coefficient for angle of attack}
+}
+
+\newglossaryentry{coefficientDragIncrementForSymmetricElevon}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentryname{dragForce}}_{\glsentrysymbol{symmetricElevon}}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentryname{dragForce}}_{\glsentrysymbol{symmetricElevon}}}},
+    description={drag increment coefficient for right elevon}
+}
+
+\newglossaryentry{coefficientDragZeroLift}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentryname{dragForce}}_{0}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentryname{dragForce}}_{0}}},
+    description={zero lift drag coefficient}
+}
+
+% lift coefficients
+\newglossaryentry{coefficientLift}
+{type=symbols,
+    name= \ensuremath{C_{\glsentryname{liftForce}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{\glsentryname{liftForce}}},
+    description={lift coefficient}
+}
+
+\newglossaryentry{coefficientLiftZero}
+{type=symbols,
+    name= \ensuremath{C_{\glsentryname{liftForce}_{0}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{\glsentryname{liftForce}_{0}}},
+    description={zero lift coefficient}
+}
+
+\newglossaryentry{coefficientLiftIncrementForAngleAtack}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentryname{liftForce}}_{\glsentrysymbol{angleAttack}}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentryname{liftForce}}_{\glsentrysymbol{angleAttack}}}},
+    description={lift increment coefficient for angle of attack}
+}
+
+\newglossaryentry{coefficientLiftIncrementForDotAngleAtack}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentryname{liftForce}}_{\dot{\glsentrysymbol{angleAttack}}}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentryname{liftForce}}_{\dot{\glsentrysymbol{angleAttack}}}}},
+    description={lift increment coefficient for dirivative of angle of attack}
+}
+
+\newglossaryentry{coefficientLiftIncrementForAngularRateq}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentryname{liftForce}}_{\glsentrysymbol{angularRateq}}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentryname{liftForce}}_{\glsentrysymbol{angularRateq}}}},
+    description={lift increment coefficient for \glsentrysymbol{angularRateq}}
+}
+
+\newglossaryentry{coefficientLiftIncrementForSymmetricElevon}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentryname{liftForce}}_{\glsentrysymbol{symmetricElevon}}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentryname{liftForce}}_{\glsentrysymbol{symmetricElevon}}}},
+    description={lift increment coefficient for right elevon}
+}
+
+% pithcing moment coefficient
+\newglossaryentry{coefficientPitchingMoment}
+{type=symbols,
+    name= \ensuremath{C_{\glsentryname{momentPitch}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{\glsentryname{momentPitch}}},
+    description={pitching moment coefficient}
+}
+
+\newglossaryentry{coefficientPitchingMomentZeroLift}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentryname{momentPitch}}_{0}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentryname{momentPitch}}_{0}}},
+    description={zero-lift pitching moment coefficient}
+}
+
+\newglossaryentry{coefficientPitchingMomentIncrementForAngleAtack}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentryname{momentPitch}}_{\glsentrysymbol{angleAttack}}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentryname{momentPitch}}_{\glsentrysymbol{angleAttack}}}},
+    description={pitching moment increment coefficient for angle of attack}
+}
+
+\newglossaryentry{coefficientPitchingMomentIncrementForDotAngleAtack}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentryname{momentPitch}}_{\dot{\glsentrysymbol{angleAttack}}}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentryname{momentPitch}}_{\dot{\glsentrysymbol{angleAttack}}}}},
+    description={pitching moment increment coefficient for derivative of angle of attack}
+}
+
+\newglossaryentry{coefficientPitchingMomentIncrementForSymmetricElevon}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentryname{momentPitch}}_{\glsentrysymbol{symmetricElevon}}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentryname{momentPitch}}_{\glsentrysymbol{symmetricElevon}}}},
+    description={pitching moment increment coefficient for \glsentrysymbol{symmetricElevon}}
+}
+
+\newglossaryentry{coefficientPitchingMomentIncrementForAngularRateq}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentryname{momentPitch}}_{\glsentrysymbol{angularRateq}}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentryname{momentPitch}}_{\glsentrysymbol{angularRateq}}}},
+    description={pitching moment increment coefficient for \glsentrysymbol{angularRateq}}
+}
+
+% rolling moment coefficients
+\newglossaryentry{coefficientRollingMoment}
+{type=symbols,
+    name= \ensuremath{C_{\glsentrysymbol{momentRoll}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{\glsentrysymbol{momentRoll}}},
+    description={rolling moment coefficient}
+}
+
+\newglossaryentry{coefficientRollingMomentZeroLift}
+{type=symbols,
+    name= \ensuremath{C_{\glsentrysymbol{momentRoll}_{0}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{\glsentrysymbol{momentRoll}_{0}}},
+    description={zero-lift rolling moment coefficient}
+}
+
+\newglossaryentry{coefficientRollingMomentIncrementForAngleSideSlip}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentrysymbol{momentRoll}}_{\glsentrysymbol{angleSideslip}}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentrysymbol{momentRoll}}_{\glsentrysymbol{angleSideslip}}}},
+    description={rolling moment increment coefficient for \glsentrysymbol{angleSideslip}}
+}
+
+\newglossaryentry{coefficientRollingMomentIncrementForAngularRatep}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentrysymbol{momentRoll}}_{\glsentrysymbol{angularRatep}}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentrysymbol{momentRoll}}_{\glsentrysymbol{angularRatep}}}},
+    description={rolling moment increment coefficient for \glsentrysymbol{angularRatep}}
+}
+
+\newglossaryentry{coefficientRollingMomentIncrementForDifferentialElevon}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentrysymbol{momentRoll}}_{\glsentrysymbol{differentialElevon}}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentrysymbol{momentRoll}}_{\glsentrysymbol{differentialElevon}}}},
+    description={rolling moment increment coefficient for \glsentrysymbol{differentialElevon}}
+}
+
+\newglossaryentry{coefficientRollingMomentIncrementForRudderDeflection}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentrysymbol{momentRoll}}_{\glsentrysymbol{rudderDeflection}}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentrysymbol{momentRoll}}_{\glsentrysymbol{rudderDeflection}}}},
+    description={rolling moment increment coefficient for \glsentrysymbol{rudderDeflection}}
+}
+% yawing moment coefficients
+\newglossaryentry{coefficientYawingMoment}
+{type=symbols,
+    name= \ensuremath{C_\glsentryname{momentYaw}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_\glsentryname{momentYaw}},
+    description={yawing moment coefficient}
+}
+
+\newglossaryentry{coefficientYawingMomentZeroLift}
+{type=symbols,
+    name= \ensuremath{C_{\glsentryname{momentYaw}_{0}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{\glsentryname{momentYaw}_{0}}},
+    description={zero-lift yawing moment coefficient}
+}
+\newglossaryentry{coefficientYawingMomentIncrementForAngleSideSlip}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentryname{momentYaw}}_{\glsentrysymbol{angleSideslip}}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentryname{momentYaw}}_{\glsentrysymbol{angleSideslip}}}},
+    description={yawing moment increment coefficient for \glsentrysymbol{angleSideslip}}
+}
+\newglossaryentry{coefficientYawingMomentIncrementForAngularRater}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentryname{momentYaw}}_{\glsentrysymbol{angularRater}}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentryname{momentYaw}}_{\glsentrysymbol{angularRater}}}},
+    description={yawing moment increment coefficient for \glsentrysymbol{angularRater}}
+}
+
+\newglossaryentry{coefficientYawingMomentIncrementForDifferentialElevon}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentryname{momentYaw}}_{\glsentrysymbol{differentialElevon}}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentryname{momentYaw}}_{\glsentrysymbol{differentialElevon}}}},
+    description={yawing moment increment coefficient for \glsentrysymbol{differentialElevon}}
+}
+
+\newglossaryentry{coefficientYawingMomentIncrementForRudderDeflection}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentryname{momentYaw}}_{\glsentrysymbol{rudderDeflection}}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentryname{momentYaw}}_{\glsentrysymbol{rudderDeflection}}}},
+    description={yawing moment increment coefficient for \glsentrysymbol{rudderDeflection}}
+}
+
+\newglossaryentry{coefficientYawingMomentIncrementForAngularRatep}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentryname{momentYaw}}_{\glsentrysymbol{angularRatep}}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentryname{momentYaw}}_{\glsentrysymbol{angularRatep}}}},
+    description={yawing moment increment coefficient for \glsentrysymbol{angularRatep}}
+}
+
+
+% lateral force coefficients
+\newglossaryentry{coefficientLateralForceBody}
+{type=symbols,
+    name= \ensuremath{C_{\glsentrysymbol{lateralForceY}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{\glsentrysymbol{lateralForceY}}},
+    description={lateral force coefficient on body coordinates system \glsentrysymbol{bodySystem}}
+}
+
+\newglossaryentry{coefficientLateralForceZeroLift}
+{type=symbols,
+    name= \ensuremath{C_{\glsentrysymbol{lateralForceY}_{0}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{\glsentrysymbol{lateralForceY}_{0}}},
+    description={zero-lift lateral force coefficient}
+}
+\newglossaryentry{coefficientLateralForceIncrementForAngleSideSlip}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentrysymbol{lateralForceY}}_{\glsentrysymbol{angleSideslip}}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentrysymbol{lateralForceY}}_{\glsentrysymbol{angleSideslip}}}},
+    description={lateral force increment coefficient for \glsentrysymbol{angleSideslip}}
+}
+
+\newglossaryentry{coefficientLateralForceIncrementForDifferentialElevon}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentrysymbol{lateralForceY}}_{\glsentrysymbol{differentialElevon}}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentrysymbol{lateralForceY}}_{\glsentrysymbol{differentialElevon}}}},
+    description={lateral force increment coefficient for \glsentrysymbol{differentialElevon}}
+}
+\newglossaryentry{coefficientLateralForceIncrementForRudderDeflection}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentrysymbol{lateralForceY}}_{\glsentrysymbol{rudderDeflection}}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentrysymbol{lateralForceY}}_{\glsentrysymbol{rudderDeflection}}}},
+    description={lateral force increment coefficient for \glsentrysymbol{rudderDeflection}}
+}
+
+\newglossaryentry{coefficientLateralForceIncrementForAngularRatep}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentrysymbol{lateralForceY}}_{\glsentrysymbol{angularRatep}}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentrysymbol{lateralForceY}}_{\glsentrysymbol{angularRatep}}}},
+    description={lateral force increment coefficient for \glsentrysymbol{angularRatep}}
+}
