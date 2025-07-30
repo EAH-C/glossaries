@@ -65,7 +65,7 @@ def parse_latex_glossary(file_path):
 
 
 # Exemplo de uso
-glossary_data = parse_latex_glossary("../glossaries/states.tex")
+glossary_data = parse_latex_glossary("./glossaries/states.tex")
 
 
 def addSiglas(fileSiglas, outFile):
@@ -145,13 +145,14 @@ def substitute_gls_entries(text, glossary):
 
 # Tex files
 file = [
-    "../glossaries/" + i
+    "./glossaries/" + i
     for i in [
         "states.tex",
         "naca_coefficients.tex",
         "parameters_vehicle.tex",
         "coefficients.tex",
         "comum.tex",
+        "constants.tex"
     ]
 ]
 
@@ -168,7 +169,7 @@ for i in key_dicts.keys():
     )
 
 
-outFile = open("../glossaries/mathSymbols.tex", "w", encoding="utf-8")
+outFile = open("./glossaries/mathSymbols.tex", "w", encoding="utf-8")
 
 
 # %% update Latex main glossary
@@ -192,14 +193,14 @@ for k in file:
             )
 
 # Add "Siglas" to mathSymbols.tex
-outFile = open("../glossaries/mathSymbols.tex", "+a", encoding="utf-8")
+outFile = open("./glossaries/mathSymbols.tex", "+a", encoding="utf-8")
 
-fileSiglas = ["../glossaries/" + i for i in ["siglas.tex"]]
+fileSiglas = ["./glossaries/" + i for i in ["siglas.tex"]]
 
 addSiglas(fileSiglas=fileSiglas, outFile=outFile)
 # %% Qtikz files
 fileSymbols = file
-outFile = open("../glossaries/mathSymbolsQtikz.tex", "w", encoding="utf-8")
+outFile = open("./glossaries/mathSymbolsQtikz.tex", "w", encoding="utf-8")
 # Lyx files
 
 for k in fileSymbols:
@@ -225,9 +226,9 @@ for k in fileSymbols:
 
 outFile.close()
 # Add "Siglas" to mathSymbolsQtikz
-outFile = open("../glossaries/mathSymbolsQtikz.tex", "+a", encoding="utf-8")
+outFile = open("./glossaries/mathSymbolsQtikz.tex", "+a", encoding="utf-8")
 
-fileSiglas = ["../glossaries/" + i for i in ["siglas.tex"]]
+fileSiglas = ["./glossaries/" + i for i in ["siglas.tex"]]
 
 addSiglas(fileSiglas=fileSiglas, outFile=outFile)
 
@@ -235,9 +236,9 @@ addSiglas(fileSiglas=fileSiglas, outFile=outFile)
 # %% Lyx files
 # update Lyx glossary
 
-shutil.copyfile("../glossaries/mathSymbolsLyx.lyx", "../glossaries/mathSymbolsLyxOld.lyx")
-outFileLyxOld = open("../glossaries/mathSymbolsLyxOld.lyx", "r", encoding="utf-8")
-outFileLyx = open("../glossaries/mathSymbolsLyx.lyx", "w", encoding="utf-8")
+shutil.copyfile("./glossaries/mathSymbolsLyx.lyx", "./glossaries/mathSymbolsLyxOld.lyx")
+outFileLyxOld = open("./glossaries/mathSymbolsLyxOld.lyx", "r", encoding="utf-8")
+outFileLyx = open("./glossaries/mathSymbolsLyx.lyx", "w", encoding="utf-8")
 
 
 for lin in outFileLyxOld:
