@@ -150,6 +150,80 @@
   description={wind coordinate system}
 }
 
+\newglossaryentry{vehicleSystem}
+{type=symbols,
+  name= \ensuremath{\mathrm{v}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \glsentryname{vehicleSystem},
+  description={vehicle coordinate system for reference to the body system}
+}
+
+
+
+
+\newglossaryentry{vehicleAxisx}
+{type=symbols,
+  name= \ensuremath{\mathbf{x}_{\glsentryname{vehicleSystem}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{\mathbf{x}_{\glsentryname{vehicleSystem}}},
+  description={vehicle axis $\mathbf{x}$}
+}
+
+\newglossaryentry{vehicleAxisy}
+{type=symbols,
+  name= \ensuremath{\mathbf{y}_{\glsentryname{vehicleSystem}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{\mathbf{y}_{\glsentryname{vehicleSystem}}},
+  description={vehicle axis $\mathbf{y}$}
+}
+
+
+
+\newglossaryentry{vehicleAxisz}
+{type=symbols,
+  name= \ensuremath{\mathbf{z}_{\glsentryname{vehicleSystem}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{\mathbf{z}_{\glsentryname{vehicleSystem}}},
+  description={vehicle axis $\mathbf{z}$}
+}
+
+
+
+
+\newglossaryentry{localSurfaceAxisx}
+{type=symbols,
+  name= \ensuremath{\mathbf{x}_{\glsentryname{localSurfaceSystem}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{\mathbf{x}_{\glsentryname{localSurfaceSystem}}},
+  description={local surface axis $\mathbf{x}$}
+}
+
+\newglossaryentry{localSurfaceAxisy}
+{type=symbols,
+  name= \ensuremath{\mathbf{y}_{\glsentryname{localSurfaceSystem}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{\mathbf{y}_{\glsentryname{localSurfaceSystem}}},
+  description={local surface axis $\mathbf{y}$}
+}
+
+
+
+\newglossaryentry{localSurfaceAxisz}
+{type=symbols,
+  name= \ensuremath{\mathbf{z}_{\glsentryname{localSurfaceSystem}}},
+  parent = {comum},
+  unit = \unexpanded{},
+  symbol = \ensuremath{\mathbf{z}_{\glsentryname{localSurfaceSystem}}},
+  description={local surface axis $\mathbf{z}$}
+}
+
+
 \newglossaryentry{windAxisx}
 {type=symbols,
   name= \ensuremath{\mathbf{x}_{\glsentryname{windSystem}}},
@@ -229,7 +303,7 @@
 
 \newglossaryentry{navigationAxisz}
 {type=symbols,
-  name= \ensuremath{z_{\glsentryname{navigationSystem}}},
+  name= \ensuremath{\mathbf{z}_{\glsentryname{navigationSystem}}},
   parent = {comum},
   unit = \unexpanded{},
   symbol = \ensuremath{\mathbf{z}_{\glsentryname{navigationSystem}}},
@@ -259,20 +333,9 @@
   name= \ensuremath{\mathbf{z}_{\glsentryname{geographicSystem}}},
   parent = {comum},
   unit = \unexpanded{},
-  symbol = \ensuremath{z_{\glsentryname{geographicSystem}}},
-  description={geographic axis z}
+  symbol = \ensuremath{\mathbf{z}_{\glsentryname{geographicSystem}}},
+  description={geographic axis $\mathbf{z}$}
 }
-
-\newglossaryentry{earthRotationVelocity}
-{type=symbols,
-  name= \ensuremath{\omega_{\glsentryname{inertialSystem}\glsentryname{geographicSystem}}},
-  parent = {comum},
-  unit = \unexpanded{\si{\radian\per\second}},
-  symbol = \ensuremath{\omega_{\glsentryname{inertialSystem}\glsentryname{geographicSystem}}},
-  description={rotation velocity of \glsentryname{geographicSystem} relative to \glsentryname{inertialSystem}
-    }
-}
-
 
 
 \newglossaryentry{leftQuaternion}
@@ -314,39 +377,31 @@
 
 \newglossaryentry{ecefAxisx}
 {type=symbols,
-  name= \ensuremath{x_{\glsentryname{ecefSystem}}},
+  name= \ensuremath{\mathbf{x}_{\glsentryname{ecefSystem}}},
   parent = {comum},
   unit = \unexpanded{},
-  symbol = \ensuremath{x_{\glsentryname{ecefSystem}}},
-  description={ECEF axis x}
+  symbol = \ensuremath{\mathbf{x}_{\glsentryname{ecefSystem}}},
+  description={ECEF axis $\mathbf{x}$}
 }
 
 \newglossaryentry{ecefAxisy}
 {type=symbols,
-  name= \ensuremath{y_{\glsentryname{ecefSystem}}},
+  name= \ensuremath{\mathbf{y}_{\glsentryname{ecefSystem}}},
   parent = {comum},
   unit = \unexpanded{},
-  symbol = \ensuremath{y_{\glsentryname{ecefSystem}}},
-  description={ECEF axis y}
+  symbol = \ensuremath{\mathbf{y}_{\glsentryname{ecefSystem}}},
+  description={ECEF axis $\mathbf{y}$}
 }
 
 \newglossaryentry{ecefAxisz}
 {type=symbols,
-  name= \ensuremath{z_{\glsentryname{ecefSystem}}},
+  name= \ensuremath{\mathbf{z}_{\glsentryname{ecefSystem}}},
   parent = {comum},
   unit = \unexpanded{},
-  symbol = \ensuremath{z_{\glsentryname{ecefSystem}}},
-  description={ECEF axis z}
+  symbol = \ensuremath{\mathbf{z}_{\glsentryname{ecefSystem}}},
+  description={ECEF axis $\mathbf{z}$}
 }
 
-\newglossaryentry{normalRadiusEarth}
-{type=symbols,
-  name= \ensuremath{R_{n}},
-  parent = {comum},
-  unit = \unexpanded{\si{\meter}},
-  symbol = \ensuremath{R_{n}},
-  description={normal radius of the earth}
-}
 
 \newglossaryentry{ellipsoidalHeight}
 {type=symbols,
@@ -355,31 +410,4 @@
   unit = \unexpanded{\si{\meter}},
   symbol = \ensuremath{h},
   description={ellipsoidal height}
-}
-
-\newglossaryentry{nedSystem}
-{type=symbols,
-  name= \ensuremath{\mathrm{n}},
-  parent = {comum},
-  unit = \unexpanded{},
-  symbol = \ensuremath{\mathrm{n}},
-  description={NED coordinate system}
-}
-
-\newglossaryentry{eccentricityEarth}
-{type=symbols,
-  name= \ensuremath{e},
-  parent = {comum},
-  unit = \unexpanded{},
-  symbol = \ensuremath{e},
-  description={eccentricity of the earth}
-}
-
-\newglossaryentry{semimajorAxisEarth}
-{type=symbols,
-  name= \ensuremath{a},
-  parent = {comum},
-  unit = \unexpanded{\si{\meter}},
-  symbol = \ensuremath{a},
-  description={semimajor axis of the earth}
 }

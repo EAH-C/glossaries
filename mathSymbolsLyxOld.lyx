@@ -1339,8 +1339,64 @@ multicol
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\vehicleSystem}{\glssymbol{vehicleSystem}}
+{\ensuremath{\mathrm{v}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\vehicleAxisx}{\glssymbol{vehicleAxisx}}
+{\ensuremath{\mathbf{x}_{\ensuremath{\mathrm{v}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\vehicleAxisy}{\glssymbol{vehicleAxisy}}
+{\ensuremath{\mathbf{y}_{\ensuremath{\mathrm{v}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\vehicleAxisz}{\glssymbol{vehicleAxisz}}
+{\ensuremath{\mathbf{z}_{\ensuremath{\mathrm{v}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\localSurfaceAxisx}{\glssymbol{localSurfaceAxisx}}
+{\ensuremath{\mathbf{x}_{\ensuremath{\mathcal{S}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\localSurfaceAxisy}{\glssymbol{localSurfaceAxisy}}
+{\ensuremath{\mathbf{y}_{\ensuremath{\mathcal{S}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\localSurfaceAxisz}{\glssymbol{localSurfaceAxisz}}
+{\ensuremath{\mathbf{z}_{\ensuremath{\mathcal{S}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\windAxisx}{\glssymbol{windAxisx}}
-{\ensuremath{x_{\ensuremath{\mathrm{w}}}}}
+{\ensuremath{\mathbf{x}_{\ensuremath{\mathrm{w}}}}}
 \end_inset
 
 \end_layout
@@ -1348,7 +1404,7 @@ multicol
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\windAxisy}{\glssymbol{windAxisy}}
-{\ensuremath{y_{\ensuremath{\mathrm{w}}}}}
+{\ensuremath{\mathbf{y}_{\ensuremath{\mathrm{w}}}}}
 \end_inset
 
 \end_layout
@@ -1356,7 +1412,7 @@ multicol
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\windAxisz}{\glssymbol{windAxisz}}
-{\ensuremath{z_{\ensuremath{\mathrm{w}}}}}
+{\ensuremath{\mathbf{z}_{\ensuremath{\mathrm{w}}}}}
 \end_inset
 
 \end_layout
@@ -1364,7 +1420,7 @@ multicol
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\bodyAxisx}{\glssymbol{bodyAxisx}}
-{\ensuremath{x_{\ensuremath{\mathrm{b}}}}}
+{\ensuremath{\mathbf{x}_{\ensuremath{\mathrm{b}}}}}
 \end_inset
 
 \end_layout
@@ -1372,7 +1428,7 @@ multicol
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\bodyAxisy}{\glssymbol{bodyAxisy}}
-{\ensuremath{y_{\ensuremath{\mathrm{b}}}}}
+{\ensuremath{\mathbf{y}_{\ensuremath{\mathrm{b}}}}}
 \end_inset
 
 \end_layout
@@ -1380,7 +1436,7 @@ multicol
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\bodyAxisz}{\glssymbol{bodyAxisz}}
-{\ensuremath{z_{\ensuremath{\mathrm{b}}}}}
+{\ensuremath{\mathbf{z}_{\ensuremath{\mathrm{b}}}}}
 \end_inset
 
 \end_layout
@@ -1388,7 +1444,7 @@ multicol
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\navigationAxisx}{\glssymbol{navigationAxisx}}
-{\ensuremath{x_{\ensuremath{\mathrm{n}}}}}
+{\ensuremath{\mathbf{x}_{\ensuremath{\mathrm{n}}}}}
 \end_inset
 
 \end_layout
@@ -1396,7 +1452,7 @@ multicol
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\navigationAxisy}{\glssymbol{navigationAxisy}}
-{\ensuremath{y_{\ensuremath{\mathrm{n}}}}}
+{\ensuremath{\mathbf{y}_{\ensuremath{\mathrm{n}}}}}
 \end_inset
 
 \end_layout
@@ -1404,7 +1460,7 @@ multicol
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\navigationAxisz}{\glssymbol{navigationAxisz}}
-{\ensuremath{z_{\ensuremath{\mathrm{n}}}}}
+{\ensuremath{\mathbf{z}_{\ensuremath{\mathrm{n}}}}}
 \end_inset
 
 \end_layout
@@ -1412,7 +1468,7 @@ multicol
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\inertialAxisx}{\glssymbol{inertialAxisx}}
-{\ensuremath{x_{\ensuremath{\mathrm{i}}}}}
+{\ensuremath{\mathbf{x}_{\ensuremath{\mathrm{i}}}}}
 \end_inset
 
 \end_layout
@@ -1420,7 +1476,7 @@ multicol
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\inertialAxisy}{\glssymbol{inertialAxisy}}
-{\ensuremath{y_{\ensuremath{\mathrm{i}}}}}
+{\ensuremath{\mathbf{y}_{\ensuremath{\mathrm{i}}}}}
 \end_inset
 
 \end_layout
@@ -1428,7 +1484,7 @@ multicol
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\inertialAxisz}{\glssymbol{inertialAxisz}}
-{\ensuremath{z_{\ensuremath{\mathrm{i}}}}}
+{\ensuremath{\mathbf{z}_{\ensuremath{\mathrm{i}}}}}
 \end_inset
 
 \end_layout
@@ -1436,7 +1492,7 @@ multicol
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\geographicAxisx}{\glssymbol{geographicAxisx}}
-{\ensuremath{x_{\ensuremath{\mathrm{g}}}}}
+{\ensuremath{\mathbf{x}_{\ensuremath{\mathrm{g}}}}}
 \end_inset
 
 \end_layout
@@ -1444,7 +1500,7 @@ multicol
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\geographicAxisy}{\glssymbol{geographicAxisy}}
-{\ensuremath{y_{\ensuremath{\mathrm{g}}}}}
+{\ensuremath{\mathbf{y}_{\ensuremath{\mathrm{g}}}}}
 \end_inset
 
 \end_layout
@@ -1452,15 +1508,7 @@ multicol
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\geographicAxisz}{\glssymbol{geographicAxisz}}
-{\ensuremath{z_{\ensuremath{\mathrm{g}}}}}
-\end_inset
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset FormulaMacro
-\newcommand{\earthRotationVelocity}{\glssymbol{earthRotationVelocity}}
-{\ensuremath{\omega_{\ensuremath{\mathrm{i}}\ensuremath{\mathrm{g}}}}}
+{\ensuremath{\mathbf{z}_{\ensuremath{\mathrm{g}}}}}
 \end_inset
 
 \end_layout
@@ -1500,7 +1548,7 @@ multicol
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\ecefAxisx}{\glssymbol{ecefAxisx}}
-{\ensuremath{x_{\ensuremath{\mathrm{e}}}}}
+{\ensuremath{\mathbf{x}_{\ensuremath{\mathrm{e}}}}}
 \end_inset
 
 \end_layout
@@ -1508,7 +1556,7 @@ multicol
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\ecefAxisy}{\glssymbol{ecefAxisy}}
-{\ensuremath{y_{\ensuremath{\mathrm{e}}}}}
+{\ensuremath{\mathbf{y}_{\ensuremath{\mathrm{e}}}}}
 \end_inset
 
 \end_layout
@@ -1516,15 +1564,7 @@ multicol
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\ecefAxisz}{\glssymbol{ecefAxisz}}
-{\ensuremath{z_{\ensuremath{\mathrm{e}}}}}
-\end_inset
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset FormulaMacro
-\newcommand{\normalRadiusEarth}{\glssymbol{normalRadiusEarth}}
-{\ensuremath{R_{n}}}
+{\ensuremath{\mathbf{z}_{\ensuremath{\mathrm{e}}}}}
 \end_inset
 
 \end_layout
@@ -1539,8 +1579,32 @@ multicol
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\nedSystem}{\glssymbol{nedSystem}}
-{\ensuremath{\mathrm{n}}}
+\newcommand{\earthRotationVelocity}{\glssymbol{earthRotationVelocity}}
+{\ensuremath{\omega_{\ensuremath{\mathrm{i}}\ensuremath{\mathrm{g}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\EarthMass}{\glssymbol{EarthMass}}
+{\ensuremath{M_\oplus}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\gravitationalConstant}{\glssymbol{gravitationalConstant}}
+{\ensuremath{G}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\normalRadiusEarth}{\glssymbol{normalRadiusEarth}}
+{\ensuremath{R_{n}}}
 \end_inset
 
 \end_layout
@@ -1557,6 +1621,22 @@ multicol
 \begin_inset FormulaMacro
 \newcommand{\semimajorAxisEarth}{\glssymbol{semimajorAxisEarth}}
 {\ensuremath{a}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\mediumRadiusEarth}{\glssymbol{mediumRadiusEarth}}
+{\ensuremath{R_m}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\standartGravityOnSeaLevel}{\glssymbol{standartGravityOnSeaLevel}}
+{\ensuremath{g_0}}
 \end_inset
 
 \end_layout
