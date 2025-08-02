@@ -123,6 +123,22 @@ multicol
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\temperature}{\glssymbol{temperature}}
+{\ensuremath{T}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\temperatureC}{\glssymbol{temperatureC}}
+{\ensuremath{T}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\flightSpeed}{\glssymbol{flightSpeed}}
 {\ensuremath{V}}
 \end_inset
@@ -796,7 +812,7 @@ multicol
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\totalCgBody}{\glssymbol{totalCgBody}}
-{\ensuremath{{\mathbf{c}}_\mathrm{b}}}
+{\ensuremath{{\mathbf{c}}_{b}}}
 \end_inset
 
 \end_layout
@@ -1461,30 +1477,6 @@ multicol
 \begin_inset FormulaMacro
 \newcommand{\navigationAxisz}{\glssymbol{navigationAxisz}}
 {\ensuremath{\mathbf{z}_{\ensuremath{\mathrm{n}}}}}
-\end_inset
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset FormulaMacro
-\newcommand{\inertialAxisx}{\glssymbol{inertialAxisx}}
-{\ensuremath{\mathbf{x}_{\ensuremath{\mathrm{i}}}}}
-\end_inset
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset FormulaMacro
-\newcommand{\inertialAxisy}{\glssymbol{inertialAxisy}}
-{\ensuremath{\mathbf{y}_{\ensuremath{\mathrm{i}}}}}
-\end_inset
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset FormulaMacro
-\newcommand{\inertialAxisz}{\glssymbol{inertialAxisz}}
-{\ensuremath{\mathbf{z}_{\ensuremath{\mathrm{i}}}}}
 \end_inset
 
 \end_layout
