@@ -132,7 +132,15 @@ multicol
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\temperatureC}{\glssymbol{temperatureC}}
-{\ensuremath{T}}
+{\ensuremath{T_{C}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\pressure}{\glssymbol{pressure}}
+{\ensuremath{p}}
 \end_inset
 
 \end_layout
