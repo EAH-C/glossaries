@@ -771,7 +771,7 @@ multicol
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\dryMass}{\glssymbol{dryMass}}
+\newcommand{\structuralMass}{\glssymbol{structuralMass}}
 {\ensuremath{{m}_\mathrm{d}}}
 \end_inset
 
@@ -803,7 +803,7 @@ multicol
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\dryCg}{\glssymbol{dryCg}}
+\newcommand{\structuralCG}{\glssymbol{structuralCG}}
 {\ensuremath{\mathbf{c}_\mathrm{d}}}
 \end_inset
 
@@ -843,7 +843,7 @@ multicol
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\inertiaDry}{\glssymbol{inertiaDry}}
+\newcommand{\inertiaStructural}{\glssymbol{inertiaStructural}}
 {\ensuremath{\mathbf{I}_\mathrm{d}}}
 \end_inset
 
@@ -859,7 +859,7 @@ multicol
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\displacementVectorDry}{\glssymbol{displacementVectorDry}}
+\newcommand{\displacementVectorStructural}{\glssymbol{displacementVectorStructural}}
 {\ensuremath{\mathbf{d}_\mathrm{d}}}
 \end_inset
 
