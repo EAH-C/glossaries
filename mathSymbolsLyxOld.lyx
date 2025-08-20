@@ -1579,6 +1579,14 @@ multicol
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\realSet}{\glssymbol{realSet}}
+{\ensuremath{\mathcal{R}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\earthRotationVelocity}{\glssymbol{earthRotationVelocity}}
 {\ensuremath{\omega_{\ensuremath{\mathrm{i}}\ensuremath{\mathrm{g}}}}}
 \end_inset
