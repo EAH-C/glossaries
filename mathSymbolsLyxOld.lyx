@@ -1340,7 +1340,7 @@ multicol
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\stabilitySystem}{\glssymbol{stabilitySystem}}
-{\ensuremath{\mathrm{}}}
+{\ensuremath{\mathrm{s}}}
 \end_inset
 
 \end_layout
