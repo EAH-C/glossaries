@@ -103,15 +103,23 @@ description={mean aerodynamic chord $\frac{2\glsentrysymbol{wingRootChord}(3\ome
   description={taper ration $\nicefrac{\glsentrysymbol{wingTipChord}}{\glsentrysymbol{wingRootChord}}$}
 }
 
-\newglossaryentry{caracteristLength}
+\newglossaryentry{characteristicLength}
 {type=symbols,
-  name= \ensuremath{\ell},
+  name= \ensuremath{\ell_{\text{ref}}},
   parent = {parameter},
   unit = \unexpanded{\si{\meter}},
-  symbol = \ensuremath{\ell},
-  description={caracteristic length}
+  symbol = \ensuremath{\ell_{\text{ref}}},
+  description={characteristic length}
 }
+
+\newglossaryentry{characteristicChord}
+{type=symbols,
   name= \ensuremath{c_{\text{ref}}},
+  parent = {parameter},
+  unit = \unexpanded{\si{\meter}},
+  symbol = \ensuremath{c_{\text{ref}}},
+  description={characteristic chord}
+}
 
 
 \newglossaryentry{mass}

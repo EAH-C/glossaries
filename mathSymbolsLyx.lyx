@@ -708,7 +708,15 @@ multicol
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\caracteristLength}{\glssymbol{caracteristLength}}
-{\ensuremath{\ell}}
+{\ensuremath{\ell_{\text{ref}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\caracteristChord}{\glssymbol{caracteristChord}}
+{\ensuremath{c_{\text{ref}}}}
 \end_inset
 
 \end_layout
