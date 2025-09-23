@@ -915,6 +915,14 @@ multicol
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\aerodynamicChordReference}{\glssymbol{aerodynamicChordReference}}
+{\ensuremath{\bar{\ell}_{a}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\coefficientMoments}{\glssymbol{coefficientMoments}}
 {\ensuremath{C_{\ensuremath{M}}}}
 \end_inset
@@ -1332,7 +1340,7 @@ multicol
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\stabilitySystem}{\glssymbol{stabilitySystem}}
-{\ensuremath{\mathrm{}}}
+{\ensuremath{\mathrm{s}}}
 \end_inset
 
 \end_layout
