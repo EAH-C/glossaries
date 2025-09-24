@@ -85,6 +85,15 @@
   description={Mach number $(\nicefrac{\glsentrysymbol{flightSpeed}}{\text{Speed of sound}})$}
 }
 
+\newglossaryentry{lateralForceWind}
+{type=symbols,
+  name= \ensuremath{\mathcal{Y}},
+  parent = {states},
+  unit = \unexpanded{\si{\newton}},
+  symbol = \ensuremath{\mathcal{Y}},
+  description={lateral force due to wind}
+}
+
 \newglossaryentry{liftForce}
 {type=symbols,
   name= \ensuremath{L},
@@ -230,7 +239,7 @@
   description={axial force on \glsentrysymbol{bodyAxisx}}
 }
 
-\newglossaryentry{lateralForceY}
+\newglossaryentry{LateralForceBodyY}
 {type=symbols,
   name= \ensuremath{Y},
   parent = {states},
@@ -238,6 +247,8 @@
   symbol = \ensuremath{Y},
   description={lateral force on \glsentrysymbol{bodyAxisy}}
 }
+
+
 
 \newglossaryentry{normalForceZ}
 {type=symbols,
@@ -257,12 +268,12 @@
   symbol = \ensuremath{\glsentryname{axialForceXstability}},
   description={axial force on \glsentrysymbol{stabilitySystem}}
 }
-\newglossaryentry{lateralForceYstability}
+\newglossaryentry{LateralForceYstability}
 {type=symbols,
-  name= \ensuremath{S},
+  name= \ensuremath{{}^{\glsentryname{stabilitySystem}}Y},
   parent = {states},
   unit = \unexpanded{\si{\newton}},
-  symbol = \ensuremath{\glsentryname{lateralForceYstability}},
+  symbol = \ensuremath{\glsentryname{LateralForceYstability}},
   description={lateral force on \glsentrysymbol{stabilitySystem}}
 }
 \newglossaryentry{normalForceZstability}

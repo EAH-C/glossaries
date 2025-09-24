@@ -1,4 +1,4 @@
-\selectlanguage{american}%
+\selectlanguage{english}%
 \global\long\def\timeState{\glssymbol{timeState}}%
 
 \global\long\def\temperature{\glssymbol{temperature}}%
@@ -16,6 +16,8 @@
 \global\long\def\machAngle{\glssymbol{machAngle}}%
 
 \global\long\def\machNumber{\glssymbol{machNumber}}%
+
+\global\long\def\lateralForceWind{\glssymbol{lateralForceWind}}%
 
 \global\long\def\liftForce{\glssymbol{liftForce}}%
 
@@ -49,13 +51,13 @@
 
 \global\long\def\axialForceX{\glssymbol{axialForceX}}%
 
-\global\long\def\lateralForceY{\glssymbol{lateralForceY}}%
+\global\long\def\LateralForceBodyY{\glssymbol{LateralForceBodyY}}%
 
 \global\long\def\normalForceZ{\glssymbol{normalForceZ}}%
 
 \global\long\def\axialForceXstability{\glssymbol{axialForceXstability}}%
 
-\global\long\def\lateralForceYstability{\glssymbol{lateralForceYstability}}%
+\global\long\def\LateralForceYstability{\glssymbol{LateralForceYstability}}%
 
 \global\long\def\normalForceZstability{\glssymbol{normalForceZstability}}%
 
@@ -147,7 +149,9 @@
 
 \global\long\def\taperRatio{\glssymbol{taperRatio}}%
 
-\global\long\def\caracteristLength{\glssymbol{caracteristLength}}%
+\global\long\def\characteristicLongitudinalLength{\glssymbol{characteristicLongitudinalLength}}%
+
+\global\long\def\characteristicLateralLength{\glssymbol{characteristicLateralLength}}%
 
 \global\long\def\mass{\glssymbol{mass}}%
 
@@ -271,15 +275,29 @@
 
 \global\long\def\coefficientLateralForceBody{\glssymbol{coefficientLateralForceBody}}%
 
-\global\long\def\coefficientLateralForceZeroLift{\glssymbol{coefficientLateralForceZeroLift}}%
+\global\long\def\coefficientLateralForceBodyZeroLift{\glssymbol{coefficientLateralForceBodyZeroLift}}%
 
-\global\long\def\coefficientLateralForceIncrementForAngleSideSlip{\glssymbol{coefficientLateralForceIncrementForAngleSideSlip}}%
+\global\long\def\coefficientLateralForceBodyIncrementForAngleSideSlip{\glssymbol{coefficientLateralForceBodyIncrementForAngleSideSlip}}%
 
-\global\long\def\coefficientLateralForceIncrementForDifferentialElevon{\glssymbol{coefficientLateralForceIncrementForDifferentialElevon}}%
+\global\long\def\coefficientLateralForceBodyIncrementForDifferentialElevon{\glssymbol{coefficientLateralForceBodyIncrementForDifferentialElevon}}%
 
-\global\long\def\coefficientLateralForceIncrementForRudderDeflection{\glssymbol{coefficientLateralForceIncrementForRudderDeflection}}%
+\global\long\def\coefficientLateralForceBodyIncrementForRudderDeflection{\glssymbol{coefficientLateralForceBodyIncrementForRudderDeflection}}%
 
-\global\long\def\coefficientLateralForceIncrementForAngularRatep{\glssymbol{coefficientLateralForceIncrementForAngularRatep}}%
+\global\long\def\coefficientLateralForceBodyIncrementForAngularRatep{\glssymbol{coefficientLateralForceBodyIncrementForAngularRatep}}%
+
+\global\long\def\coefficientLateralForceWind{\glssymbol{coefficientLateralForceWind}}%
+
+\global\long\def\coefficientLateralForceWindZeroLift{\glssymbol{coefficientLateralForceWindZeroLift}}%
+
+\global\long\def\coefficientLateralForceWindIncrementForAngleSideSlip{\glssymbol{coefficientLateralForceWindIncrementForAngleSideSlip}}%
+
+\global\long\def\coefficientLateralForceWindIncrementForRudderDeflection{\glssymbol{coefficientLateralForceWindIncrementForRudderDeflection}}%
+
+\global\long\def\coefficientLateralForceWindIncrementForAngularRatep{\glssymbol{coefficientLateralForceWindIncrementForAngularRatep}}%
+
+\global\long\def\coefficientLateralForceWindIncrementForAngularRater{\glssymbol{coefficientLateralForceWindIncrementForAngularRater}}%
+
+\global\long\def\coefficientLateralForceWindIncrementForDotAngleSideSlip{\glssymbol{coefficientLateralForceWindIncrementForDotAngleSideSlip}}%
 
 \global\long\def\matrixRotation{\glssymbol{matrixRotation}}%
 

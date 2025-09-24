@@ -5,18 +5,16 @@
 \save_transient_properties true
 \origin unavailable
 \textclass extarticle
-\use_default_options true
+\use_default_options false
 \begin_modules
-subequations
-todonotes
-multicol
+theorems-ams
 \end_modules
-\maintain_unincluded_children strict
-\language american
-\language_package babel
+\maintain_unincluded_children no
+\language english
+\language_package default
 \inputencoding utf8
 \fontencoding T1
-\font_roman "md-utopia" "DejaVu Serif Condensed"
+\font_roman "default" "default"
 \font_sans "default" "default"
 \font_typewriter "default" "default"
 \font_math "auto" "auto"
@@ -28,83 +26,68 @@ multicol
 \font_typewriter_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
-\use_microtype true
-\use_dash_ligatures false
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format default
-\output_sync 0
+\output_sync 1
+\output_sync_macro "\usepackage[active]{srcltx}"
 \bibtex_command default
 \index_command default
-\float_placement H
-\float_alignment class
 \paperfontsize 12
-\spacing other 1.5
-\use_hyperref true
-\pdf_bookmarks true
-\pdf_bookmarksnumbered true
-\pdf_bookmarksopen true
-\pdf_bookmarksopenlevel 1
-\pdf_breaklinks false
-\pdf_pdfborder true
-\pdf_colorlinks false
-\pdf_backref false
-\pdf_pdfusetitle true
+\spacing onehalf
+\use_hyperref false
 \papersize a4
 \use_geometry true
-\use_package amsmath 1
-\use_package amssymb 1
-\use_package cancel 1
+\use_package amsmath 2
+\use_package amssymb 0
+\use_package cancel 0
 \use_package esint 1
-\use_package mathdots 1
-\use_package mathtools 1
-\use_package mhchem 1
-\use_package stackrel 1
-\use_package stmaryrd 1
-\use_package undertilde 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
 \cite_engine biblatex
 \cite_engine_type authoryear
+\biblio_style plainnat
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
 \justification true
-\use_refstyle 1
+\use_refstyle 0
 \use_formatted_ref 0
 \use_minted 0
 \use_lineno 0
-\branch filho
-\selected 1
-\filename_suffix 0
-\color background background
-\end_branch
-\index Índice
+\index Index
 \shortcut idx
 \color #008000
 \end_index
 \leftmargin 2cm
-\topmargin 3cm
+\topmargin 2cm
 \rightmargin 2cm
 \bottommargin 2cm
 \headheight 1cm
 \headsep 1cm
 \footskip 1cm
-\columnsep 0.1cm
-\secnumdepth 4
+\secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
-\paragraph_indentation 1.5cm
+\paragraph_indentation default
 \is_math_indent 0
 \math_numbering_side default
 \quotes_style english
 \dynamic_quotes 0
 \papercolumns 1
-\papersides 2
-\paperpagestyle fancy
+\papersides 1
+\paperpagestyle default
 \tablestyle default
 \tracking_changes false
 \output_changes false
 \change_bars false
-\postpone_fragile_content false
+\postpone_fragile_content true
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
@@ -113,11 +96,13 @@ multicol
 \end_header
 
 \begin_body
+
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\timeState}{\glssymbol{timeState}}
 {\ensuremath{t}}
 \end_inset
+
 
 \end_layout
 
@@ -127,6 +112,7 @@ multicol
 {\ensuremath{T}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -134,6 +120,7 @@ multicol
 \newcommand{\temperatureC}{\glssymbol{temperatureC}}
 {\ensuremath{T_{C}}}
 \end_inset
+
 
 \end_layout
 
@@ -143,6 +130,7 @@ multicol
 {\ensuremath{p}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -150,6 +138,7 @@ multicol
 \newcommand{\flightSpeed}{\glssymbol{flightSpeed}}
 {\ensuremath{V}}
 \end_inset
+
 
 \end_layout
 
@@ -159,6 +148,7 @@ multicol
 {\ensuremath{\alpha}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -166,6 +156,7 @@ multicol
 \newcommand{\angleSideslip}{\glssymbol{angleSideslip}}
 {\ensuremath{\beta}}
 \end_inset
+
 
 \end_layout
 
@@ -175,6 +166,7 @@ multicol
 {\ensuremath{\mu}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -182,6 +174,16 @@ multicol
 \newcommand{\machNumber}{\glssymbol{machNumber}}
 {\ensuremath{M}}
 \end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\lateralForceWind}{\glssymbol{lateralForceWind}}
+{\ensuremath{\mathcal{Y}}}
+\end_inset
+
 
 \end_layout
 
@@ -191,6 +193,7 @@ multicol
 {\ensuremath{L}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -198,6 +201,7 @@ multicol
 \newcommand{\dragForce}{\glssymbol{dragForce}}
 {\ensuremath{D}}
 \end_inset
+
 
 \end_layout
 
@@ -207,6 +211,7 @@ multicol
 {\ensuremath{M}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -214,6 +219,7 @@ multicol
 \newcommand{\density}{\glssymbol{density}}
 {\ensuremath{\rho}}
 \end_inset
+
 
 \end_layout
 
@@ -223,6 +229,7 @@ multicol
 {\ensuremath{V}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -230,6 +237,7 @@ multicol
 \newcommand{\positionVector}{\glssymbol{positionVector}}
 {\ensuremath{\mathbf{p}}}
 \end_inset
+
 
 \end_layout
 
@@ -239,6 +247,7 @@ multicol
 {\ensuremath{\mathbf{v}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -246,6 +255,7 @@ multicol
 \newcommand{\accelerationVector}{\glssymbol{accelerationVector}}
 {\ensuremath{\mathbf{a}}}
 \end_inset
+
 
 \end_layout
 
@@ -255,6 +265,7 @@ multicol
 {\ensuremath{u}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -262,6 +273,7 @@ multicol
 \newcommand{\velocityv}{\glssymbol{velocityv}}
 {\ensuremath{v}}
 \end_inset
+
 
 \end_layout
 
@@ -271,6 +283,7 @@ multicol
 {\ensuremath{w}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -278,6 +291,7 @@ multicol
 \newcommand{\angularRatep}{\glssymbol{angularRatep}}
 {\ensuremath{p}}
 \end_inset
+
 
 \end_layout
 
@@ -287,6 +301,7 @@ multicol
 {\ensuremath{q}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -294,6 +309,7 @@ multicol
 \newcommand{\angularRater}{\glssymbol{angularRater}}
 {\ensuremath{r}}
 \end_inset
+
 
 \end_layout
 
@@ -303,6 +319,7 @@ multicol
 {\ensuremath{a}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -311,13 +328,15 @@ multicol
 {\ensuremath{X}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\lateralForceY}{\glssymbol{lateralForceY}}
+\newcommand{\LateralForceBodyY}{\glssymbol{LateralForceBodyY}}
 {\ensuremath{Y}}
 \end_inset
+
 
 \end_layout
 
@@ -327,6 +346,7 @@ multicol
 {\ensuremath{Z}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -335,13 +355,15 @@ multicol
 {\ensuremath{\ensuremath{A}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\lateralForceYstability}{\glssymbol{lateralForceYstability}}
-{\ensuremath{\ensuremath{S}}}
+\newcommand{\LateralForceYstability}{\glssymbol{LateralForceYstability}}
+{\ensuremath{\ensuremath{^{\glsentryname{stabilitySystem}}Y}}}
 \end_inset
+
 
 \end_layout
 
@@ -351,6 +373,7 @@ multicol
 {\ensuremath{\ensuremath{N}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -358,6 +381,7 @@ multicol
 \newcommand{\momentRoll}{\glssymbol{momentRoll}}
 {\ensuremath{l}}
 \end_inset
+
 
 \end_layout
 
@@ -367,6 +391,7 @@ multicol
 {\ensuremath{m}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -374,6 +399,7 @@ multicol
 \newcommand{\momentYaw}{\glssymbol{momentYaw}}
 {\ensuremath{n}}
 \end_inset
+
 
 \end_layout
 
@@ -383,6 +409,7 @@ multicol
 {\ensuremath{\delta_{e}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -390,6 +417,7 @@ multicol
 \newcommand{\differentialElevon}{\glssymbol{differentialElevon}}
 {\ensuremath{\delta_{a}}}
 \end_inset
+
 
 \end_layout
 
@@ -399,6 +427,7 @@ multicol
 {\ensuremath{\delta_{r}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -406,6 +435,7 @@ multicol
 \newcommand{\forceVector}{\glssymbol{forceVector}}
 {\ensuremath{\mathbf{f}}}
 \end_inset
+
 
 \end_layout
 
@@ -415,13 +445,15 @@ multicol
 {\ensuremath{{\ensuremath{\mathbf{f}}}_{p}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\specificImpulse}{\glssymbol{specificImpulse}}
-{\ensuremath{I_\textrm{sp}}}
+{\ensuremath{I_{\textrm{sp}}}}
 \end_inset
+
 
 \end_layout
 
@@ -431,6 +463,7 @@ multicol
 {\ensuremath{\ensuremath{f_{p}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -438,6 +471,7 @@ multicol
 \newcommand{\forceVectorAerodynamic}{\glssymbol{forceVectorAerodynamic}}
 {\ensuremath{{\ensuremath{\mathbf{f}}}_{a}}}
 \end_inset
+
 
 \end_layout
 
@@ -447,6 +481,7 @@ multicol
 {\ensuremath{f_{x}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -454,6 +489,7 @@ multicol
 \newcommand{\forceYbody}{\glssymbol{forceYbody}}
 {\ensuremath{f_{y}}}
 \end_inset
+
 
 \end_layout
 
@@ -463,6 +499,7 @@ multicol
 {\ensuremath{f_{z}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -470,6 +507,7 @@ multicol
 \newcommand{\momentVector}{\glssymbol{momentVector}}
 {\ensuremath{\mathbf{m}}}
 \end_inset
+
 
 \end_layout
 
@@ -479,6 +517,7 @@ multicol
 {\ensuremath{m_{x}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -486,6 +525,7 @@ multicol
 \newcommand{\momentYbody}{\glssymbol{momentYbody}}
 {\ensuremath{m_{y}}}
 \end_inset
+
 
 \end_layout
 
@@ -495,6 +535,7 @@ multicol
 {\ensuremath{m_{z}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -502,6 +543,7 @@ multicol
 \newcommand{\gravityVector}{\glssymbol{gravityVector}}
 {\ensuremath{\mathbf{g}}}
 \end_inset
+
 
 \end_layout
 
@@ -511,6 +553,7 @@ multicol
 {\ensuremath{g}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -518,6 +561,7 @@ multicol
 \newcommand{\angularRateVector}{\glssymbol{angularRateVector}}
 {\ensuremath{\boldsymbol{\omega}}}
 \end_inset
+
 
 \end_layout
 
@@ -527,6 +571,7 @@ multicol
 {\ensuremath{\theta_{\ensuremath{\mathrm{i}}\ensuremath{\mathrm{e}}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -534,6 +579,7 @@ multicol
 \newcommand{\geodeticLatitude}{\glssymbol{geodeticLatitude}}
 {\ensuremath{\phi}}
 \end_inset
+
 
 \end_layout
 
@@ -543,6 +589,7 @@ multicol
 {\ensuremath{\lambda}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -551,13 +598,15 @@ multicol
 {\ensuremath{\mathbf{q}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\qv}{\glssymbol{qv}}
-{\ensuremath{\mathbf{q}_v}}
+{\ensuremath{\mathbf{q}_{v}}}
 \end_inset
+
 
 \end_layout
 
@@ -567,6 +616,7 @@ multicol
 {\ensuremath{B}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -574,6 +624,7 @@ multicol
 \newcommand{\BCotTrailingEdge}{\glssymbol{BCotTrailingEdge}}
 {\ensuremath{g}}
 \end_inset
+
 
 \end_layout
 
@@ -583,6 +634,7 @@ multicol
 {\ensuremath{K^{\prime}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -590,6 +642,7 @@ multicol
 \newcommand{\completeEllipticIntegralSecondKind}{\glssymbol{completeEllipticIntegralSecondKind}}
 {\ensuremath{E^{\prime}}}
 \end_inset
+
 
 \end_layout
 
@@ -599,6 +652,7 @@ multicol
 {\ensuremath{I}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -606,6 +660,7 @@ multicol
 \newcommand{\mNaca}{\glssymbol{mNaca}}
 {\ensuremath{m}}
 \end_inset
+
 
 \end_layout
 
@@ -615,6 +670,7 @@ multicol
 {\ensuremath{\omega}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -622,6 +678,7 @@ multicol
 \newcommand{\n}{\glssymbol{n}}
 {\ensuremath{n}}
 \end_inset
+
 
 \end_layout
 
@@ -631,6 +688,7 @@ multicol
 {\ensuremath{b}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -638,6 +696,7 @@ multicol
 \newcommand{\wingRootChord}{\glssymbol{wingRootChord}}
 {\ensuremath{c_{r}}}
 \end_inset
+
 
 \end_layout
 
@@ -647,6 +706,7 @@ multicol
 {\ensuremath{\overline{c}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -654,6 +714,7 @@ multicol
 \newcommand{\wingTipChord}{\glssymbol{wingTipChord}}
 {\ensuremath{c_{t}}}
 \end_inset
+
 
 \end_layout
 
@@ -663,13 +724,15 @@ multicol
 {\ensuremath{S}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\aspectRation}{\glssymbol{aspectRation}}
-{\ensuremath{A }}
+{\ensuremath{A}}
 \end_inset
+
 
 \end_layout
 
@@ -679,6 +742,7 @@ multicol
 {\ensuremath{\epsilon}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -686,6 +750,7 @@ multicol
 \newcommand{\angleBetweenTrailingEdgeAndAxisSymmetry}{\glssymbol{angleBetweenTrailingEdgeAndAxisSymmetry}}
 {\ensuremath{\delta}}
 \end_inset
+
 
 \end_layout
 
@@ -695,6 +760,7 @@ multicol
 {\ensuremath{\Lambda}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -703,21 +769,24 @@ multicol
 {\ensuremath{\lambda}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\caracteristLength}{\glssymbol{caracteristLength}}
+\newcommand{\characteristicLength}{\glssymbol{characteristicLength}}
 {\ensuremath{\ell_{\text{ref}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\caracteristChord}{\glssymbol{caracteristChord}}
+\newcommand{\characteristicChord}{\glssymbol{characteristicChord}}
 {\ensuremath{c_{\text{ref}}}}
 \end_inset
+
 
 \end_layout
 
@@ -727,6 +796,7 @@ multicol
 {\ensuremath{m}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -734,6 +804,7 @@ multicol
 \newcommand{\massMomentOfInertiax}{\glssymbol{massMomentOfInertiax}}
 {\ensuremath{I_{x}}}
 \end_inset
+
 
 \end_layout
 
@@ -743,6 +814,7 @@ multicol
 {\ensuremath{I_{y}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -750,6 +822,7 @@ multicol
 \newcommand{\massMomentOfInertiaz}{\glssymbol{massMomentOfInertiaz}}
 {\ensuremath{I_{z}}}
 \end_inset
+
 
 \end_layout
 
@@ -759,69 +832,78 @@ multicol
 {\ensuremath{\ensuremath{\mathbf{I}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\propellantMass}{\glssymbol{propellantMass}}
-{\ensuremath{m_\mathrm{p}}}
+{\ensuremath{m_{\mathrm{p}}}}
 \end_inset
+
 
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\stageMass}{\glssymbol{stageMass}}
-{\ensuremath{m_\mathrm{s}}}
+{\ensuremath{m_{\mathrm{s}}}}
 \end_inset
+
 
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\structuralMass}{\glssymbol{structuralMass}}
-{\ensuremath{{m}_\mathrm{d}}}
+{\ensuremath{{m}_{\mathrm{d}}}}
 \end_inset
+
 
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\cgDry}{\glssymbol{cgDry}}
-{\ensuremath{\mathbf{c}_\mathrm{g}}}
+{\ensuremath{\mathbf{c}_{\mathrm{g}}}}
 \end_inset
+
 
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\cgPropellant}{\glssymbol{cgPropellant}}
-{\ensuremath{\mathbf{c}_\mathrm{p}}}
+{\ensuremath{\mathbf{c}_{\mathrm{p}}}}
 \end_inset
+
 
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\stageCg}{\glssymbol{stageCg}}
-{\ensuremath{\mathbf{c}_\mathrm{s}}}
+{\ensuremath{\mathbf{c}_{\mathrm{s}}}}
 \end_inset
+
 
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\structuralCG}{\glssymbol{structuralCG}}
-{\ensuremath{\mathbf{c}_\mathrm{d}}}
+{\ensuremath{\mathbf{c}_{\mathrm{d}}}}
 \end_inset
+
 
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\propellantCg}{\glssymbol{propellantCg}}
-{\ensuremath{\mathbf{c}_\mathrm{p}}}
+{\ensuremath{\mathbf{c}_{\mathrm{p}}}}
 \end_inset
+
 
 \end_layout
 
@@ -831,53 +913,60 @@ multicol
 {\ensuremath{{\mathbf{c}}_{b}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\stagePosition}{\glssymbol{stagePosition}}
-{\ensuremath{\mathbf{r}_\mathrm{s}}}
+{\ensuremath{\mathbf{r}_{\mathrm{s}}}}
 \end_inset
+
 
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\stageInertia}{\glssymbol{stageInertia}}
-{\ensuremath{\mathbf{I}_\mathrm{s}}}
+{\ensuremath{\mathbf{I}_{\mathrm{s}}}}
 \end_inset
+
 
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\inertiaStructural}{\glssymbol{inertiaStructural}}
-{\ensuremath{\mathbf{I}_\mathrm{d}}}
+{\ensuremath{\mathbf{I}_{\mathrm{d}}}}
 \end_inset
+
 
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\inertiaPropellant}{\glssymbol{inertiaPropellant}}
-{\ensuremath{\mathbf{I}_\mathrm{p}}}
+{\ensuremath{\mathbf{I}_{\mathrm{p}}}}
 \end_inset
+
 
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\displacementVectorStructural}{\glssymbol{displacementVectorStructural}}
-{\ensuremath{\mathbf{d}_\mathrm{d}}}
+{\ensuremath{\mathbf{d}_{\mathrm{d}}}}
 \end_inset
+
 
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\displacementVectorProp}{\glssymbol{displacementVectorProp}}
-{\ensuremath{\mathbf{d}_\mathrm{p}}}
+{\ensuremath{\mathbf{d}_{\mathrm{p}}}}
 \end_inset
+
 
 \end_layout
 
@@ -887,13 +976,15 @@ multicol
 {\ensuremath{\mathbf{d}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\totalInertiaCG}{\glssymbol{totalInertiaCG}}
-{\ensuremath{\mathbf{I}_\mathrm{\glsentryname{cg}}}}
+{\ensuremath{\mathbf{I}_{\mathrm{\glsentryname{cg}}}}}
 \end_inset
+
 
 \end_layout
 
@@ -903,6 +994,7 @@ multicol
 {\ensuremath{\mathbf{I}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -910,6 +1002,7 @@ multicol
 \newcommand{\vectorDistanceCGToSurface}{\glssymbol{vectorDistanceCGToSurface}}
 {\ensuremath{\ensuremath{\boldsymbol{\varsigma}}}}
 \end_inset
+
 
 \end_layout
 
@@ -919,6 +1012,7 @@ multicol
 {\ensuremath{\boldsymbol{\varrho}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -926,6 +1020,7 @@ multicol
 \newcommand{\aerodynamicChordReference}{\glssymbol{aerodynamicChordReference}}
 {\ensuremath{\bar{\ell}_{a}}}
 \end_inset
+
 
 \end_layout
 
@@ -935,6 +1030,7 @@ multicol
 {\ensuremath{C_{\ensuremath{M}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -942,6 +1038,7 @@ multicol
 \newcommand{\coefficientAxialForceBody}{\glssymbol{coefficientAxialForceBody}}
 {\ensuremath{C_{\ensuremath{X}}}}
 \end_inset
+
 
 \end_layout
 
@@ -951,6 +1048,7 @@ multicol
 {\ensuremath{C_{\ensuremath{Z}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -958,6 +1056,7 @@ multicol
 \newcommand{\coefficientAxialForceStability}{\glssymbol{coefficientAxialForceStability}}
 {\ensuremath{C_{\ensuremath{A}}}}
 \end_inset
+
 
 \end_layout
 
@@ -967,6 +1066,7 @@ multicol
 {\ensuremath{\ensuremath{Q}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -974,6 +1074,7 @@ multicol
 \newcommand{\coefficientDrag}{\glssymbol{coefficientDrag}}
 {\ensuremath{C_{\ensuremath{D}}}}
 \end_inset
+
 
 \end_layout
 
@@ -983,6 +1084,7 @@ multicol
 {\ensuremath{C_{{\ensuremath{D}}_{\ensuremath{\alpha}}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -990,6 +1092,7 @@ multicol
 \newcommand{\coefficientDragIncrementForSymmetricElevon}{\glssymbol{coefficientDragIncrementForSymmetricElevon}}
 {\ensuremath{C_{{\ensuremath{D}}_{\ensuremath{\delta_{e}}}}}}
 \end_inset
+
 
 \end_layout
 
@@ -999,6 +1102,7 @@ multicol
 {\ensuremath{C_{{\ensuremath{D}}_{0}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1006,6 +1110,7 @@ multicol
 \newcommand{\coefficientLift}{\glssymbol{coefficientLift}}
 {\ensuremath{C_{\ensuremath{L}}}}
 \end_inset
+
 
 \end_layout
 
@@ -1015,6 +1120,7 @@ multicol
 {\ensuremath{C_{\ensuremath{L}_{0}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1022,6 +1128,7 @@ multicol
 \newcommand{\coefficientLiftIncrementForAngleAtack}{\glssymbol{coefficientLiftIncrementForAngleAtack}}
 {\ensuremath{C_{{\ensuremath{L}}_{\ensuremath{\alpha}}}}}
 \end_inset
+
 
 \end_layout
 
@@ -1031,6 +1138,7 @@ multicol
 {\ensuremath{C_{{\ensuremath{L}}_{\dot{\ensuremath{\alpha}}}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1038,6 +1146,7 @@ multicol
 \newcommand{\coefficientLiftIncrementForAngularRateq}{\glssymbol{coefficientLiftIncrementForAngularRateq}}
 {\ensuremath{C_{{\ensuremath{L}}_{\ensuremath{q}}}}}
 \end_inset
+
 
 \end_layout
 
@@ -1047,6 +1156,7 @@ multicol
 {\ensuremath{C_{{\ensuremath{L}}_{\ensuremath{\delta_{e}}}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1054,6 +1164,7 @@ multicol
 \newcommand{\coefficientPitchingMoment}{\glssymbol{coefficientPitchingMoment}}
 {\ensuremath{C_{\ensuremath{m}}}}
 \end_inset
+
 
 \end_layout
 
@@ -1063,6 +1174,7 @@ multicol
 {\ensuremath{C_{{\ensuremath{m}}_{0}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1070,6 +1182,7 @@ multicol
 \newcommand{\coefficientPitchingMomentIncrementForAngleAtack}{\glssymbol{coefficientPitchingMomentIncrementForAngleAtack}}
 {\ensuremath{C_{{\ensuremath{m}}_{\ensuremath{\alpha}}}}}
 \end_inset
+
 
 \end_layout
 
@@ -1079,6 +1192,7 @@ multicol
 {\ensuremath{C_{{\ensuremath{m}}_{\dot{\ensuremath{\alpha}}}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1086,6 +1200,7 @@ multicol
 \newcommand{\coefficientPitchingMomentIncrementForSymmetricElevon}{\glssymbol{coefficientPitchingMomentIncrementForSymmetricElevon}}
 {\ensuremath{C_{{\ensuremath{m}}_{\ensuremath{\delta_{e}}}}}}
 \end_inset
+
 
 \end_layout
 
@@ -1095,6 +1210,7 @@ multicol
 {\ensuremath{C_{{\ensuremath{m}}_{\ensuremath{q}}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1102,6 +1218,7 @@ multicol
 \newcommand{\coefficientRollingMoment}{\glssymbol{coefficientRollingMoment}}
 {\ensuremath{C_{\ensuremath{l}}}}
 \end_inset
+
 
 \end_layout
 
@@ -1111,6 +1228,7 @@ multicol
 {\ensuremath{C_{\ensuremath{l}_{0}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1118,6 +1236,7 @@ multicol
 \newcommand{\coefficientRollingMomentIncrementForAngleSideSlip}{\glssymbol{coefficientRollingMomentIncrementForAngleSideSlip}}
 {\ensuremath{C_{{\ensuremath{l}}_{\ensuremath{\beta}}}}}
 \end_inset
+
 
 \end_layout
 
@@ -1127,6 +1246,7 @@ multicol
 {\ensuremath{C_{{\ensuremath{l}}_{\ensuremath{p}}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1134,6 +1254,7 @@ multicol
 \newcommand{\coefficientRollingMomentIncrementForDifferentialElevon}{\glssymbol{coefficientRollingMomentIncrementForDifferentialElevon}}
 {\ensuremath{C_{{\ensuremath{l}}_{\ensuremath{\delta_{a}}}}}}
 \end_inset
+
 
 \end_layout
 
@@ -1143,13 +1264,15 @@ multicol
 {\ensuremath{C_{{\ensuremath{l}}_{\ensuremath{\delta_{r}}}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\coefficientYawingMoment}{\glssymbol{coefficientYawingMoment}}
-{\ensuremath{C_\ensuremath{n}}}
+{\ensuremath{C_{\ensuremath{n}}}}
 \end_inset
+
 
 \end_layout
 
@@ -1159,6 +1282,7 @@ multicol
 {\ensuremath{C_{\ensuremath{n}_{0}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1166,6 +1290,7 @@ multicol
 \newcommand{\coefficientYawingMomentIncrementForAngleSideSlip}{\glssymbol{coefficientYawingMomentIncrementForAngleSideSlip}}
 {\ensuremath{C_{{\ensuremath{n}}_{\ensuremath{\beta}}}}}
 \end_inset
+
 
 \end_layout
 
@@ -1175,6 +1300,7 @@ multicol
 {\ensuremath{C_{{\ensuremath{n}}_{\ensuremath{r}}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1182,6 +1308,7 @@ multicol
 \newcommand{\coefficientYawingMomentIncrementForDifferentialElevon}{\glssymbol{coefficientYawingMomentIncrementForDifferentialElevon}}
 {\ensuremath{C_{{\ensuremath{n}}_{\ensuremath{\delta_{a}}}}}}
 \end_inset
+
 
 \end_layout
 
@@ -1191,6 +1318,7 @@ multicol
 {\ensuremath{C_{{\ensuremath{n}}_{\ensuremath{\delta_{r}}}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1198,6 +1326,7 @@ multicol
 \newcommand{\coefficientYawingMomentIncrementForAngularRatep}{\glssymbol{coefficientYawingMomentIncrementForAngularRatep}}
 {\ensuremath{C_{{\ensuremath{n}}_{\ensuremath{p}}}}}
 \end_inset
+
 
 \end_layout
 
@@ -1207,45 +1336,114 @@ multicol
 {\ensuremath{C_{\ensuremath{Y}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLateralForceZeroLift}{\glssymbol{coefficientLateralForceZeroLift}}
+\newcommand{\coefficientLateralForceBodyZeroLift}{\glssymbol{coefficientLateralForceBodyZeroLift}}
 {\ensuremath{C_{\ensuremath{Y}_{0}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLateralForceIncrementForAngleSideSlip}{\glssymbol{coefficientLateralForceIncrementForAngleSideSlip}}
+\newcommand{\coefficientLateralForceBodyIncrementForAngleSideSlip}{\glssymbol{coefficientLateralForceBodyIncrementForAngleSideSlip}}
 {\ensuremath{C_{{\ensuremath{Y}}_{\ensuremath{\beta}}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLateralForceIncrementForDifferentialElevon}{\glssymbol{coefficientLateralForceIncrementForDifferentialElevon}}
+\newcommand{\coefficientLateralForceBodyIncrementForDifferentialElevon}{\glssymbol{coefficientLateralForceBodyIncrementForDifferentialElevon}}
 {\ensuremath{C_{{\ensuremath{Y}}_{\ensuremath{\delta_{a}}}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLateralForceIncrementForRudderDeflection}{\glssymbol{coefficientLateralForceIncrementForRudderDeflection}}
+\newcommand{\coefficientLateralForceBodyIncrementForRudderDeflection}{\glssymbol{coefficientLateralForceBodyIncrementForRudderDeflection}}
 {\ensuremath{C_{{\ensuremath{Y}}_{\ensuremath{\delta_{r}}}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLateralForceIncrementForAngularRatep}{\glssymbol{coefficientLateralForceIncrementForAngularRatep}}
+\newcommand{\coefficientLateralForceBodyIncrementForAngularRatep}{\glssymbol{coefficientLateralForceBodyIncrementForAngularRatep}}
 {\ensuremath{C_{{\ensuremath{Y}}_{\ensuremath{p}}}}}
 \end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientLateralForceWind}{\glssymbol{coefficientLateralForceWind}}
+{\ensuremath{C_{\ensuremath{\mathcal{Y}}}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientLateralForceWindZeroLift}{\glssymbol{coefficientLateralForceWindZeroLift}}
+{\ensuremath{C_{\ensuremath{\mathcal{Y}}_{0}}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientLateralForceWindIncrementForAngleSideSlip}{\glssymbol{coefficientLateralForceWindIncrementForAngleSideSlip}}
+{\ensuremath{C_{{\ensuremath{\mathcal{Y}}}_{\ensuremath{\beta}}}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientLateralForceWindIncrementForRudderDeflection}{\glssymbol{coefficientLateralForceWindIncrementForRudderDeflection}}
+{\ensuremath{C_{{\ensuremath{\mathcal{Y}}}_{\ensuremath{\delta_{r}}}}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientLateralForceWindIncrementForAngularRatep}{\glssymbol{coefficientLateralForceWindIncrementForAngularRatep}}
+{\ensuremath{C_{{\ensuremath{\mathcal{Y}}}_{\ensuremath{p}}}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientLateralForceWindIncrementForAngularRater}{\glssymbol{coefficientLateralForceWindIncrementForAngularRater}}
+{\ensuremath{C_{{\ensuremath{\mathcal{Y}}}_{\ensuremath{r}}}}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientLateralForceWindIncrementForDotAngleSideSlip}{\glssymbol{coefficientLateralForceWindIncrementForDotAngleSideSlip}}
+{\ensuremath{C_{{\ensuremath{\mathcal{Y}}}_{\dot{\ensuremath{\beta}}}}}}
+\end_inset
+
 
 \end_layout
 
@@ -1255,6 +1453,7 @@ multicol
 {\ensuremath{\mathbf{R}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1262,6 +1461,7 @@ multicol
 \newcommand{\identityMatrix}{\glssymbol{identityMatrix}}
 {\ensuremath{\mathbf{I}}}
 \end_inset
+
 
 \end_layout
 
@@ -1271,6 +1471,7 @@ multicol
 {\ensuremath{\mathbf{0}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1278,6 +1479,7 @@ multicol
 \newcommand{\timesOperator}{\glssymbol{timesOperator}}
 {\ensuremath{\times}}
 \end_inset
+
 
 \end_layout
 
@@ -1287,6 +1489,7 @@ multicol
 {\ensuremath{\mathcal{A}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1294,6 +1497,7 @@ multicol
 \newcommand{\transpose}{\glssymbol{transpose}}
 {\ensuremath{\intercal}}
 \end_inset
+
 
 \end_layout
 
@@ -1303,6 +1507,7 @@ multicol
 {\ensuremath{\mathrm{i}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1310,6 +1515,7 @@ multicol
 \newcommand{\eciAxisx}{\glssymbol{eciAxisx}}
 {\ensuremath{x_{\ensuremath{\mathrm{i}}}}}
 \end_inset
+
 
 \end_layout
 
@@ -1319,6 +1525,7 @@ multicol
 {\ensuremath{y_{\ensuremath{\mathrm{i}}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1326,6 +1533,7 @@ multicol
 \newcommand{\eciAxisz}{\glssymbol{eciAxisz}}
 {\ensuremath{z_{\ensuremath{\mathrm{i}}}}}
 \end_inset
+
 
 \end_layout
 
@@ -1335,6 +1543,7 @@ multicol
 {\ensuremath{\mathrm{g}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1342,6 +1551,7 @@ multicol
 \newcommand{\navigationSystem}{\glssymbol{navigationSystem}}
 {\ensuremath{\mathrm{n}}}
 \end_inset
+
 
 \end_layout
 
@@ -1351,6 +1561,7 @@ multicol
 {\ensuremath{\mathrm{s}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1358,6 +1569,7 @@ multicol
 \newcommand{\localSurfaceSystem}{\glssymbol{localSurfaceSystem}}
 {\ensuremath{\mathcal{S}}}
 \end_inset
+
 
 \end_layout
 
@@ -1367,6 +1579,7 @@ multicol
 {\ensuremath{\mathrm{b}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1374,6 +1587,7 @@ multicol
 \newcommand{\windSystem}{\glssymbol{windSystem}}
 {\ensuremath{\mathrm{w}}}
 \end_inset
+
 
 \end_layout
 
@@ -1383,6 +1597,7 @@ multicol
 {\ensuremath{\mathrm{v}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1390,6 +1605,7 @@ multicol
 \newcommand{\vehicleAxisx}{\glssymbol{vehicleAxisx}}
 {\ensuremath{\mathbf{x}_{\ensuremath{\mathrm{v}}}}}
 \end_inset
+
 
 \end_layout
 
@@ -1399,6 +1615,7 @@ multicol
 {\ensuremath{\mathbf{y}_{\ensuremath{\mathrm{v}}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1406,6 +1623,7 @@ multicol
 \newcommand{\vehicleAxisz}{\glssymbol{vehicleAxisz}}
 {\ensuremath{\mathbf{z}_{\ensuremath{\mathrm{v}}}}}
 \end_inset
+
 
 \end_layout
 
@@ -1415,6 +1633,7 @@ multicol
 {\ensuremath{\mathbf{x}_{\ensuremath{\mathcal{S}}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1422,6 +1641,7 @@ multicol
 \newcommand{\localSurfaceAxisy}{\glssymbol{localSurfaceAxisy}}
 {\ensuremath{\mathbf{y}_{\ensuremath{\mathcal{S}}}}}
 \end_inset
+
 
 \end_layout
 
@@ -1431,6 +1651,7 @@ multicol
 {\ensuremath{\mathbf{z}_{\ensuremath{\mathcal{S}}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1438,6 +1659,7 @@ multicol
 \newcommand{\windAxisx}{\glssymbol{windAxisx}}
 {\ensuremath{\mathbf{x}_{\ensuremath{\mathrm{w}}}}}
 \end_inset
+
 
 \end_layout
 
@@ -1447,6 +1669,7 @@ multicol
 {\ensuremath{\mathbf{y}_{\ensuremath{\mathrm{w}}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1454,6 +1677,7 @@ multicol
 \newcommand{\windAxisz}{\glssymbol{windAxisz}}
 {\ensuremath{\mathbf{z}_{\ensuremath{\mathrm{w}}}}}
 \end_inset
+
 
 \end_layout
 
@@ -1463,6 +1687,7 @@ multicol
 {\ensuremath{\mathbf{x}_{\ensuremath{\mathrm{b}}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1470,6 +1695,7 @@ multicol
 \newcommand{\bodyAxisy}{\glssymbol{bodyAxisy}}
 {\ensuremath{\mathbf{y}_{\ensuremath{\mathrm{b}}}}}
 \end_inset
+
 
 \end_layout
 
@@ -1479,6 +1705,7 @@ multicol
 {\ensuremath{\mathbf{z}_{\ensuremath{\mathrm{b}}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1486,6 +1713,7 @@ multicol
 \newcommand{\navigationAxisx}{\glssymbol{navigationAxisx}}
 {\ensuremath{\mathbf{x}_{\ensuremath{\mathrm{n}}}}}
 \end_inset
+
 
 \end_layout
 
@@ -1495,6 +1723,7 @@ multicol
 {\ensuremath{\mathbf{y}_{\ensuremath{\mathrm{n}}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1502,6 +1731,7 @@ multicol
 \newcommand{\navigationAxisz}{\glssymbol{navigationAxisz}}
 {\ensuremath{\mathbf{z}_{\ensuremath{\mathrm{n}}}}}
 \end_inset
+
 
 \end_layout
 
@@ -1511,6 +1741,7 @@ multicol
 {\ensuremath{\mathbf{x}_{\ensuremath{\mathrm{g}}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1518,6 +1749,7 @@ multicol
 \newcommand{\geographicAxisy}{\glssymbol{geographicAxisy}}
 {\ensuremath{\mathbf{y}_{\ensuremath{\mathrm{g}}}}}
 \end_inset
+
 
 \end_layout
 
@@ -1527,6 +1759,7 @@ multicol
 {\ensuremath{\mathbf{z}_{\ensuremath{\mathrm{g}}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1534,6 +1767,7 @@ multicol
 \newcommand{\leftQuaternion}{\glssymbol{leftQuaternion}}
 {\ensuremath{\boldsymbol{\mathcal{S}}_{l}}}
 \end_inset
+
 
 \end_layout
 
@@ -1543,6 +1777,7 @@ multicol
 {\ensuremath{\boldsymbol{\mathcal{S}}_{r}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1550,6 +1785,7 @@ multicol
 \newcommand{\qi}{\glssymbol{qi}}
 {\ensuremath{q}}
 \end_inset
+
 
 \end_layout
 
@@ -1559,6 +1795,7 @@ multicol
 {\ensuremath{\mathrm{e}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1566,6 +1803,7 @@ multicol
 \newcommand{\ecefAxisx}{\glssymbol{ecefAxisx}}
 {\ensuremath{\mathbf{x}_{\ensuremath{\mathrm{e}}}}}
 \end_inset
+
 
 \end_layout
 
@@ -1575,6 +1813,7 @@ multicol
 {\ensuremath{\mathbf{y}_{\ensuremath{\mathrm{e}}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1582,6 +1821,7 @@ multicol
 \newcommand{\ecefAxisz}{\glssymbol{ecefAxisz}}
 {\ensuremath{\mathbf{z}_{\ensuremath{\mathrm{e}}}}}
 \end_inset
+
 
 \end_layout
 
@@ -1591,6 +1831,7 @@ multicol
 {\ensuremath{h}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1598,6 +1839,7 @@ multicol
 \newcommand{\realSet}{\glssymbol{realSet}}
 {\ensuremath{\mathcal{R}}}
 \end_inset
+
 
 \end_layout
 
@@ -1607,13 +1849,15 @@ multicol
 {\ensuremath{\omega_{\ensuremath{\mathrm{i}}\ensuremath{\mathrm{g}}}}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\EarthMass}{\glssymbol{EarthMass}}
-{\ensuremath{M_\oplus}}
+{\ensuremath{M_{\oplus}}}
 \end_inset
+
 
 \end_layout
 
@@ -1623,6 +1867,7 @@ multicol
 {\ensuremath{G}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1630,6 +1875,7 @@ multicol
 \newcommand{\normalRadiusEarth}{\glssymbol{normalRadiusEarth}}
 {\ensuremath{R_{n}}}
 \end_inset
+
 
 \end_layout
 
@@ -1639,6 +1885,7 @@ multicol
 {\ensuremath{e}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
@@ -1647,21 +1894,24 @@ multicol
 {\ensuremath{a}}
 \end_inset
 
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\mediumRadiusEarth}{\glssymbol{mediumRadiusEarth}}
-{\ensuremath{R_m}}
+{\ensuremath{R_{m}}}
 \end_inset
+
 
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\standartGravityOnSeaLevel}{\glssymbol{standartGravityOnSeaLevel}}
-{\ensuremath{g_0}}
+{\ensuremath{g_{0}}}
 \end_inset
+
 
 \end_layout
 

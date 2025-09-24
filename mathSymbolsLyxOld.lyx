@@ -1,22 +1,20 @@
-#LyX 2.4 created this file. For more info see https://www.lyx.org/
+#LyX file created by tex2lyx 2.4
 \lyxformat 620
 \begin_document
 \begin_header
 \save_transient_properties true
-\origin unavailable
+\origin /media/Arquivos/eah/repos/rocket_6dof_doc/glossaries/
 \textclass extarticle
-\use_default_options true
+\use_default_options false
 \begin_modules
-subequations
-todonotes
-multicol
+theorems-ams
 \end_modules
-\maintain_unincluded_children strict
-\language american
-\language_package babel
+\maintain_unincluded_children no
+\language brazil
+\language_package default
 \inputencoding utf8
 \fontencoding T1
-\font_roman "md-utopia" "DejaVu Serif Condensed"
+\font_roman "default" "default"
 \font_sans "default" "default"
 \font_typewriter "default" "default"
 \font_math "auto" "auto"
@@ -28,83 +26,65 @@ multicol
 \font_typewriter_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
-\use_microtype true
-\use_dash_ligatures false
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format default
-\output_sync 0
+\output_sync 1
+\output_sync_macro "\usepackage[active]{srcltx}"
 \bibtex_command default
 \index_command default
-\float_placement H
-\float_alignment class
 \paperfontsize 12
-\spacing other 1.5
-\use_hyperref true
-\pdf_bookmarks true
-\pdf_bookmarksnumbered true
-\pdf_bookmarksopen true
-\pdf_bookmarksopenlevel 1
-\pdf_breaklinks false
-\pdf_pdfborder true
-\pdf_colorlinks false
-\pdf_backref false
-\pdf_pdfusetitle true
+\spacing onehalf
+\use_hyperref false
 \papersize a4
 \use_geometry true
-\use_package amsmath 1
-\use_package amssymb 1
-\use_package cancel 1
+\use_package amsmath 2
+\use_package amssymb 0
+\use_package cancel 0
 \use_package esint 1
-\use_package mathdots 1
-\use_package mathtools 1
-\use_package mhchem 1
-\use_package stackrel 1
-\use_package stmaryrd 1
-\use_package undertilde 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
 \cite_engine biblatex
 \cite_engine_type authoryear
+\biblio_style plainnat
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
 \justification true
-\use_refstyle 1
-\use_formatted_ref 0
+\use_refstyle 0
 \use_minted 0
-\use_lineno 0
-\branch filho
-\selected 1
-\filename_suffix 0
-\color background background
-\end_branch
-\index Índice
+\use_lineno false
+\index Index
 \shortcut idx
 \color #008000
 \end_index
 \leftmargin 2cm
-\topmargin 3cm
+\topmargin 2cm
 \rightmargin 2cm
 \bottommargin 2cm
 \headheight 1cm
 \headsep 1cm
 \footskip 1cm
-\columnsep 0.1cm
-\secnumdepth 4
+\secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
-\paragraph_indentation 1.5cm
+\paragraph_indentation default
 \is_math_indent 0
 \math_numbering_side default
 \quotes_style english
 \dynamic_quotes 0
 \papercolumns 1
-\papersides 2
-\paperpagestyle fancy
-\tablestyle default
+\papersides 1
+\paperpagestyle default
 \tracking_changes false
 \output_changes false
 \change_bars false
-\postpone_fragile_content false
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
@@ -181,6 +161,14 @@ multicol
 \begin_inset FormulaMacro
 \newcommand{\machNumber}{\glssymbol{machNumber}}
 {\ensuremath{M}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\lateralForceWind}{\glssymbol{lateralForceWind}}
+{\ensuremath{\mathcal{Y}}}
 \end_inset
 
 \end_layout
@@ -315,7 +303,7 @@ multicol
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\lateralForceY}{\glssymbol{lateralForceY}}
+\newcommand{\LateralForceBodyY}{\glssymbol{LateralForceBodyY}}
 {\ensuremath{Y}}
 \end_inset
 
@@ -339,8 +327,8 @@ multicol
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\lateralForceYstability}{\glssymbol{lateralForceYstability}}
-{\ensuremath{\ensuremath{S}}}
+\newcommand{\LateralForceYstability}{\glssymbol{LateralForceYstability}}
+{\ensuremath{\ensuremath{{}^{\glsentryname{stabilitySystem}}Y}}}
 \end_inset
 
 \end_layout
@@ -707,8 +695,16 @@ multicol
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\caracteristLength}{\glssymbol{caracteristLength}}
-{\ensuremath{\ell}}
+\newcommand{\characteristicLength}{\glssymbol{characteristicLength}}
+{\ensuremath{\ell_{\text{ref}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\characteristicChord}{\glssymbol{characteristicChord}}
+{\ensuremath{c_{\text{ref}}}}
 \end_inset
 
 \end_layout
@@ -1203,7 +1199,7 @@ multicol
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLateralForceZeroLift}{\glssymbol{coefficientLateralForceZeroLift}}
+\newcommand{\coefficientLateralForceBodyZeroLift}{\glssymbol{coefficientLateralForceBodyZeroLift}}
 {\ensuremath{C_{\ensuremath{Y}_{0}}}}
 \end_inset
 
@@ -1211,7 +1207,7 @@ multicol
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLateralForceIncrementForAngleSideSlip}{\glssymbol{coefficientLateralForceIncrementForAngleSideSlip}}
+\newcommand{\coefficientLateralForceBodyIncrementForAngleSideSlip}{\glssymbol{coefficientLateralForceBodyIncrementForAngleSideSlip}}
 {\ensuremath{C_{{\ensuremath{Y}}_{\ensuremath{\beta}}}}}
 \end_inset
 
@@ -1219,7 +1215,7 @@ multicol
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLateralForceIncrementForDifferentialElevon}{\glssymbol{coefficientLateralForceIncrementForDifferentialElevon}}
+\newcommand{\coefficientLateralForceBodyIncrementForDifferentialElevon}{\glssymbol{coefficientLateralForceBodyIncrementForDifferentialElevon}}
 {\ensuremath{C_{{\ensuremath{Y}}_{\ensuremath{\delta_{a}}}}}}
 \end_inset
 
@@ -1227,7 +1223,7 @@ multicol
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLateralForceIncrementForRudderDeflection}{\glssymbol{coefficientLateralForceIncrementForRudderDeflection}}
+\newcommand{\coefficientLateralForceBodyIncrementForRudderDeflection}{\glssymbol{coefficientLateralForceBodyIncrementForRudderDeflection}}
 {\ensuremath{C_{{\ensuremath{Y}}_{\ensuremath{\delta_{r}}}}}}
 \end_inset
 
@@ -1235,8 +1231,64 @@ multicol
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLateralForceIncrementForAngularRatep}{\glssymbol{coefficientLateralForceIncrementForAngularRatep}}
+\newcommand{\coefficientLateralForceBodyIncrementForAngularRatep}{\glssymbol{coefficientLateralForceBodyIncrementForAngularRatep}}
 {\ensuremath{C_{{\ensuremath{Y}}_{\ensuremath{p}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientLateralForceWind}{\glssymbol{coefficientLateralForceWind}}
+{\ensuremath{C_{\ensuremath{\mathcal{Y}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientLateralForceWindZeroLift}{\glssymbol{coefficientLateralForceWindZeroLift}}
+{\ensuremath{C_{\ensuremath{\mathcal{Y}}_{0}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientLateralForceWindIncrementForAngleSideSlip}{\glssymbol{coefficientLateralForceWindIncrementForAngleSideSlip}}
+{\ensuremath{C_{{\ensuremath{\mathcal{Y}}}_{\ensuremath{\beta}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientLateralForceWindIncrementForRudderDeflection}{\glssymbol{coefficientLateralForceWindIncrementForRudderDeflection}}
+{\ensuremath{C_{{\ensuremath{\mathcal{Y}}}_{\ensuremath{\delta_{r}}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientLateralForceWindIncrementForAngularRatep}{\glssymbol{coefficientLateralForceWindIncrementForAngularRatep}}
+{\ensuremath{C_{{\ensuremath{\mathcal{Y}}}_{\ensuremath{p}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientLateralForceWindIncrementForAngularRater}{\glssymbol{coefficientLateralForceWindIncrementForAngularRater}}
+{\ensuremath{C_{{\ensuremath{\mathcal{Y}}}_{\ensuremath{r}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientLateralForceWindIncrementForDotAngleSideSlip}{\glssymbol{coefficientLateralForceWindIncrementForDotAngleSideSlip}}
+{\ensuremath{C_{{\ensuremath{\mathcal{Y}}}_{\glsentrysymbol{dotAngleSideslip}}}}}
 \end_inset
 
 \end_layout
