@@ -1,16 +1,16 @@
-#LyX 2.4 created this file. For more info see https://www.lyx.org/
+#LyX file created by tex2lyx 2.4
 \lyxformat 620
 \begin_document
 \begin_header
 \save_transient_properties true
-\origin unavailable
+\origin /media/Arquivos/eah/repos/rocket_6dof_doc/glossaries/
 \textclass extarticle
 \use_default_options false
 \begin_modules
 theorems-ams
 \end_modules
 \maintain_unincluded_children no
-\language english
+\language brazil
 \language_package default
 \inputencoding utf8
 \fontencoding T1
@@ -40,7 +40,7 @@ theorems-ams
 \papersize a4
 \use_geometry true
 \use_package amsmath 2
-\use_package amssymb 0
+\use_package amssymb 2
 \use_package cancel 0
 \use_package esint 1
 \use_package mathdots 0
@@ -58,9 +58,8 @@ theorems-ams
 \suppress_date false
 \justification true
 \use_refstyle 0
-\use_formatted_ref 0
 \use_minted 0
-\use_lineno 0
+\use_lineno false
 \index Index
 \shortcut idx
 \color #008000
@@ -83,11 +82,9 @@ theorems-ams
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
-\tablestyle default
 \tracking_changes false
 \output_changes false
 \change_bars false
-\postpone_fragile_content true
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
@@ -96,1627 +93,1039 @@ theorems-ams
 \end_header
 
 \begin_body
+
 \begin_layout Standard
+
+\lang brazil
+
+\lang english
+
 \begin_inset FormulaMacro
-\newcommand{\timeState}{\glssymbol{timeState}}
-{\ensuremath{t}}
+\def\timeState {\glssymbol{timeState}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\temperature}{\glssymbol{temperature}}
-{\ensuremath{T}}
+\def\temperature {\glssymbol{temperature}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\temperatureC}{\glssymbol{temperatureC}}
-{\ensuremath{T_{C}}}
+\def\temperatureC {\glssymbol{temperatureC}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\pressure}{\glssymbol{pressure}}
-{\ensuremath{p}}
+\def\pressure {\glssymbol{pressure}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\flightSpeed}{\glssymbol{flightSpeed}}
-{\ensuremath{V}}
+\def\flightSpeed {\glssymbol{flightSpeed}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\angleAttack}{\glssymbol{angleAttack}}
-{\ensuremath{\alpha}}
+\def\angleAttack {\glssymbol{angleAttack}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\angleSideslip}{\glssymbol{angleSideslip}}
-{\ensuremath{\beta}}
+\def\angleSideslip {\glssymbol{angleSideslip}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\machAngle}{\glssymbol{machAngle}}
-{\ensuremath{\mu}}
+\def\machAngle {\glssymbol{machAngle}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\machNumber}{\glssymbol{machNumber}}
-{\ensuremath{M}}
+\def\machNumber {\glssymbol{machNumber}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\lateralForceWind}{\glssymbol{lateralForceWind}}
-{\ensuremath{\mathcal{Y}}}
+\def\lateralForceWind {\glssymbol{lateralForceWind}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\liftForce}{\glssymbol{liftForce}}
-{\ensuremath{L}}
+\def\liftForce {\glssymbol{liftForce}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\dragForce}{\glssymbol{dragForce}}
-{\ensuremath{D}}
+\def\dragForce {\glssymbol{dragForce}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\momentAerodynamic}{\glssymbol{momentAerodynamic}}
-{\ensuremath{M}}
+\def\momentAerodynamic {\glssymbol{momentAerodynamic}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\density}{\glssymbol{density}}
-{\ensuremath{\rho}}
+\def\density {\glssymbol{density}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\velocity}{\glssymbol{velocity}}
-{\ensuremath{V}}
+\def\velocity {\glssymbol{velocity}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\positionVector}{\glssymbol{positionVector}}
-{\ensuremath{\mathbf{p}}}
+\def\positionVector {\glssymbol{positionVector}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\velocityVector}{\glssymbol{velocityVector}}
-{\ensuremath{\mathbf{v}}}
+\def\velocityVector {\glssymbol{velocityVector}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\accelerationVector}{\glssymbol{accelerationVector}}
-{\ensuremath{\mathbf{a}}}
+\def\accelerationVector {\glssymbol{accelerationVector}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\velocityu}{\glssymbol{velocityu}}
-{\ensuremath{u}}
+\def\velocityu {\glssymbol{velocityu}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\velocityv}{\glssymbol{velocityv}}
-{\ensuremath{v}}
+\def\velocityv {\glssymbol{velocityv}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\velocityw}{\glssymbol{velocityw}}
-{\ensuremath{w}}
+\def\velocityw {\glssymbol{velocityw}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\angularRatep}{\glssymbol{angularRatep}}
-{\ensuremath{p}}
+\def\angularRatep {\glssymbol{angularRatep}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\angularRateq}{\glssymbol{angularRateq}}
-{\ensuremath{q}}
+\def\angularRateq {\glssymbol{angularRateq}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\angularRater}{\glssymbol{angularRater}}
-{\ensuremath{r}}
+\def\angularRater {\glssymbol{angularRater}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\soundSpeed}{\glssymbol{soundSpeed}}
-{\ensuremath{a}}
+\def\soundSpeed {\glssymbol{soundSpeed}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\axialForceX}{\glssymbol{axialForceX}}
-{\ensuremath{X}}
+\def\axialForceX {\glssymbol{axialForceX}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\LateralForceBodyY}{\glssymbol{LateralForceBodyY}}
-{\ensuremath{Y}}
+\def\LateralForceBodyY {\glssymbol{LateralForceBodyY}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\normalForceZ}{\glssymbol{normalForceZ}}
-{\ensuremath{Z}}
+\def\normalForceZ {\glssymbol{normalForceZ}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\axialForceXstability}{\glssymbol{axialForceXstability}}
-{\ensuremath{\ensuremath{A}}}
+\def\axialForceXstability {\glssymbol{axialForceXstability}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\LateralForceYstability}{\glssymbol{LateralForceYstability}}
-{\ensuremath{\ensuremath{{}^{\glsentryname{stabilitySystem}}Y}}}
+\def\LateralForceYstability {\glssymbol{LateralForceYstability}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\normalForceZstability}{\glssymbol{normalForceZstability}}
-{\ensuremath{\ensuremath{N}}}
+\def\normalForceZstability {\glssymbol{normalForceZstability}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\momentRoll}{\glssymbol{momentRoll}}
-{\ensuremath{l}}
+\def\momentRoll {\glssymbol{momentRoll}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\momentPitch}{\glssymbol{momentPitch}}
-{\ensuremath{m}}
+\def\momentPitch {\glssymbol{momentPitch}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\momentYaw}{\glssymbol{momentYaw}}
-{\ensuremath{n}}
+\def\momentYaw {\glssymbol{momentYaw}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\symmetricElevon}{\glssymbol{symmetricElevon}}
-{\ensuremath{\delta_{e}}}
+\def\symmetricElevon {\glssymbol{symmetricElevon}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\differentialElevon}{\glssymbol{differentialElevon}}
-{\ensuremath{\delta_{a}}}
+\def\differentialElevon {\glssymbol{differentialElevon}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\rudderDeflection}{\glssymbol{rudderDeflection}}
-{\ensuremath{\delta_{r}}}
+\def\rudderDeflection {\glssymbol{rudderDeflection}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\forceVector}{\glssymbol{forceVector}}
-{\ensuremath{\mathbf{f}}}
+\def\forceVector {\glssymbol{forceVector}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\forceVectorPropulsion}{\glssymbol{forceVectorPropulsion}}
-{\ensuremath{{\ensuremath{\mathbf{f}}}_{p}}}
+\def\forceVectorPropulsion {\glssymbol{forceVectorPropulsion}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\specificImpulse}{\glssymbol{specificImpulse}}
-{\ensuremath{I_\textrm{sp}}}
+\def\specificImpulse {\glssymbol{specificImpulse}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\forcePropulsion}{\glssymbol{forcePropulsion}}
-{\ensuremath{\ensuremath{f_{p}}}}
+\def\forcePropulsion {\glssymbol{forcePropulsion}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\forceVectorAerodynamic}{\glssymbol{forceVectorAerodynamic}}
-{\ensuremath{{\ensuremath{\mathbf{f}}}_{a}}}
+\def\forceVectorAerodynamic {\glssymbol{forceVectorAerodynamic}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\forceXbody}{\glssymbol{forceXbody}}
-{\ensuremath{f_{x}}}
+\def\forceXbody {\glssymbol{forceXbody}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\forceYbody}{\glssymbol{forceYbody}}
-{\ensuremath{f_{y}}}
+\def\forceYbody {\glssymbol{forceYbody}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\forceZbody}{\glssymbol{forceZbody}}
-{\ensuremath{f_{z}}}
+\def\forceZbody {\glssymbol{forceZbody}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\momentVector}{\glssymbol{momentVector}}
-{\ensuremath{\mathbf{m}}}
+\def\momentVector {\glssymbol{momentVector}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\momentXbody}{\glssymbol{momentXbody}}
-{\ensuremath{m_{x}}}
+\def\momentXbody {\glssymbol{momentXbody}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\momentYbody}{\glssymbol{momentYbody}}
-{\ensuremath{m_{y}}}
+\def\momentYbody {\glssymbol{momentYbody}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\momentZbody}{\glssymbol{momentZbody}}
-{\ensuremath{m_{z}}}
+\def\momentZbody {\glssymbol{momentZbody}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\gravityVector}{\glssymbol{gravityVector}}
-{\ensuremath{\mathbf{g}}}
+\def\gravityVector {\glssymbol{gravityVector}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\gravitationalAccelerationNavigationSystem}{\glssymbol{gravitationalAccelerationNavigationSystem}}
-{\ensuremath{g}}
+\def\gravitationalAccelerationNavigationSystem {\glssymbol{gravitationalAccelerationNavigationSystem}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\angularRateVector}{\glssymbol{angularRateVector}}
-{\ensuremath{\boldsymbol{\omega}}}
+\def\angularRateVector {\glssymbol{angularRateVector}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\angleBetweenFramesEcefInertial}{\glssymbol{angleBetweenFramesEcefInertial}}
-{\ensuremath{\theta_{\ensuremath{\mathrm{i}}\ensuremath{\mathrm{e}}}}}
+\def\angleBetweenFramesEcefInertial {\glssymbol{angleBetweenFramesEcefInertial}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\geodeticLatitude}{\glssymbol{geodeticLatitude}}
-{\ensuremath{\phi}}
+\def\geodeticLatitude {\glssymbol{geodeticLatitude}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\geodeticLongitude}{\glssymbol{geodeticLongitude}}
-{\ensuremath{\lambda}}
+\def\geodeticLongitude {\glssymbol{geodeticLongitude}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\quaternion}{\glssymbol{quaternion}}
-{\ensuremath{\mathbf{q}}}
+\def\quaternion {\glssymbol{quaternion}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\qv}{\glssymbol{qv}}
-{\ensuremath{\mathbf{q}_v}}
+\def\qv {\glssymbol{qv}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\cotangentMachAngle}{\glssymbol{cotangentMachAngle}}
-{\ensuremath{B}}
+\def\cotangentMachAngle {\glssymbol{cotangentMachAngle}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\BCotTrailingEdge}{\glssymbol{BCotTrailingEdge}}
-{\ensuremath{g}}
+\def\BCotTrailingEdge {\glssymbol{BCotTrailingEdge}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\completeEllipticIntegralFirstKind}{\glssymbol{completeEllipticIntegralFirstKind}}
-{\ensuremath{K^{\prime}}}
+\def\completeEllipticIntegralFirstKind {\glssymbol{completeEllipticIntegralFirstKind}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\completeEllipticIntegralSecondKind}{\glssymbol{completeEllipticIntegralSecondKind}}
-{\ensuremath{E^{\prime}}}
+\def\completeEllipticIntegralSecondKind {\glssymbol{completeEllipticIntegralSecondKind}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\parameterI}{\glssymbol{parameterI}}
-{\ensuremath{I}}
+\def\parameterI {\glssymbol{parameterI}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\mNaca}{\glssymbol{mNaca}}
-{\ensuremath{m}}
+\def\mNaca {\glssymbol{mNaca}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\geometricParameterOfWing}{\glssymbol{geometricParameterOfWing}}
-{\ensuremath{\omega}}
+\def\geometricParameterOfWing {\glssymbol{geometricParameterOfWing}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\n}{\glssymbol{n}}
-{\ensuremath{n}}
+\def\n {\glssymbol{n}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\wingSpan}{\glssymbol{wingSpan}}
-{\ensuremath{b}}
+\def\wingSpan {\glssymbol{wingSpan}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\wingRootChord}{\glssymbol{wingRootChord}}
-{\ensuremath{c_{r}}}
+\def\wingRootChord {\glssymbol{wingRootChord}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\wingMeanAerodynamicChord}{\glssymbol{wingMeanAerodynamicChord}}
-{\ensuremath{\overline{c}}}
+\def\wingMeanAerodynamicChord {\glssymbol{wingMeanAerodynamicChord}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\wingTipChord}{\glssymbol{wingTipChord}}
-{\ensuremath{c_{t}}}
+\def\wingTipChord {\glssymbol{wingTipChord}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\wingArea}{\glssymbol{wingArea}}
-{\ensuremath{S}}
+\def\referenceArea {\glssymbol{referenceArea}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\aspectRation}{\glssymbol{aspectRation}}
-{\ensuremath{A }}
+\def\aspectRation {\glssymbol{aspectRation}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\angleBetweenLeadingEdgeAndAxisSymmetry}{\glssymbol{angleBetweenLeadingEdgeAndAxisSymmetry}}
-{\ensuremath{\epsilon}}
+\def\angleBetweenLeadingEdgeAndAxisSymmetry {\glssymbol{angleBetweenLeadingEdgeAndAxisSymmetry}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\angleBetweenTrailingEdgeAndAxisSymmetry}{\glssymbol{angleBetweenTrailingEdgeAndAxisSymmetry}}
-{\ensuremath{\delta}}
+\def\angleBetweenTrailingEdgeAndAxisSymmetry {\glssymbol{angleBetweenTrailingEdgeAndAxisSymmetry}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\angleLeadingEdgeSweep}{\glssymbol{angleLeadingEdgeSweep}}
-{\ensuremath{\Lambda}}
+\def\angleLeadingEdgeSweep {\glssymbol{angleLeadingEdgeSweep}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\taperRatio}{\glssymbol{taperRatio}}
-{\ensuremath{\lambda}}
+\def\taperRatio {\glssymbol{taperRatio}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\characteristicLongitudinalLength}{\glssymbol{characteristicLongitudinalLength}}
-{\ensuremath{\ell_{\text{ref}}}}
+\def\referenceLongitudinalLength {\glssymbol{referenceLongitudinalLength}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\characteristicLateralLength}{\glssymbol{characteristicLateralLength}}
-{\ensuremath{c_{\text{ref}}}}
+\def\referenceLateralLength {\glssymbol{referenceLateralLength}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\mass}{\glssymbol{mass}}
-{\ensuremath{m}}
+\def\mass {\glssymbol{mass}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\massMomentOfInertiax}{\glssymbol{massMomentOfInertiax}}
-{\ensuremath{I_{x}}}
+\def\massMomentOfInertiax {\glssymbol{massMomentOfInertiax}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\massMomentOfInertiy}{\glssymbol{massMomentOfInertiy}}
-{\ensuremath{I_{y}}}
+\def\massMomentOfInertiy {\glssymbol{massMomentOfInertiy}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\massMomentOfInertiaz}{\glssymbol{massMomentOfInertiaz}}
-{\ensuremath{I_{z}}}
+\def\massMomentOfInertiaz {\glssymbol{massMomentOfInertiaz}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\tensorOfInertiaMatrix}{\glssymbol{tensorOfInertiaMatrix}}
-{\ensuremath{\ensuremath{\mathbf{I}}}}
+\def\tensorOfInertiaMatrix {\glssymbol{tensorOfInertiaMatrix}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\propellantMass}{\glssymbol{propellantMass}}
-{\ensuremath{m_\mathrm{p}}}
+\def\propellantMass {\glssymbol{propellantMass}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\stageMass}{\glssymbol{stageMass}}
-{\ensuremath{m_\mathrm{s}}}
+\def\stageMass {\glssymbol{stageMass}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\structuralMass}{\glssymbol{structuralMass}}
-{\ensuremath{{m}_\mathrm{d}}}
+\def\structuralMass {\glssymbol{structuralMass}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\cgDry}{\glssymbol{cgDry}}
-{\ensuremath{\mathbf{c}_\mathrm{g}}}
+\def\cgDry {\glssymbol{cgDry}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\cgPropellant}{\glssymbol{cgPropellant}}
-{\ensuremath{\mathbf{c}_\mathrm{p}}}
+\def\cgPropellant {\glssymbol{cgPropellant}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\stageCg}{\glssymbol{stageCg}}
-{\ensuremath{\mathbf{c}_\mathrm{s}}}
+\def\stageCg {\glssymbol{stageCg}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\structuralCG}{\glssymbol{structuralCG}}
-{\ensuremath{\mathbf{c}_\mathrm{d}}}
+\def\structuralCG {\glssymbol{structuralCG}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\propellantCg}{\glssymbol{propellantCg}}
-{\ensuremath{\mathbf{c}_\mathrm{p}}}
+\def\propellantCg {\glssymbol{propellantCg}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\totalCgBody}{\glssymbol{totalCgBody}}
-{\ensuremath{{\mathbf{c}}_{b}}}
+\def\totalCgBody {\glssymbol{totalCgBody}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\stagePosition}{\glssymbol{stagePosition}}
-{\ensuremath{\mathbf{r}_\mathrm{s}}}
+\def\stagePosition {\glssymbol{stagePosition}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\stageInertia}{\glssymbol{stageInertia}}
-{\ensuremath{\mathbf{I}_\mathrm{s}}}
+\def\stageInertia {\glssymbol{stageInertia}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\inertiaStructural}{\glssymbol{inertiaStructural}}
-{\ensuremath{\mathbf{I}_\mathrm{d}}}
+\def\inertiaStructural {\glssymbol{inertiaStructural}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\inertiaPropellant}{\glssymbol{inertiaPropellant}}
-{\ensuremath{\mathbf{I}_\mathrm{p}}}
+\def\inertiaPropellant {\glssymbol{inertiaPropellant}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\displacementVectorStructural}{\glssymbol{displacementVectorStructural}}
-{\ensuremath{\mathbf{d}_\mathrm{d}}}
+\def\displacementVectorStructural {\glssymbol{displacementVectorStructural}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\displacementVectorProp}{\glssymbol{displacementVectorProp}}
-{\ensuremath{\mathbf{d}_\mathrm{p}}}
+\def\displacementVectorProp {\glssymbol{displacementVectorProp}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\displacementVector}{\glssymbol{displacementVector}}
-{\ensuremath{\mathbf{d}}}
+\def\displacementVector {\glssymbol{displacementVector}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\totalInertiaCG}{\glssymbol{totalInertiaCG}}
-{\ensuremath{\mathbf{I}_\mathrm{\glsentryname{cg}}}}
+\def\totalInertiaCG {\glssymbol{totalInertiaCG}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\totalInertia}{\glssymbol{totalInertia}}
-{\ensuremath{\mathbf{I}}}
+\def\totalInertia {\glssymbol{totalInertia}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\vectorDistanceCGToSurface}{\glssymbol{vectorDistanceCGToSurface}}
-{\ensuremath{\ensuremath{\boldsymbol{\varsigma}}}}
+\def\vectorDistanceCGToSurface {\glssymbol{vectorDistanceCGToSurface}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\vectorDistanceSurface}{\glssymbol{vectorDistanceSurface}}
-{\ensuremath{\boldsymbol{\varrho}}}
+\def\vectorDistanceSurface {\glssymbol{vectorDistanceSurface}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientMoments}{\glssymbol{coefficientMoments}}
-{\ensuremath{C_{\ensuremath{M}}}}
+\def\aerodynamicChordReference {\glssymbol{aerodynamicChordReference}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientAxialForceBody}{\glssymbol{coefficientAxialForceBody}}
-{\ensuremath{C_{\ensuremath{X}}}}
+\def\coefficientMoments {\glssymbol{coefficientMoments}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientNormalForceZBody}{\glssymbol{coefficientNormalForceZBody}}
-{\ensuremath{C_{\ensuremath{Z}}}}
+\def\coefficientAxialForceBody {\glssymbol{coefficientAxialForceBody}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientAxialForceStability}{\glssymbol{coefficientAxialForceStability}}
-{\ensuremath{C_{\ensuremath{A}}}}
+\def\coefficientNormalForceZBody {\glssymbol{coefficientNormalForceZBody}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\dynamicPressure}{\glssymbol{dynamicPressure}}
-{\ensuremath{\ensuremath{Q}}}
+\def\coefficientAxialForceStability {\glssymbol{coefficientAxialForceStability}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientDrag}{\glssymbol{coefficientDrag}}
-{\ensuremath{C_{\ensuremath{D}}}}
+\def\dynamicPressure {\glssymbol{dynamicPressure}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientDragIncrementForAngleAtack}{\glssymbol{coefficientDragIncrementForAngleAtack}}
-{\ensuremath{C_{{\ensuremath{D}}_{\ensuremath{\alpha}}}}}
+\def\coefficientDrag {\glssymbol{coefficientDrag}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientDragIncrementForSymmetricElevon}{\glssymbol{coefficientDragIncrementForSymmetricElevon}}
-{\ensuremath{C_{{\ensuremath{D}}_{\ensuremath{\delta_{e}}}}}}
+\def\coefficientDragIncrementForAngleAtack {\glssymbol{coefficientDragIncrementForAngleAtack}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientDragZeroLift}{\glssymbol{coefficientDragZeroLift}}
-{\ensuremath{C_{{\ensuremath{D}}_{0}}}}
+\def\coefficientDragIncrementForSymmetricElevon {\glssymbol{coefficientDragIncrementForSymmetricElevon}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLift}{\glssymbol{coefficientLift}}
-{\ensuremath{C_{\ensuremath{L}}}}
+\def\coefficientDragZeroLift {\glssymbol{coefficientDragZeroLift}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLiftZero}{\glssymbol{coefficientLiftZero}}
-{\ensuremath{C_{\ensuremath{L}_{0}}}}
+\def\coefficientLift {\glssymbol{coefficientLift}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLiftIncrementForAngleAtack}{\glssymbol{coefficientLiftIncrementForAngleAtack}}
-{\ensuremath{C_{{\ensuremath{L}}_{\ensuremath{\alpha}}}}}
+\def\coefficientLiftZero {\glssymbol{coefficientLiftZero}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLiftIncrementForDotAngleAtack}{\glssymbol{coefficientLiftIncrementForDotAngleAtack}}
-{\ensuremath{C_{{\ensuremath{L}}_{\dot{\ensuremath{\alpha}}}}}}
+\def\coefficientLiftIncrementForAngleAtack {\glssymbol{coefficientLiftIncrementForAngleAtack}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLiftIncrementForAngularRateq}{\glssymbol{coefficientLiftIncrementForAngularRateq}}
-{\ensuremath{C_{{\ensuremath{L}}_{\ensuremath{q}}}}}
+\def\coefficientLiftIncrementForDotAngleAtack {\glssymbol{coefficientLiftIncrementForDotAngleAtack}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLiftIncrementForSymmetricElevon}{\glssymbol{coefficientLiftIncrementForSymmetricElevon}}
-{\ensuremath{C_{{\ensuremath{L}}_{\ensuremath{\delta_{e}}}}}}
+\def\coefficientLiftIncrementForAngularRateq {\glssymbol{coefficientLiftIncrementForAngularRateq}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientPitchingMoment}{\glssymbol{coefficientPitchingMoment}}
-{\ensuremath{C_{\ensuremath{m}}}}
+\def\coefficientLiftIncrementForSymmetricElevon {\glssymbol{coefficientLiftIncrementForSymmetricElevon}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientPitchingMomentZeroLift}{\glssymbol{coefficientPitchingMomentZeroLift}}
-{\ensuremath{C_{{\ensuremath{m}}_{0}}}}
+\def\coefficientPitchingMoment {\glssymbol{coefficientPitchingMoment}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientPitchingMomentIncrementForAngleAtack}{\glssymbol{coefficientPitchingMomentIncrementForAngleAtack}}
-{\ensuremath{C_{{\ensuremath{m}}_{\ensuremath{\alpha}}}}}
+\def\coefficientPitchingMomentZeroLift {\glssymbol{coefficientPitchingMomentZeroLift}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientPitchingMomentIncrementForDotAngleAtack}{\glssymbol{coefficientPitchingMomentIncrementForDotAngleAtack}}
-{\ensuremath{C_{{\ensuremath{m}}_{\dot{\ensuremath{\alpha}}}}}}
+\def\coefficientPitchingMomentIncrementForAngleAtack {\glssymbol{coefficientPitchingMomentIncrementForAngleAtack}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientPitchingMomentIncrementForSymmetricElevon}{\glssymbol{coefficientPitchingMomentIncrementForSymmetricElevon}}
-{\ensuremath{C_{{\ensuremath{m}}_{\ensuremath{\delta_{e}}}}}}
+\def\coefficientPitchingMomentIncrementForDotAngleAtack {\glssymbol{coefficientPitchingMomentIncrementForDotAngleAtack}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientPitchingMomentIncrementForAngularRateq}{\glssymbol{coefficientPitchingMomentIncrementForAngularRateq}}
-{\ensuremath{C_{{\ensuremath{m}}_{\ensuremath{q}}}}}
+\def\coefficientPitchingMomentIncrementForSymmetricElevon {\glssymbol{coefficientPitchingMomentIncrementForSymmetricElevon}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientRollingMoment}{\glssymbol{coefficientRollingMoment}}
-{\ensuremath{C_{\ensuremath{l}}}}
+\def\coefficientPitchingMomentIncrementForAngularRateq {\glssymbol{coefficientPitchingMomentIncrementForAngularRateq}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientRollingMomentZeroLift}{\glssymbol{coefficientRollingMomentZeroLift}}
-{\ensuremath{C_{\ensuremath{l}_{0}}}}
+\def\coefficientRollingMoment {\glssymbol{coefficientRollingMoment}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientRollingMomentIncrementForAngleSideSlip}{\glssymbol{coefficientRollingMomentIncrementForAngleSideSlip}}
-{\ensuremath{C_{{\ensuremath{l}}_{\ensuremath{\beta}}}}}
+\def\coefficientRollingMomentZeroLift {\glssymbol{coefficientRollingMomentZeroLift}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientRollingMomentIncrementForAngularRatep}{\glssymbol{coefficientRollingMomentIncrementForAngularRatep}}
-{\ensuremath{C_{{\ensuremath{l}}_{\ensuremath{p}}}}}
+\def\coefficientRollingMomentIncrementForAngleSideSlip {\glssymbol{coefficientRollingMomentIncrementForAngleSideSlip}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientRollingMomentIncrementForAngularRater}{\glssymbol{coefficientRollingMomentIncrementForAngularRater}}
-{\ensuremath{C_{{\ensuremath{l}}_{\ensuremath{r}}}}}
+\def\coefficientRollingMomentIncrementForAngularRatep {\glssymbol{coefficientRollingMomentIncrementForAngularRatep}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientRollingMomentIncrementForDotAngleSideSlip}{\glssymbol{coefficientRollingMomentIncrementForDotAngleSideSlip}}
-{\ensuremath{C_{{\ensuremath{l}}_{\dot{\ensuremath{\beta}}}}}}
+\def\coefficientRollingMomentIncrementForDifferentialElevon {\glssymbol{coefficientRollingMomentIncrementForDifferentialElevon}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientRollingMomentIncrementForDifferentialElevon}{\glssymbol{coefficientRollingMomentIncrementForDifferentialElevon}}
-{\ensuremath{C_{{\ensuremath{l}}_{\ensuremath{\delta_{a}}}}}}
+\def\coefficientRollingMomentIncrementForRudderDeflection {\glssymbol{coefficientRollingMomentIncrementForRudderDeflection}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientRollingMomentIncrementForRudderDeflection}{\glssymbol{coefficientRollingMomentIncrementForRudderDeflection}}
-{\ensuremath{C_{{\ensuremath{l}}_{\ensuremath{\delta_{r}}}}}}
+\def\coefficientYawingMoment {\glssymbol{coefficientYawingMoment}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientYawingMoment}{\glssymbol{coefficientYawingMoment}}
-{\ensuremath{C_\ensuremath{n}}}
+\def\coefficientYawingMomentZeroLift {\glssymbol{coefficientYawingMomentZeroLift}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientYawingMomentZeroLift}{\glssymbol{coefficientYawingMomentZeroLift}}
-{\ensuremath{C_{\ensuremath{n}_{0}}}}
+\def\coefficientYawingMomentIncrementForAngleSideSlip {\glssymbol{coefficientYawingMomentIncrementForAngleSideSlip}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientYawingMomentIncrementForAngleSideSlip}{\glssymbol{coefficientYawingMomentIncrementForAngleSideSlip}}
-{\ensuremath{C_{{\ensuremath{n}}_{\ensuremath{\beta}}}}}
+\def\coefficientYawingMomentIncrementForAngularRater {\glssymbol{coefficientYawingMomentIncrementForAngularRater}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientYawingMomentIncrementForAngularRater}{\glssymbol{coefficientYawingMomentIncrementForAngularRater}}
-{\ensuremath{C_{{\ensuremath{n}}_{\ensuremath{r}}}}}
+\def\coefficientYawingMomentIncrementForDifferentialElevon {\glssymbol{coefficientYawingMomentIncrementForDifferentialElevon}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientYawingMomentIncrementForDifferentialElevon}{\glssymbol{coefficientYawingMomentIncrementForDifferentialElevon}}
-{\ensuremath{C_{{\ensuremath{n}}_{\ensuremath{\delta_{a}}}}}}
+\def\coefficientYawingMomentIncrementForRudderDeflection {\glssymbol{coefficientYawingMomentIncrementForRudderDeflection}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientYawingMomentIncrementForRudderDeflection}{\glssymbol{coefficientYawingMomentIncrementForRudderDeflection}}
-{\ensuremath{C_{{\ensuremath{n}}_{\ensuremath{\delta_{r}}}}}}
+\def\coefficientYawingMomentIncrementForAngularRatep {\glssymbol{coefficientYawingMomentIncrementForAngularRatep}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientYawingMomentIncrementForAngularRatep}{\glssymbol{coefficientYawingMomentIncrementForAngularRatep}}
-{\ensuremath{C_{{\ensuremath{n}}_{\ensuremath{p}}}}}
+\def\coefficientLateralForceBody {\glssymbol{coefficientLateralForceBody}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLateralForceBody}{\glssymbol{coefficientLateralForceBody}}
-{\ensuremath{C_{\ensuremath{Y}}}}
+\def\coefficientLateralForceBodyZeroLift {\glssymbol{coefficientLateralForceBodyZeroLift}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLateralForceBodyZeroLift}{\glssymbol{coefficientLateralForceBodyZeroLift}}
-{\ensuremath{C_{\ensuremath{Y}_{0}}}}
+\def\coefficientLateralForceBodyIncrementForAngleSideSlip {\glssymbol{coefficientLateralForceBodyIncrementForAngleSideSlip}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLateralForceBodyIncrementForAngleSideSlip}{\glssymbol{coefficientLateralForceBodyIncrementForAngleSideSlip}}
-{\ensuremath{C_{{\ensuremath{Y}}_{\ensuremath{\beta}}}}}
+\def\coefficientLateralForceBodyIncrementForDifferentialElevon {\glssymbol{coefficientLateralForceBodyIncrementForDifferentialElevon}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLateralForceBodyIncrementForDifferentialElevon}{\glssymbol{coefficientLateralForceBodyIncrementForDifferentialElevon}}
-{\ensuremath{C_{{\ensuremath{Y}}_{\ensuremath{\delta_{a}}}}}}
+\def\coefficientLateralForceBodyIncrementForRudderDeflection {\glssymbol{coefficientLateralForceBodyIncrementForRudderDeflection}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLateralForceBodyIncrementForRudderDeflection}{\glssymbol{coefficientLateralForceBodyIncrementForRudderDeflection}}
-{\ensuremath{C_{{\ensuremath{Y}}_{\ensuremath{\delta_{r}}}}}}
+\def\coefficientLateralForceBodyIncrementForAngularRatep {\glssymbol{coefficientLateralForceBodyIncrementForAngularRatep}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLateralForceBodyIncrementForAngularRatep}{\glssymbol{coefficientLateralForceBodyIncrementForAngularRatep}}
-{\ensuremath{C_{{\ensuremath{Y}}_{\ensuremath{p}}}}}
+\def\coefficientLateralForceWind {\glssymbol{coefficientLateralForceWind}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLateralForceWind}{\glssymbol{coefficientLateralForceWind}}
-{\ensuremath{C_{\ensuremath{\mathcal{Y}}}}}
+\def\coefficientLateralForceWindZeroLift {\glssymbol{coefficientLateralForceWindZeroLift}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLateralForceWindZeroLift}{\glssymbol{coefficientLateralForceWindZeroLift}}
-{\ensuremath{C_{\ensuremath{\mathcal{Y}}_{0}}}}
+\def\coefficientLateralForceWindIncrementForAngleSideSlip {\glssymbol{coefficientLateralForceWindIncrementForAngleSideSlip}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLateralForceWindIncrementForAngleSideSlip}{\glssymbol{coefficientLateralForceWindIncrementForAngleSideSlip}}
-{\ensuremath{C_{{\ensuremath{\mathcal{Y}}}_{\ensuremath{\beta}}}}}
+\def\coefficientLateralForceWindIncrementForRudderDeflection {\glssymbol{coefficientLateralForceWindIncrementForRudderDeflection}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLateralForceWindIncrementForRudderDeflection}{\glssymbol{coefficientLateralForceWindIncrementForRudderDeflection}}
-{\ensuremath{C_{{\ensuremath{\mathcal{Y}}}_{\ensuremath{\delta_{r}}}}}}
+\def\coefficientLateralForceWindIncrementForAngularRatep {\glssymbol{coefficientLateralForceWindIncrementForAngularRatep}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLateralForceWindIncrementForAngularRatep}{\glssymbol{coefficientLateralForceWindIncrementForAngularRatep}}
-{\ensuremath{C_{{\ensuremath{\mathcal{Y}}}_{\ensuremath{p}}}}}
+\def\coefficientLateralForceWindIncrementForAngularRater {\glssymbol{coefficientLateralForceWindIncrementForAngularRater}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLateralForceWindIncrementForAngularRater}{\glssymbol{coefficientLateralForceWindIncrementForAngularRater}}
-{\ensuremath{C_{{\ensuremath{\mathcal{Y}}}_{\ensuremath{r}}}}}
+\def\coefficientLateralForceWindIncrementForDotAngleSideSlip {\glssymbol{coefficientLateralForceWindIncrementForDotAngleSideSlip}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLateralForceWindIncrementForDotAngleSideSlip}{\glssymbol{coefficientLateralForceWindIncrementForDotAngleSideSlip}}
-{\ensuremath{C_{{\ensuremath{\mathcal{Y}}}_{\dot{\ensuremath{\beta}}}}}}
+\def\matrixRotation {\glssymbol{matrixRotation}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\matrixRotation}{\glssymbol{matrixRotation}}
-{\ensuremath{\mathbf{R}}}
+\def\identityMatrix {\glssymbol{identityMatrix}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\identityMatrix}{\glssymbol{identityMatrix}}
-{\ensuremath{\mathbf{I}}}
+\def\zeroMatrix {\glssymbol{zeroMatrix}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\zeroMatrix}{\glssymbol{zeroMatrix}}
-{\ensuremath{\mathbf{0}}}
+\def\timesOperator {\glssymbol{timesOperator}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\timesOperator}{\glssymbol{timesOperator}}
-{\ensuremath{\times}}
+\def\matrixAntssymmetric {\glssymbol{matrixAntssymmetric}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\matrixAntssymmetric}{\glssymbol{matrixAntssymmetric}}
-{\ensuremath{\mathcal{A}}}
+\def\transpose {\glssymbol{transpose}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\transpose}{\glssymbol{transpose}}
-{\ensuremath{\intercal}}
+\def\inertialSystem {\glssymbol{inertialSystem}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\inertialSystem}{\glssymbol{inertialSystem}}
-{\ensuremath{\mathrm{i}}}
+\def\eciAxisx {\glssymbol{eciAxisx}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\eciAxisx}{\glssymbol{eciAxisx}}
-{\ensuremath{x_{\ensuremath{\mathrm{i}}}}}
+\def\eciAxisy {\glssymbol{eciAxisy}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\eciAxisy}{\glssymbol{eciAxisy}}
-{\ensuremath{y_{\ensuremath{\mathrm{i}}}}}
+\def\eciAxisz {\glssymbol{eciAxisz}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\eciAxisz}{\glssymbol{eciAxisz}}
-{\ensuremath{z_{\ensuremath{\mathrm{i}}}}}
+\def\geographicSystem {\glssymbol{geographicSystem}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\geographicSystem}{\glssymbol{geographicSystem}}
-{\ensuremath{\mathrm{g}}}
+\def\navigationSystem {\glssymbol{navigationSystem}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\navigationSystem}{\glssymbol{navigationSystem}}
-{\ensuremath{\mathrm{n}}}
+\def\stabilitySystem {\glssymbol{stabilitySystem}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\stabilitySystem}{\glssymbol{stabilitySystem}}
-{\ensuremath{\mathrm{s}}}
+\def\localSurfaceSystem {\glssymbol{localSurfaceSystem}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\localSurfaceSystem}{\glssymbol{localSurfaceSystem}}
-{\ensuremath{\mathcal{S}}}
+\def\bodySystem {\glssymbol{bodySystem}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\bodySystem}{\glssymbol{bodySystem}}
-{\ensuremath{\mathrm{b}}}
+\def\windSystem {\glssymbol{windSystem}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\windSystem}{\glssymbol{windSystem}}
-{\ensuremath{\mathrm{w}}}
+\def\vehicleSystem {\glssymbol{vehicleSystem}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\vehicleSystem}{\glssymbol{vehicleSystem}}
-{\ensuremath{\mathrm{v}}}
+\def\vehicleAxisx {\glssymbol{vehicleAxisx}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\vehicleAxisx}{\glssymbol{vehicleAxisx}}
-{\ensuremath{\mathbf{x}_{\ensuremath{\mathrm{v}}}}}
+\def\vehicleAxisy {\glssymbol{vehicleAxisy}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\vehicleAxisy}{\glssymbol{vehicleAxisy}}
-{\ensuremath{\mathbf{y}_{\ensuremath{\mathrm{v}}}}}
+\def\vehicleAxisz {\glssymbol{vehicleAxisz}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\vehicleAxisz}{\glssymbol{vehicleAxisz}}
-{\ensuremath{\mathbf{z}_{\ensuremath{\mathrm{v}}}}}
+\def\localSurfaceAxisx {\glssymbol{localSurfaceAxisx}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\localSurfaceAxisx}{\glssymbol{localSurfaceAxisx}}
-{\ensuremath{\mathbf{x}_{\ensuremath{\mathcal{S}}}}}
+\def\localSurfaceAxisy {\glssymbol{localSurfaceAxisy}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\localSurfaceAxisy}{\glssymbol{localSurfaceAxisy}}
-{\ensuremath{\mathbf{y}_{\ensuremath{\mathcal{S}}}}}
+\def\localSurfaceAxisz {\glssymbol{localSurfaceAxisz}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\localSurfaceAxisz}{\glssymbol{localSurfaceAxisz}}
-{\ensuremath{\mathbf{z}_{\ensuremath{\mathcal{S}}}}}
+\def\windAxisx {\glssymbol{windAxisx}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\windAxisx}{\glssymbol{windAxisx}}
-{\ensuremath{\mathbf{x}_{\ensuremath{\mathrm{w}}}}}
+\def\windAxisy {\glssymbol{windAxisy}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\windAxisy}{\glssymbol{windAxisy}}
-{\ensuremath{\mathbf{y}_{\ensuremath{\mathrm{w}}}}}
+\def\windAxisz {\glssymbol{windAxisz}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\windAxisz}{\glssymbol{windAxisz}}
-{\ensuremath{\mathbf{z}_{\ensuremath{\mathrm{w}}}}}
+\def\bodyAxisx {\glssymbol{bodyAxisx}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\bodyAxisx}{\glssymbol{bodyAxisx}}
-{\ensuremath{\mathbf{x}_{\ensuremath{\mathrm{b}}}}}
+\def\bodyAxisy {\glssymbol{bodyAxisy}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\bodyAxisy}{\glssymbol{bodyAxisy}}
-{\ensuremath{\mathbf{y}_{\ensuremath{\mathrm{b}}}}}
+\def\bodyAxisz {\glssymbol{bodyAxisz}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\bodyAxisz}{\glssymbol{bodyAxisz}}
-{\ensuremath{\mathbf{z}_{\ensuremath{\mathrm{b}}}}}
+\def\navigationAxisx {\glssymbol{navigationAxisx}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\navigationAxisx}{\glssymbol{navigationAxisx}}
-{\ensuremath{\mathbf{x}_{\ensuremath{\mathrm{n}}}}}
+\def\navigationAxisy {\glssymbol{navigationAxisy}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\navigationAxisy}{\glssymbol{navigationAxisy}}
-{\ensuremath{\mathbf{y}_{\ensuremath{\mathrm{n}}}}}
+\def\navigationAxisz {\glssymbol{navigationAxisz}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\navigationAxisz}{\glssymbol{navigationAxisz}}
-{\ensuremath{\mathbf{z}_{\ensuremath{\mathrm{n}}}}}
+\def\geographicAxisx {\glssymbol{geographicAxisx}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\geographicAxisx}{\glssymbol{geographicAxisx}}
-{\ensuremath{\mathbf{x}_{\ensuremath{\mathrm{g}}}}}
+\def\geographicAxisy {\glssymbol{geographicAxisy}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\geographicAxisy}{\glssymbol{geographicAxisy}}
-{\ensuremath{\mathbf{y}_{\ensuremath{\mathrm{g}}}}}
+\def\geographicAxisz {\glssymbol{geographicAxisz}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\geographicAxisz}{\glssymbol{geographicAxisz}}
-{\ensuremath{\mathbf{z}_{\ensuremath{\mathrm{g}}}}}
+\def\leftQuaternion {\glssymbol{leftQuaternion}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\leftQuaternion}{\glssymbol{leftQuaternion}}
-{\ensuremath{\boldsymbol{\mathcal{S}}_{l}}}
+\def\rightQuaternion {\glssymbol{rightQuaternion}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\rightQuaternion}{\glssymbol{rightQuaternion}}
-{\ensuremath{\boldsymbol{\mathcal{S}}_{r}}}
+\def\qi {\glssymbol{qi}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\qi}{\glssymbol{qi}}
-{\ensuremath{q}}
+\def\ecefSystem {\glssymbol{ecefSystem}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\ecefSystem}{\glssymbol{ecefSystem}}
-{\ensuremath{\mathrm{e}}}
+\def\ecefAxisx {\glssymbol{ecefAxisx}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\ecefAxisx}{\glssymbol{ecefAxisx}}
-{\ensuremath{\mathbf{x}_{\ensuremath{\mathrm{e}}}}}
+\def\ecefAxisy {\glssymbol{ecefAxisy}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\ecefAxisy}{\glssymbol{ecefAxisy}}
-{\ensuremath{\mathbf{y}_{\ensuremath{\mathrm{e}}}}}
+\def\ecefAxisz {\glssymbol{ecefAxisz}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\ecefAxisz}{\glssymbol{ecefAxisz}}
-{\ensuremath{\mathbf{z}_{\ensuremath{\mathrm{e}}}}}
+\def\ellipsoidalHeight {\glssymbol{ellipsoidalHeight}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\ellipsoidalHeight}{\glssymbol{ellipsoidalHeight}}
-{\ensuremath{h}}
+\def\realSet {\glssymbol{realSet}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\realSet}{\glssymbol{realSet}}
-{\ensuremath{\mathcal{R}}}
+\def\earthRotationVelocity {\glssymbol{earthRotationVelocity}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\earthRotationVelocity}{\glssymbol{earthRotationVelocity}}
-{\ensuremath{\omega_{\ensuremath{\mathrm{i}}\ensuremath{\mathrm{g}}}}}
+\def\EarthMass {\glssymbol{EarthMass}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\EarthMass}{\glssymbol{EarthMass}}
-{\ensuremath{M_\oplus}}
+\def\gravitationalConstant {\glssymbol{gravitationalConstant}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\gravitationalConstant}{\glssymbol{gravitationalConstant}}
-{\ensuremath{G}}
+\def\normalRadiusEarth {\glssymbol{normalRadiusEarth}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\normalRadiusEarth}{\glssymbol{normalRadiusEarth}}
-{\ensuremath{R_{n}}}
+\def\eccentricityEarth {\glssymbol{eccentricityEarth}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\eccentricityEarth}{\glssymbol{eccentricityEarth}}
-{\ensuremath{e}}
+\def\semimajorAxisEarth {\glssymbol{semimajorAxisEarth}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\semimajorAxisEarth}{\glssymbol{semimajorAxisEarth}}
-{\ensuremath{a}}
+\def\mediumRadiusEarth {\glssymbol{mediumRadiusEarth}}
 \end_inset
 
-\end_layout
 
-\begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\mediumRadiusEarth}{\glssymbol{mediumRadiusEarth}}
-{\ensuremath{R_m}}
+\def\standartGravityOnSeaLevel {\glssymbol{standartGravityOnSeaLevel}}
+\end_inset
+
+
+\lang brazilian
+
+\begin_inset Note Note
+status open
+\begin_layout Plain Layout
+
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "bibliografia,../bibliografia,/media/Arquivos/mega/eah/docs/math_study/bibliografia"
+
 \end_inset
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset FormulaMacro
-\newcommand{\standartGravityOnSeaLevel}{\glssymbol{standartGravityOnSeaLevel}}
-{\ensuremath{g_0}}
 \end_inset
+
 
 \end_layout
 

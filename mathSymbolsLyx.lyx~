@@ -446,7 +446,7 @@ theorems-ams
 
 
 \begin_inset FormulaMacro
-\def\wingArea {\glssymbol{wingArea}}
+\def\referenceArea {\glssymbol{referenceArea}}
 \end_inset
 
 
