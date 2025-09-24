@@ -120,7 +120,7 @@
     parent = {coeficientes},
     unit = \unexpanded{},
     symbol = \ensuremath{C_{{\glsentryname{liftForce}}_{\dot{\glsentrysymbol{angleAttack}}}}},
-    description={lift increment coefficient for dirivative of angle of attack}
+    description={lift increment coefficient for derivative of angle of attack}
 }
 
 \newglossaryentry{coefficientLiftIncrementForAngularRateq}
@@ -233,6 +233,24 @@
     description={rolling moment increment coefficient for \glsentrysymbol{angularRatep}}
 }
 
+\newglossaryentry{coefficientRollingMomentIncrementForAngularRater}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentrysymbol{momentRoll}}_{\glsentrysymbol{angularRater}}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentrysymbol{momentRoll}}_{\glsentrysymbol{angularRater}}}},
+    description={rolling moment increment coefficient for \glsentrysymbol{angularRater}}
+}
+\newglossaryentry{coefficientRollingMomentIncrementForDotAngleSideSlip}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentrysymbol{momentRoll}}_{\dot{\glsentrysymbol{angleSideslip}}}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentrysymbol{momentRoll}}_{\dot{\glsentrysymbol{angleSideslip}}}}},
+    description={rolling moment increment coefficient for derivative of \glsentrysymbol{angleSideslip}}
+}
+
+
 \newglossaryentry{coefficientRollingMomentIncrementForDifferentialElevon}
 {type=symbols,
     name= \ensuremath{C_{{\glsentrysymbol{momentRoll}}_{\glsentrysymbol{differentialElevon}}}},
@@ -310,6 +328,15 @@
     unit = \unexpanded{},
     symbol = \ensuremath{C_{{\glsentryname{momentYaw}}_{\glsentrysymbol{angularRatep}}}},
     description={yawing moment increment coefficient for \glsentrysymbol{angularRatep}}
+}
+
+\newglossaryentry{coefficientYawingMomentIncrementForDotAngleSideSlip}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentryname{momentYaw}}_{\dot{\glsentrysymbol{angleSideslip}}}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentryname{momentYaw}}_{\dot{\glsentrysymbol{angleSideslip}}}}},    
+    description={yawing moment increment coefficient for derivative of \glsentrysymbol{angleSideslip}}
 }
 
 % lateral force coefficients
