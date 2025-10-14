@@ -230,16 +230,16 @@
 }
 
 % force on body axes
-\newglossaryentry{axialForceX}
+\newglossaryentry{bodyForceX}
 {type=symbols,
   name= \ensuremath{X},
   parent = {states},
   unit = \unexpanded{\si{\newton}},
   symbol = \ensuremath{X},
-  description={axial force on \glsentrysymbol{bodyAxisx}}
+  description={force on \glsentrysymbol{bodyAxisx}}
 }
 
-\newglossaryentry{LateralForceBodyY}
+\newglossaryentry{bodyForceY}
 {type=symbols,
   name= \ensuremath{Y},
   parent = {states},
@@ -250,40 +250,32 @@
 
 
 
-\newglossaryentry{normalForceZ}
+\newglossaryentry{bodyForceZ}
 {type=symbols,
   name= \ensuremath{Z},
   parent = {states},
   unit = \unexpanded{\si{\newton}},
   symbol = \ensuremath{Z},
-  description={normal force on \glsentrysymbol{bodyAxisz}}
+  description={force on \glsentrysymbol{bodyAxisz}}
 }
 
-% forces on stability axes
-\newglossaryentry{axialForceXstability}
+\newglossaryentry{bodyForceAxial}
 {type=symbols,
   name= \ensuremath{A},
   parent = {states},
   unit = \unexpanded{\si{\newton}},
-  symbol = \ensuremath{\glsentryname{axialForceXstability}},
-  description={axial force on \glsentrysymbol{stabilitySystem}}
+  symbol = \ensuremath{A},
+  description={axial force on \glsentrysymbol{bodyAxis}. Equivalent to -\glsentrysymbol{bodyForceX}}
 }
-\newglossaryentry{LateralForceYstability}
-{type=symbols,
-  name= \ensuremath{{}^{\glsentryname{stabilitySystem}}Y},
-  parent = {states},
-  unit = \unexpanded{\si{\newton}},
-  symbol = \ensuremath{\glsentryname{LateralForceYstability}},
-  description={lateral force on \glsentrysymbol{stabilitySystem}}
-}
-\newglossaryentry{normalForceZstability}
+\newglossaryentry{bodyForceNormal}
 {type=symbols,
   name= \ensuremath{N},
   parent = {states},
   unit = \unexpanded{\si{\newton}},
-  symbol = \ensuremath{\glsentryname{normalForceZstability}},
-  description={normal force on \glsentrysymbol{stabilitySystem}}
+  symbol = \ensuremath{N},
+  description={normal force on \glsentrysymbol{bodyAxis}. Equivalent to -\glsentrysymbol{bodyForceZ}}
 }
+
 
 
 \newglossaryentry{momentRoll}
@@ -312,14 +304,36 @@
   symbol = \ensuremath{n},
   description={yaw moment}
 }
+
 \newglossaryentry{symmetricElevon}
 {type=symbols,
   name= \ensuremath{\delta_{e}},
   parent = {states},
-  unit = \unexpanded{\si{\degree}},
+  unit = \unexpanded{\si{\radian}},
   symbol = \ensuremath{\delta_{e}},
   description={symmetric elevon angle}
 }
+
+\newglossaryentry{rightElevon}
+{type=symbols,
+  name= \ensuremath{\delta_{e_{r}}}
+  parent = {states},
+  unit = \unexpanded{\si{\radian}},
+  symbol = \ensuremath{\delta_{e_{r}}},
+  description={right elevon angle}
+}
+
+
+\newglossaryentry{leftElevon}
+{type=symbols,
+  name= \ensuremath{\delta_{e_{l}}}
+  parent = {states},
+  unit = \unexpanded{\si{\radian}},
+  symbol = \ensuremath{\delta_{e_{l}}},
+  description={left elevon angle}
+}
+
+
 
 \newglossaryentry{differentialElevon}
 {type=symbols,
@@ -330,7 +344,7 @@
   description={differential elevon angle}
 }
 
-\newglossaryentry{rudderDeflection}
+\newglossaryentry{rudder}
 {type=symbols,
   name= \ensuremath{\delta_{r}},
   parent = {states},

@@ -295,7 +295,7 @@ theorems-ams
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\axialForceX}{\glssymbol{axialForceX}}
+\newcommand{\bodyForceX}{\glssymbol{bodyForceX}}
 {\ensuremath{X}}
 \end_inset
 
@@ -303,7 +303,7 @@ theorems-ams
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\LateralForceBodyY}{\glssymbol{LateralForceBodyY}}
+\newcommand{\bodyForceY}{\glssymbol{bodyForceY}}
 {\ensuremath{Y}}
 \end_inset
 
@@ -311,7 +311,7 @@ theorems-ams
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\normalForceZ}{\glssymbol{normalForceZ}}
+\newcommand{\bodyForceZ}{\glssymbol{bodyForceZ}}
 {\ensuremath{Z}}
 \end_inset
 
@@ -319,24 +319,16 @@ theorems-ams
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\axialForceXstability}{\glssymbol{axialForceXstability}}
-{\ensuremath{\ensuremath{A}}}
+\newcommand{\bodyForceAxial}{\glssymbol{bodyForceAxial}}
+{\ensuremath{A}}
 \end_inset
 
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\LateralForceYstability}{\glssymbol{LateralForceYstability}}
-{\ensuremath{\ensuremath{{}^{\glsentryname{stabilitySystem}}Y}}}
-\end_inset
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset FormulaMacro
-\newcommand{\normalForceZstability}{\glssymbol{normalForceZstability}}
-{\ensuremath{\ensuremath{N}}}
+\newcommand{\bodyForceNormal}{\glssymbol{bodyForceNormal}}
+{\ensuremath{N}}
 \end_inset
 
 \end_layout
@@ -375,6 +367,22 @@ theorems-ams
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\rightElevon}{\glssymbol{rightElevon}}
+{\ensuremath{\delta_{e_{r}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\leftElevon}{\glssymbol{leftElevon}}
+{\ensuremath{\delta_{e_{l}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\differentialElevon}{\glssymbol{differentialElevon}}
 {\ensuremath{\delta_{a}}}
 \end_inset
@@ -383,7 +391,7 @@ theorems-ams
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\rudderDeflection}{\glssymbol{rudderDeflection}}
+\newcommand{\rudder}{\glssymbol{rudder}}
 {\ensuremath{\delta_{r}}}
 \end_inset
 
@@ -919,7 +927,7 @@ theorems-ams
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientAxialForceBody}{\glssymbol{coefficientAxialForceBody}}
+\newcommand{\coefficientBodyForceX}{\glssymbol{coefficientBodyForceX}}
 {\ensuremath{C_{\ensuremath{X}}}}
 \end_inset
 
@@ -927,7 +935,15 @@ theorems-ams
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientNormalForceZBody}{\glssymbol{coefficientNormalForceZBody}}
+\newcommand{\coefficientBodyForceY}{\glssymbol{coefficientBodyForceY}}
+{\ensuremath{C_{\ensuremath{Y}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientBodyForceZ}{\glssymbol{coefficientBodyForceZ}}
 {\ensuremath{C_{\ensuremath{Z}}}}
 \end_inset
 
@@ -935,8 +951,48 @@ theorems-ams
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientAxialForceStability}{\glssymbol{coefficientAxialForceStability}}
-{\ensuremath{C_{\ensuremath{A}}}}
+\newcommand{\coefficientBodyForceNormal}{\glssymbol{coefficientBodyForceNormal}}
+{\ensuremath{C_{\ensuremath{N}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientBodyForceNormalZeroLift}{\glssymbol{coefficientBodyForceNormalZeroLift}}
+{\ensuremath{C_{\ensuremath{N}_{0}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientBodyForceNormalIncrementForAngleAtack}{\glssymbol{coefficientBodyForceNormalIncrementForAngleAtack}}
+{\ensuremath{C_{{\ensuremath{N}}_{\ensuremath{\alpha}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientBodyForceNormalIncrementForSymmetricElevon}{\glssymbol{coefficientBodyForceNormalIncrementForSymmetricElevon}}
+{\ensuremath{C_{{\ensuremath{N}}_{\ensuremath{\delta_{e}}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientBodyForceNormalIncrementForDotAngleAtack}{\glssymbol{coefficientBodyForceNormalIncrementForDotAngleAtack}}
+{\ensuremath{C_{{\ensuremath{N}}_{\dot{\ensuremath{\alpha}}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientBodyForceNormalIncrementForAngularRateq}{\glssymbol{coefficientBodyForceNormalIncrementForAngularRateq}}
+{\ensuremath{C_{{\ensuremath{N}}_{\ensuremath{q}}}}}
 \end_inset
 
 \end_layout
@@ -969,6 +1025,30 @@ theorems-ams
 \begin_inset FormulaMacro
 \newcommand{\coefficientDragIncrementForSymmetricElevon}{\glssymbol{coefficientDragIncrementForSymmetricElevon}}
 {\ensuremath{C_{{\ensuremath{D}}_{\ensuremath{\delta_{e}}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientDragIncrementForRightElevon}{\glssymbol{coefficientDragIncrementForRightElevon}}
+{\ensuremath{C_{{\ensuremath{D}}_{\ensuremath{\delta_{e_{r}}}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientDragIncrementForRudder}{\glssymbol{coefficientDragIncrementForRudder}}
+{\ensuremath{C_{{\ensuremath{D}}_{\ensuremath{\delta_{r}}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientDragIncrementForLeftElevon}{\glssymbol{coefficientDragIncrementForLeftElevon}}
+{\ensuremath{C_{{\ensuremath{D}}_{\ensuremath{\delta_{e_{l}}}}}}}
 \end_inset
 
 \end_layout
@@ -1025,6 +1105,22 @@ theorems-ams
 \begin_inset FormulaMacro
 \newcommand{\coefficientLiftIncrementForSymmetricElevon}{\glssymbol{coefficientLiftIncrementForSymmetricElevon}}
 {\ensuremath{C_{{\ensuremath{L}}_{\ensuremath{\delta_{e}}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientLiftIncrementForRightElevon}{\glssymbol{coefficientLiftIncrementForRightElevon}}
+{\ensuremath{C_{{\ensuremath{L}}_{\ensuremath{\delta_{e_{r}}}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientLiftIncrementForLeftElevon}{\glssymbol{coefficientLiftIncrementForLeftElevon}}
+{\ensuremath{C_{{\ensuremath{L}}_{\ensuremath{\delta_{e_{l}}}}}}}
 \end_inset
 
 \end_layout
@@ -1305,6 +1401,54 @@ theorems-ams
 \begin_inset FormulaMacro
 \newcommand{\coefficientLateralForceWindIncrementForDotAngleSideSlip}{\glssymbol{coefficientLateralForceWindIncrementForDotAngleSideSlip}}
 {\ensuremath{C_{{\ensuremath{\mathcal{Y}}}_{\dot{\ensuremath{\beta}}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientBodyForceAxial}{\glssymbol{coefficientBodyForceAxial}}
+{\ensuremath{C_{\ensuremath{A}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientBodyForceAxialIncrementForAngularRateq}{\glssymbol{coefficientBodyForceAxialIncrementForAngularRateq}}
+{\ensuremath{C_{{\ensuremath{A}}_{\ensuremath{q}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientBodyForceAxialIncrementForAngleAtack}{\glssymbol{coefficientBodyForceAxialIncrementForAngleAtack}}
+{\ensuremath{C_{{\ensuremath{A}}_{\ensuremath{\alpha}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientBodyForceAxialIncrementForDotAngleAtack}{\glssymbol{coefficientBodyForceAxialIncrementForDotAngleAtack}}
+{\ensuremath{C_{{\ensuremath{A}}_{\dot{\ensuremath{\alpha}}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientBodyForceAxialIncrementForSymmetricElevon}{\glssymbol{coefficientBodyForceAxialIncrementForSymmetricElevon}}
+{\ensuremath{C_{{\ensuremath{A}}_{\ensuremath{\delta_{e}}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientBodyForceAxialZeroLift}{\glssymbol{coefficientBodyForceAxialZeroLift}}
+{\ensuremath{C_{{\ensuremath{A}}_{0}}}}
 \end_inset
 
 \end_layout

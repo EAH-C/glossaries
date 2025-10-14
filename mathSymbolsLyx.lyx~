@@ -226,22 +226,22 @@ theorems-ams
 
 
 \begin_inset FormulaMacro
-\def\axialForceX {\glssymbol{axialForceX}}
+\def\bodyForceX {\glssymbol{bodyForceX}}
 \end_inset
 
 
 \begin_inset FormulaMacro
-\def\LateralForceBodyY {\glssymbol{LateralForceBodyY}}
+\def\bodyForceY {\glssymbol{bodyForceY}}
 \end_inset
 
 
 \begin_inset FormulaMacro
-\def\normalForceZ {\glssymbol{normalForceZ}}
+\def\bodyForceZ {\glssymbol{bodyForceZ}}
 \end_inset
 
 
 \begin_inset FormulaMacro
-\def\axialForceXstability {\glssymbol{axialForceXstability}}
+\def\bodyForceXstability {\glssymbol{bodyForceXstability}}
 \end_inset
 
 
@@ -251,7 +251,7 @@ theorems-ams
 
 
 \begin_inset FormulaMacro
-\def\normalForceZstability {\glssymbol{normalForceZstability}}
+\def\bodyForceZstability {\glssymbol{bodyForceZstability}}
 \end_inset
 
 
@@ -281,7 +281,7 @@ theorems-ams
 
 
 \begin_inset FormulaMacro
-\def\rudderDeflection {\glssymbol{rudderDeflection}}
+\def\rudder {\glssymbol{rudder}}
 \end_inset
 
 
@@ -621,12 +621,12 @@ theorems-ams
 
 
 \begin_inset FormulaMacro
-\def\coefficientAxialForceBody {\glssymbol{coefficientAxialForceBody}}
+\def\coefficientBodyForceX {\glssymbol{coefficientBodyForceX}}
 \end_inset
 
 
 \begin_inset FormulaMacro
-\def\coefficientNormalForceZBody {\glssymbol{coefficientNormalForceZBody}}
+\def\coefficientBodyForceZ {\glssymbol{coefficientBodyForceZ}}
 \end_inset
 
 
