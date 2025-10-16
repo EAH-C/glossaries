@@ -66,16 +66,22 @@
     description={normal force increment coefficient for angle of attack}
 }
 
-
-
-
-\newglossaryentry{coefficientBodyForceNormalIncrementForSymmetricElevon}
+\newglossaryentry{coefficientBodyForceNormalIncrementForRightElevon}
 {type=symbols,
-    name= \ensuremath{C_{{\glsentryname{bodyForceNormal}}_{\glsentrysymbol{symmetricElevon}}}},
+    name= \ensuremath{C_{{\glsentryname{bodyForceNormal}}_{\glsentrysymbol{rightElevon}}}},
     parent = {coeficientes},
     unit = \unexpanded{},
-    symbol = \ensuremath{C_{{\glsentryname{bodyForceNormal}}_{\glsentrysymbol{symmetricElevon}}}},
-    description={normal force increment coefficient for symmetric elevon}
+    symbol = \ensuremath{C_{{\glsentryname{bodyForceNormal}}_{\glsentrysymbol{rightElevon}}}},
+    description={normal force increment coefficient for right elevon}
+}
+
+\newglossaryentry{coefficientBodyForceNormalIncrementForLeftElevon}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentryname{bodyForceNormal}}_{\glsentrysymbol{leftElevon}}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentryname{bodyForceNormal}}_{\glsentrysymbol{leftElevon}}}},
+    description={normal force increment coefficient for left elevon}
 }
 
 \newglossaryentry{coefficientBodyForceNormalIncrementForDotAngleAtack}
@@ -129,14 +135,6 @@
     description={drag increment coefficient for angle of attack}
 }
 
-\newglossaryentry{coefficientDragIncrementForSymmetricElevon}
-{type=symbols,
-    name= \ensuremath{C_{{\glsentryname{dragForce}}_{\glsentrysymbol{symmetricElevon}}}},
-    parent = {coeficientes},
-    unit = \unexpanded{},
-    symbol = \ensuremath{C_{{\glsentryname{dragForce}}_{\glsentrysymbol{symmetricElevon}}}},
-    description={drag increment coefficient for symmetric elevon}
-}
 
 \newglossaryentry{coefficientDragIncrementForRightElevon}
 {type=symbols,
@@ -228,12 +226,12 @@
     description={lift increment coefficient for \glsentrysymbol{angularRateq}}
 }
 
-\newglossaryentry{coefficientLiftIncrementForSymmetricElevon}
+\newglossaryentry{coefficientLiftIncrementForElevon}
 {type=symbols,
-    name= \ensuremath{C_{{\glsentryname{liftForce}}_{\glsentrysymbol{symmetricElevon}}}},
+    name= \ensuremath{C_{{\glsentryname{liftForce}}_{\glsentrysymbol{Elevon}}}},
     parent = {coeficientes},
     unit = \unexpanded{},
-    symbol = \ensuremath{C_{{\glsentryname{liftForce}}_{\glsentrysymbol{symmetricElevon}}}},
+    symbol = \ensuremath{C_{{\glsentryname{liftForce}}_{\glsentrysymbol{Elevon}}}},
     description={lift increment coefficient for right elevon}
 }
 \newglossaryentry{coefficientLiftIncrementForRightElevon}
@@ -293,14 +291,24 @@
     description={pitching moment increment coefficient for derivative of angle of attack}
 }
 
-\newglossaryentry{coefficientPitchingMomentIncrementForSymmetricElevon}
+\newglossaryentry{coefficientPitchingMomentIncrementForRightElevon}
 {type=symbols,
-    name= \ensuremath{C_{{\glsentryname{momentPitch}}_{\glsentrysymbol{symmetricElevon}}}},
+    name= \ensuremath{C_{{\glsentryname{momentPitch}}_{\glsentrysymbol{rightElevon}}}},
     parent = {coeficientes},
     unit = \unexpanded{},
-    symbol = \ensuremath{C_{{\glsentryname{momentPitch}}_{\glsentrysymbol{symmetricElevon}}}},
-    description={pitching moment increment coefficient for \glsentrysymbol{symmetricElevon}}
+    symbol = \ensuremath{C_{{\glsentryname{momentPitch}}_{\glsentrysymbol{rightElevon}}}},
+    description={pitching moment increment coefficient for right elevon \glsentrysymbol{rightElevon}}
 }
+
+\newglossaryentry{coefficientPitchingMomentIncrementForLeftElevon}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentryname{momentPitch}}_{\glsentrysymbol{leftElevon}}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentryname{momentPitch}}_{\glsentrysymbol{leftElevon}}}},
+    description={pitching moment increment coefficient for left elevon \glsentrysymbol{leftElevon}}
+}
+
 
 \newglossaryentry{coefficientPitchingMomentIncrementForAngularRateq}
 {type=symbols,
@@ -616,13 +624,23 @@
     description={axial force increment coefficient for angle of attack}
 }
 
-\newglossaryentry{coefficientBodyForceAxialIncrementForSymmetricElevon}
+\newglossaryentry{coefficientBodyForceAxialIncrementForRightElevon}
 {type=symbols,
-    name= \ensuremath{C_{{\glsentryname{bodyForceAxial}}_{\glsentrysymbol{symmetricElevon}}}},
+    name= \ensuremath{C_{{\glsentryname{bodyForceAxial}}_{\glsentrysymbol{rightElevon}}}},
     parent = {coeficientes},
     unit = \unexpanded{},
-    symbol = \ensuremath{C_{{\glsentryname{bodyForceAxial}}_{\glsentrysymbol{symmetricElevon}}}},
+    symbol = \ensuremath{C_{{\glsentryname{bodyForceAxial}}_{\glsentrysymbol{rightElevon}}}},
     description={axial force increment coefficient for right elevon}
+}
+
+
+\newglossaryentry{coefficientBodyForceAxialIncrementForLeftElevon}
+{type=symbols,
+    name= \ensuremath{C_{{\glsentryname{bodyForceAxial}}_{\glsentrysymbol{leftElevon}}}},
+    parent = {coeficientes},
+    unit = \unexpanded{},
+    symbol = \ensuremath{C_{{\glsentryname{bodyForceAxial}}_{\glsentrysymbol{leftElevon}}}},
+    description={axial force increment coefficient for left elevon}
 }
 
 \newglossaryentry{coefficientBodyForceAxialZeroLift}

@@ -271,7 +271,7 @@ theorems-ams
 
 
 \begin_inset FormulaMacro
-\def\symmetricElevon {\glssymbol{symmetricElevon}}
+\def\Elevon {\glssymbol{Elevon}}
 \end_inset
 
 
@@ -651,7 +651,7 @@ theorems-ams
 
 
 \begin_inset FormulaMacro
-\def\coefficientDragIncrementForSymmetricElevon {\glssymbol{coefficientDragIncrementForSymmetricElevon}}
+\def\coefficientDragIncrementForElevon {\glssymbol{coefficientDragIncrementForElevon}}
 \end_inset
 
 
@@ -686,7 +686,7 @@ theorems-ams
 
 
 \begin_inset FormulaMacro
-\def\coefficientLiftIncrementForSymmetricElevon {\glssymbol{coefficientLiftIncrementForSymmetricElevon}}
+\def\coefficientLiftIncrementForElevon {\glssymbol{coefficientLiftIncrementForElevon}}
 \end_inset
 
 
@@ -711,7 +711,7 @@ theorems-ams
 
 
 \begin_inset FormulaMacro
-\def\coefficientPitchingMomentIncrementForSymmetricElevon {\glssymbol{coefficientPitchingMomentIncrementForSymmetricElevon}}
+\def\coefficientPitchingMomentIncrementForElevon {\glssymbol{coefficientPitchingMomentIncrementForElevon}}
 \end_inset
 
 

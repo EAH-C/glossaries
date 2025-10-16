@@ -359,7 +359,7 @@ theorems-ams
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\symmetricElevon}{\glssymbol{symmetricElevon}}
+\newcommand{\Elevon}{\glssymbol{Elevon}}
 {\ensuremath{\delta_{e}}}
 \end_inset
 
@@ -553,6 +553,14 @@ theorems-ams
 \begin_inset FormulaMacro
 \newcommand{\qv}{\glssymbol{qv}}
 {\ensuremath{\mathbf{q}_v}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\centerOfPressure}{\glssymbol{centerOfPressure}}
+{\ensuremath{\mathbf{c}_p}}
 \end_inset
 
 \end_layout
@@ -975,8 +983,16 @@ theorems-ams
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientBodyForceNormalIncrementForSymmetricElevon}{\glssymbol{coefficientBodyForceNormalIncrementForSymmetricElevon}}
-{\ensuremath{C_{{\ensuremath{N}}_{\ensuremath{\delta_{e}}}}}}
+\newcommand{\coefficientBodyForceNormalIncrementForRightElevon}{\glssymbol{coefficientBodyForceNormalIncrementForRightElevon}}
+{\ensuremath{C_{{\ensuremath{N}}_{\ensuremath{\delta_{e_{r}}}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientBodyForceNormalIncrementForLeftElevon}{\glssymbol{coefficientBodyForceNormalIncrementForLeftElevon}}
+{\ensuremath{C_{{\ensuremath{N}}_{\ensuremath{\delta_{e_{l}}}}}}}
 \end_inset
 
 \end_layout
@@ -1017,14 +1033,6 @@ theorems-ams
 \begin_inset FormulaMacro
 \newcommand{\coefficientDragIncrementForAngleAtack}{\glssymbol{coefficientDragIncrementForAngleAtack}}
 {\ensuremath{C_{{\ensuremath{D}}_{\ensuremath{\alpha}}}}}
-\end_inset
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset FormulaMacro
-\newcommand{\coefficientDragIncrementForSymmetricElevon}{\glssymbol{coefficientDragIncrementForSymmetricElevon}}
-{\ensuremath{C_{{\ensuremath{D}}_{\ensuremath{\delta_{e}}}}}}
 \end_inset
 
 \end_layout
@@ -1103,7 +1111,7 @@ theorems-ams
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientLiftIncrementForSymmetricElevon}{\glssymbol{coefficientLiftIncrementForSymmetricElevon}}
+\newcommand{\coefficientLiftIncrementForElevon}{\glssymbol{coefficientLiftIncrementForElevon}}
 {\ensuremath{C_{{\ensuremath{L}}_{\ensuremath{\delta_{e}}}}}}
 \end_inset
 
@@ -1159,8 +1167,16 @@ theorems-ams
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientPitchingMomentIncrementForSymmetricElevon}{\glssymbol{coefficientPitchingMomentIncrementForSymmetricElevon}}
-{\ensuremath{C_{{\ensuremath{m}}_{\ensuremath{\delta_{e}}}}}}
+\newcommand{\coefficientPitchingMomentIncrementForRightElevon}{\glssymbol{coefficientPitchingMomentIncrementForRightElevon}}
+{\ensuremath{C_{{\ensuremath{m}}_{\ensuremath{\delta_{e_{r}}}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientPitchingMomentIncrementForLeftElevon}{\glssymbol{coefficientPitchingMomentIncrementForLeftElevon}}
+{\ensuremath{C_{{\ensuremath{m}}_{\ensuremath{\delta_{e_{l}}}}}}}
 \end_inset
 
 \end_layout
@@ -1439,8 +1455,16 @@ theorems-ams
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientBodyForceAxialIncrementForSymmetricElevon}{\glssymbol{coefficientBodyForceAxialIncrementForSymmetricElevon}}
-{\ensuremath{C_{{\ensuremath{A}}_{\ensuremath{\delta_{e}}}}}}
+\newcommand{\coefficientBodyForceAxialIncrementForRightElevon}{\glssymbol{coefficientBodyForceAxialIncrementForRightElevon}}
+{\ensuremath{C_{{\ensuremath{A}}_{\ensuremath{\delta_{e_{r}}}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientBodyForceAxialIncrementForLeftElevon}{\glssymbol{coefficientBodyForceAxialIncrementForLeftElevon}}
+{\ensuremath{C_{{\ensuremath{A}}_{\ensuremath{\delta_{e_{l}}}}}}}
 \end_inset
 
 \end_layout
