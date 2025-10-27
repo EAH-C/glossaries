@@ -567,6 +567,46 @@ theorems-ams
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\eulerAngleVector}{\glssymbol{eulerAngleVector}}
+{\ensuremath{\boldsymbol{\varPhi}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\eulerPhi}{\glssymbol{eulerPhi}}
+{\ensuremath{\phi}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\eulerTheta}{\glssymbol{eulerTheta}}
+{\ensuremath{\theta}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\eulerPsi}{\glssymbol{eulerPsi}}
+{\ensuremath{\psi}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\stateVector}{\glssymbol{stateVector}}
+{\ensuremath{\boldsymbol{\chi}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\cotangentMachAngle}{\glssymbol{cotangentMachAngle}}
 {\ensuremath{B}}
 \end_inset
@@ -1487,8 +1527,16 @@ theorems-ams
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\matrixTransformationOfKinematics}{\glssymbol{matrixTransformationOfKinematics}}
+{\ensuremath{\mathbf{T}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\identityMatrix}{\glssymbol{identityMatrix}}
-{\ensuremath{\mathbf{I}}}
+{\ensuremath{\boldsymbol{I}}}
 \end_inset
 
 \end_layout
@@ -1496,7 +1544,7 @@ theorems-ams
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\zeroMatrix}{\glssymbol{zeroMatrix}}
-{\ensuremath{\mathbf{0}}}
+{\ensuremath{\boldsymbol{0}}}
 \end_inset
 
 \end_layout
