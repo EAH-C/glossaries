@@ -128,7 +128,7 @@ theorems-ams
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\flightSpeed}{\glssymbol{flightSpeed}}
-{\ensuremath{V}}
+{\ensuremath{V_{T}}}
 \end_inset
 
 \end_layout
@@ -208,7 +208,7 @@ theorems-ams
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\velocity}{\glssymbol{velocity}}
-{\ensuremath{V}}
+{\ensuremath{V_{T}}}
 \end_inset
 
 \end_layout

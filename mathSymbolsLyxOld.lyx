@@ -208,7 +208,7 @@ theorems-ams
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\velocity}{\glssymbol{velocity}}
-{\ensuremath{V}}
+{\ensuremath{V_{T}}}
 \end_inset
 
 \end_layout
@@ -1536,7 +1536,7 @@ theorems-ams
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\identityMatrix}{\glssymbol{identityMatrix}}
-{\ensuremath{\mathbb{I}}}
+{\ensuremath{\boldsymbol{I}}}
 \end_inset
 
 \end_layout
@@ -1544,7 +1544,7 @@ theorems-ams
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\zeroMatrix}{\glssymbol{zeroMatrix}}
-{\ensuremath{\mathbb{0}}}
+{\ensuremath{\boldsymbol{0}}}
 \end_inset
 
 \end_layout
