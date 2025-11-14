@@ -55,11 +55,9 @@
 
 \global\long\def\bodyForceZ{\glssymbol{bodyForceZ}}%
 
-\global\long\def\bodyForceXstability{\glssymbol{bodyForceXstability}}%
+\global\long\def\bodyForceAxial{\glssymbol{bodyForceAxial}}%
 
-\global\long\def\LateralForceYstability{\glssymbol{LateralForceYstability}}%
-
-\global\long\def\bodyForceZstability{\glssymbol{bodyForceZstability}}%
+\global\long\def\bodyForceNormal{\glssymbol{bodyForceNormal}}%
 
 \global\long\def\momentRoll{\glssymbol{momentRoll}}%
 
@@ -68,6 +66,10 @@
 \global\long\def\momentYaw{\glssymbol{momentYaw}}%
 
 \global\long\def\Elevon{\glssymbol{Elevon}}%
+
+\global\long\def\rightElevon{\glssymbol{rightElevon}}%
+
+\global\long\def\leftElevon{\glssymbol{leftElevon}}%
 
 \global\long\def\differentialElevon{\glssymbol{differentialElevon}}%
 
@@ -112,6 +114,20 @@
 \global\long\def\quaternion{\glssymbol{quaternion}}%
 
 \global\long\def\qv{\glssymbol{qv}}%
+
+\global\long\def\centerOfPressure{\glssymbol{centerOfPressure}}%
+
+\global\long\def\eulerAngleVector{\glssymbol{eulerAngleVector}}%
+
+\global\long\def\eulerPhi{\glssymbol{eulerPhi}}%
+
+\global\long\def\eulerTheta{\glssymbol{eulerTheta}}%
+
+\global\long\def\eulerPsi{\glssymbol{eulerPsi}}%
+
+\global\long\def\stateVector{\glssymbol{stateVector}}%
+
+\global\long\def\controlVector{\glssymbol{controlVector}}%
 
 \global\long\def\cotangentMachAngle{\glssymbol{cotangentMachAngle}}%
 
@@ -203,15 +219,27 @@
 
 \global\long\def\vectorDistanceSurface{\glssymbol{vectorDistanceSurface}}%
 
-\global\long\def\aerodynamicChordReference{\glssymbol{aerodynamicChordReference}}%
-
 \global\long\def\coefficientMoments{\glssymbol{coefficientMoments}}%
 
 \global\long\def\coefficientBodyForceX{\glssymbol{coefficientBodyForceX}}%
 
+\global\long\def\coefficientBodyForceY{\glssymbol{coefficientBodyForceY}}%
+
 \global\long\def\coefficientBodyForceZ{\glssymbol{coefficientBodyForceZ}}%
 
-\global\long\def\coefficientAxialForceStability{\glssymbol{coefficientAxialForceStability}}%
+\global\long\def\coefficientBodyForceNormal{\glssymbol{coefficientBodyForceNormal}}%
+
+\global\long\def\coefficientBodyForceNormalZeroLift{\glssymbol{coefficientBodyForceNormalZeroLift}}%
+
+\global\long\def\coefficientBodyForceNormalIncrementForAngleAtack{\glssymbol{coefficientBodyForceNormalIncrementForAngleAtack}}%
+
+\global\long\def\coefficientBodyForceNormalIncrementForRightElevon{\glssymbol{coefficientBodyForceNormalIncrementForRightElevon}}%
+
+\global\long\def\coefficientBodyForceNormalIncrementForLeftElevon{\glssymbol{coefficientBodyForceNormalIncrementForLeftElevon}}%
+
+\global\long\def\coefficientBodyForceNormalIncrementForDotAngleAtack{\glssymbol{coefficientBodyForceNormalIncrementForDotAngleAtack}}%
+
+\global\long\def\coefficientBodyForceNormalIncrementForAngularRateq{\glssymbol{coefficientBodyForceNormalIncrementForAngularRateq}}%
 
 \global\long\def\dynamicPressure{\glssymbol{dynamicPressure}}%
 
@@ -219,7 +247,11 @@
 
 \global\long\def\coefficientDragIncrementForAngleAtack{\glssymbol{coefficientDragIncrementForAngleAtack}}%
 
-\global\long\def\coefficientDragIncrementForElevon{\glssymbol{coefficientDragIncrementForElevon}}%
+\global\long\def\coefficientDragIncrementForRightElevon{\glssymbol{coefficientDragIncrementForRightElevon}}%
+
+\global\long\def\coefficientDragIncrementForRudder{\glssymbol{coefficientDragIncrementForRudder}}%
+
+\global\long\def\coefficientDragIncrementForLeftElevon{\glssymbol{coefficientDragIncrementForLeftElevon}}%
 
 \global\long\def\coefficientDragZeroLift{\glssymbol{coefficientDragZeroLift}}%
 
@@ -235,6 +267,10 @@
 
 \global\long\def\coefficientLiftIncrementForElevon{\glssymbol{coefficientLiftIncrementForElevon}}%
 
+\global\long\def\coefficientLiftIncrementForRightElevon{\glssymbol{coefficientLiftIncrementForRightElevon}}%
+
+\global\long\def\coefficientLiftIncrementForLeftElevon{\glssymbol{coefficientLiftIncrementForLeftElevon}}%
+
 \global\long\def\coefficientPitchingMoment{\glssymbol{coefficientPitchingMoment}}%
 
 \global\long\def\coefficientPitchingMomentZeroLift{\glssymbol{coefficientPitchingMomentZeroLift}}%
@@ -243,7 +279,9 @@
 
 \global\long\def\coefficientPitchingMomentIncrementForDotAngleAtack{\glssymbol{coefficientPitchingMomentIncrementForDotAngleAtack}}%
 
-\global\long\def\coefficientPitchingMomentIncrementForElevon{\glssymbol{coefficientPitchingMomentIncrementForElevon}}%
+\global\long\def\coefficientPitchingMomentIncrementForRightElevon{\glssymbol{coefficientPitchingMomentIncrementForRightElevon}}%
+
+\global\long\def\coefficientPitchingMomentIncrementForLeftElevon{\glssymbol{coefficientPitchingMomentIncrementForLeftElevon}}%
 
 \global\long\def\coefficientPitchingMomentIncrementForAngularRateq{\glssymbol{coefficientPitchingMomentIncrementForAngularRateq}}%
 
@@ -254,6 +292,10 @@
 \global\long\def\coefficientRollingMomentIncrementForAngleSideSlip{\glssymbol{coefficientRollingMomentIncrementForAngleSideSlip}}%
 
 \global\long\def\coefficientRollingMomentIncrementForAngularRatep{\glssymbol{coefficientRollingMomentIncrementForAngularRatep}}%
+
+\global\long\def\coefficientRollingMomentIncrementForAngularRater{\glssymbol{coefficientRollingMomentIncrementForAngularRater}}%
+
+\global\long\def\coefficientRollingMomentIncrementForDotAngleSideSlip{\glssymbol{coefficientRollingMomentIncrementForDotAngleSideSlip}}%
 
 \global\long\def\coefficientRollingMomentIncrementForDifferentialElevon{\glssymbol{coefficientRollingMomentIncrementForDifferentialElevon}}%
 
@@ -272,6 +314,8 @@
 \global\long\def\coefficientYawingMomentIncrementForRudderDeflection{\glssymbol{coefficientYawingMomentIncrementForRudderDeflection}}%
 
 \global\long\def\coefficientYawingMomentIncrementForAngularRatep{\glssymbol{coefficientYawingMomentIncrementForAngularRatep}}%
+
+\global\long\def\coefficientYawingMomentIncrementForDotAngleSideSlip{\glssymbol{coefficientYawingMomentIncrementForDotAngleSideSlip}}%
 
 \global\long\def\coefficientLateralForceBody{\glssymbol{coefficientLateralForceBody}}%
 
@@ -299,7 +343,23 @@
 
 \global\long\def\coefficientLateralForceWindIncrementForDotAngleSideSlip{\glssymbol{coefficientLateralForceWindIncrementForDotAngleSideSlip}}%
 
+\global\long\def\coefficientBodyForceAxial{\glssymbol{coefficientBodyForceAxial}}%
+
+\global\long\def\coefficientBodyForceAxialIncrementForAngularRateq{\glssymbol{coefficientBodyForceAxialIncrementForAngularRateq}}%
+
+\global\long\def\coefficientBodyForceAxialIncrementForAngleAtack{\glssymbol{coefficientBodyForceAxialIncrementForAngleAtack}}%
+
+\global\long\def\coefficientBodyForceAxialIncrementForDotAngleAtack{\glssymbol{coefficientBodyForceAxialIncrementForDotAngleAtack}}%
+
+\global\long\def\coefficientBodyForceAxialIncrementForRightElevon{\glssymbol{coefficientBodyForceAxialIncrementForRightElevon}}%
+
+\global\long\def\coefficientBodyForceAxialIncrementForLeftElevon{\glssymbol{coefficientBodyForceAxialIncrementForLeftElevon}}%
+
+\global\long\def\coefficientBodyForceAxialZeroLift{\glssymbol{coefficientBodyForceAxialZeroLift}}%
+
 \global\long\def\matrixRotation{\glssymbol{matrixRotation}}%
+
+\global\long\def\matrixTransformationOfKinematics{\glssymbol{matrixTransformationOfKinematics}}%
 
 \global\long\def\identityMatrix{\glssymbol{identityMatrix}}%
 
@@ -402,5 +462,13 @@
 \global\long\def\mediumRadiusEarth{\glssymbol{mediumRadiusEarth}}%
 
 \global\long\def\standartGravityOnSeaLevel{\glssymbol{standartGravityOnSeaLevel}}%
+
+\global\long\def\stateMatrix{\glssymbol{stateMatrix}}%
+
+\global\long\def\controlMatrix{\glssymbol{controlMatrix}}%
+
+\global\long\def\massMatrix{\glssymbol{massMatrix}}%
+
+\global\long\def\stiffnessMatrix{\glssymbol{stiffnessMatrix}}%
 \selectlanguage{brazil}%
 
