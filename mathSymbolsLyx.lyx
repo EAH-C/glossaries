@@ -208,7 +208,7 @@ theorems-ams
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\velocity}{\glssymbol{velocity}}
-{\ensuremath{V_{T}}}
+{\ensuremath{V}}
 \end_inset
 
 \end_layout
@@ -601,6 +601,14 @@ theorems-ams
 \begin_inset FormulaMacro
 \newcommand{\stateVector}{\glssymbol{stateVector}}
 {\ensuremath{\boldsymbol{\chi}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\controlVector}{\glssymbol{controlVector}}
+{\ensuremath{\boldsymbol{u}}}
 \end_inset
 
 \end_layout
@@ -1937,6 +1945,38 @@ theorems-ams
 \begin_inset FormulaMacro
 \newcommand{\standartGravityOnSeaLevel}{\glssymbol{standartGravityOnSeaLevel}}
 {\ensuremath{g_0}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\stateMatrix}{\glssymbol{stateMatrix}}
+{\ensuremath{\mathbf{A}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\controlMatrix}{\glssymbol{controlMatrix}}
+{\ensuremath{\mathbf{B}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\massMatrix}{\glssymbol{massMatrix}}
+{\ensuremath{\mathbf{M}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\stiffnessMatrix}{\glssymbol{stiffnessMatrix}}
+{\ensuremath{\mathbf{K}}}
 \end_inset
 
 \end_layout

@@ -11,8 +11,20 @@ import re
 import shutil
 import regex
 
-# approuch with regex
-
+# approach with regex
+# Tex files
+file = [
+    "./glossaries/" + i
+    for i in [
+        "states.tex",
+        "naca_coefficients.tex",
+        "parameters_vehicle.tex",
+        "coefficients.tex",
+        "comum.tex",
+        "constants.tex",
+        "control.tex"
+    ]
+]
 
 def parse_latex_glossary(file_path):
     with open(file_path, "r", encoding="utf-8") as file:
@@ -141,20 +153,6 @@ def substitute_gls_entries(text, glossary):
     )
 
     return text
-
-
-# Tex files
-file = [
-    "./glossaries/" + i
-    for i in [
-        "states.tex",
-        "naca_coefficients.tex",
-        "parameters_vehicle.tex",
-        "coefficients.tex",
-        "comum.tex",
-        "constants.tex"
-    ]
-]
 
 
 # make a dict from tex files
