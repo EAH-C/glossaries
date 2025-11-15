@@ -607,6 +607,14 @@ theorems-ams
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\controlVector}{\glssymbol{controlVector}}
+{\ensuremath{\boldsymbol{u}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\cotangentMachAngle}{\glssymbol{cotangentMachAngle}}
 {\ensuremath{B}}
 \end_inset
@@ -1279,8 +1287,16 @@ theorems-ams
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientRollingMomentIncrementForDifferentialElevon}{\glssymbol{coefficientRollingMomentIncrementForDifferentialElevon}}
-{\ensuremath{C_{{\ensuremath{l}}_{\ensuremath{\delta_{a}}}}}}
+\newcommand{\coefficientRollingMomentIncrementForLeftElevon}{\glssymbol{coefficientRollingMomentIncrementForLeftElevon}}
+{\ensuremath{C_{{\ensuremath{l}}_{\ensuremath{\delta_{e_{l}}}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientRollingMomentIncrementForRightElevon}{\glssymbol{coefficientRollingMomentIncrementForRightElevon}}
+{\ensuremath{C_{{\ensuremath{l}}_{\ensuremath{\delta_{e_{r}}}}}}}
 \end_inset
 
 \end_layout

@@ -1287,8 +1287,16 @@ theorems-ams
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientRollingMomentIncrementForDifferentialElevon}{\glssymbol{coefficientRollingMomentIncrementForDifferentialElevon}}
-{\ensuremath{C_{{\ensuremath{l}}_{\ensuremath{\delta_{a}}}}}}
+\newcommand{\coefficientRollingMomentIncrementForLeftElevon}{\glssymbol{coefficientRollingMomentIncrementForLeftElevon}}
+{\ensuremath{C_{{\ensuremath{l}}_{\ensuremath{\delta_{e_{l}}}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientRollingMomentIncrementForRightElevon}{\glssymbol{coefficientRollingMomentIncrementForRightElevon}}
+{\ensuremath{C_{{\ensuremath{l}}_{\ensuremath{\delta_{e_{r}}}}}}}
 \end_inset
 
 \end_layout
@@ -1335,8 +1343,16 @@ theorems-ams
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientYawingMomentIncrementForDifferentialElevon}{\glssymbol{coefficientYawingMomentIncrementForDifferentialElevon}}
-{\ensuremath{C_{{\ensuremath{n}}_{\ensuremath{\delta_{a}}}}}}
+\newcommand{\coefficientYawingMomentIncrementForLeftElevon}{\glssymbol{coefficientYawingMomentIncrementForLeftElevon}}
+{\ensuremath{C_{{\ensuremath{n}}_{\ensuremath{\delta_{e_{l}}}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientYawingMomentIncrementForRightElevon}{\glssymbol{coefficientYawingMomentIncrementForRightElevon}}
+{\ensuremath{C_{{\ensuremath{n}}_{\ensuremath{\delta_{e_{r}}}}}}}
 \end_inset
 
 \end_layout

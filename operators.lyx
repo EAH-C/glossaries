@@ -3,17 +3,14 @@
 \begin_document
 \begin_header
 \save_transient_properties true
-\origin /media/Arquivos/eah/repos/rocket_6dof_doc/glossaries/
+\origin /media/Arquivos/eah/repos/linearization_of_model/glossaries/
 \textclass extarticle
 \use_default_options false
-\begin_modules
-theorems-ams
-\end_modules
 \maintain_unincluded_children no
-\language brazil
+\language brazilian
 \language_package default
 \inputencoding utf8
-\fontencoding T1
+\fontencoding default
 \font_roman "default" "default"
 \font_sans "default" "default"
 \font_typewriter "default" "default"
@@ -30,17 +27,16 @@ theorems-ams
 \use_dash_ligatures true
 \graphics default
 \default_output_format default
-\output_sync 1
-\output_sync_macro "\usepackage[active]{srcltx}"
+\output_sync 0
 \bibtex_command default
 \index_command default
 \paperfontsize 12
 \spacing onehalf
 \use_hyperref false
-\papersize a4
-\use_geometry true
-\use_package amsmath 2
-\use_package amssymb 2
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 0
 \use_package cancel 0
 \use_package esint 1
 \use_package mathdots 0
@@ -49,9 +45,9 @@ theorems-ams
 \use_package stackrel 0
 \use_package stmaryrd 0
 \use_package undertilde 0
-\cite_engine biblatex
-\cite_engine_type authoryear
-\biblio_style plainnat
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -64,13 +60,6 @@ theorems-ams
 \shortcut idx
 \color #008000
 \end_index
-\leftmargin 2cm
-\topmargin 2cm
-\rightmargin 2cm
-\bottommargin 2cm
-\headheight 1cm
-\headsep 1cm
-\footskip 1cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -96,7 +85,7 @@ theorems-ams
 
 \begin_layout Standard
 
-\lang brazil
+\lang brazilian
 
 \lang american
 
@@ -121,25 +110,6 @@ theorems-ams
 
 
 \lang brazilian
-
-\lang american
-
-\lang brazilian
-
-\begin_inset Note Note
-status open
-\begin_layout Plain Layout
-
-\begin_inset CommandInset bibtex
-LatexCommand bibtex
-bibfiles "bibliografia,../bibliografia,/media/Arquivos/mega/eah/docs/math_study/bibliografia"
-
-\end_inset
-
-\end_layout
-
-\end_inset
-
 
 \end_layout
 
