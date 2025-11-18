@@ -3,7 +3,7 @@
 \begin_document
 \begin_header
 \save_transient_properties true
-\origin /media/Arquivos/eah/repos/linearization_of_model/glossaries/
+\origin C:/Users/roneyrds/Documents/repos/linear_analisys/glossaries/
 \textclass extarticle
 \use_default_options false
 \maintain_unincluded_children no
@@ -87,8 +87,6 @@
 
 \lang brazilian
 
-\lang american
-
 \begin_inset FormulaMacro
 \def\crossProduct #1{\left\llbracket #1\right\rrbracket _{\timesOperator}}
 \end_inset
@@ -108,8 +106,6 @@
 \def\dqi #1{\dot{\glssymbol{qi}}_{#1}}
 \end_inset
 
-
-\lang brazilian
 
 \end_layout
 
