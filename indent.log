@@ -1,17 +1,14 @@
-INFO:  ANSI Code Page: 1252
-INFO:  latexindent.exe version 3.24.7, 2025-08-15, a script to indent .tex files
-       latexindent.exe lives here: C:/Users/roneyrds/programas/texlive/2025/bin/windows/
-       Mon Oct 20 13:53:17 2025
-       Filename: c:\Users\roneyrds\Documents\repos\rocket_6dof_doc\glossaries\states.tex
+INFO:  latexindent version 3.23.6, 2024-01-17, a script to indent .tex files
+       latexindent lives here: /usr/share/texlive/texmf-dist/scripts/latexindent/
+       Thu Nov 27 08:32:32 2025
+       Filename: /media/Arquivos/eah/repos/linearization_of_model/glossaries/states.tex
 INFO:  Processing switches:
-INFO:  Directory for backup files and log file indent.log:
-       c:\Users\roneyrds\Documents\repos\rocket_6dof_doc\glossaries
+INFO:  Directory for backup files and indent.log:
+       /media/Arquivos/eah/repos/linearization_of_model/glossaries
 INFO:  YAML settings read: defaultSettings.yaml
-       Reading defaultSettings.yaml from C:/Users/roneyrds/programas/texlive/2025/bin/windows/defaultSettings.yaml
-       Reading defaultSettings.yaml (2nd attempt) from C:/Users/roneyrds/programas/texlive/2025/bin/windows/../../texmf-dist/scripts/latexindent/defaultSettings.yaml
-       and then, if necessary, C:/Users/roneyrds/programas/texlive/2025/bin/windows/LatexIndent/defaultSettings.yaml
+       Reading defaultSettings.yaml from /usr/share/texlive/texmf-dist/scripts/latexindent/defaultSettings.yaml
 INFO:  YAML reading settings
-       Home directory is C:\Users\roneyrds
+       Home directory is /home/pegasus
        latexindent.pl didn't find indentconfig.yaml or .indentconfig.yaml
        see all possible locations: https://latexindentpl.readthedocs.io/en/latest/sec-appendices.html#indentconfig-options)
 INFO:  Phase 1: searching for objects

@@ -383,14 +383,6 @@ theorems-ams
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\differentialElevon}{\glssymbol{differentialElevon}}
-{\ensuremath{\delta_{a}}}
-\end_inset
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset FormulaMacro
 \newcommand{\rudder}{\glssymbol{rudder}}
 {\ensuremath{\delta_{r}}}
 \end_inset
@@ -537,6 +529,14 @@ theorems-ams
 \begin_inset FormulaMacro
 \newcommand{\geodeticLongitude}{\glssymbol{geodeticLongitude}}
 {\ensuremath{\lambda}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\geodeticAltitude}{\glssymbol{geodeticAltitude}}
+{\ensuremath{h}}
 \end_inset
 
 \end_layout
@@ -1343,8 +1343,16 @@ theorems-ams
 
 \begin_layout Standard
 \begin_inset FormulaMacro
-\newcommand{\coefficientYawingMomentIncrementForDifferentialElevon}{\glssymbol{coefficientYawingMomentIncrementForDifferentialElevon}}
-{\ensuremath{C_{{\ensuremath{n}}_{\ensuremath{\delta_{a}}}}}}
+\newcommand{\coefficientYawingMomentIncrementForLeftElevon}{\glssymbol{coefficientYawingMomentIncrementForLeftElevon}}
+{\ensuremath{C_{{\ensuremath{n}}_{\ensuremath{\delta_{e_{l}}}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientYawingMomentIncrementForRightElevon}{\glssymbol{coefficientYawingMomentIncrementForRightElevon}}
+{\ensuremath{C_{{\ensuremath{n}}_{\ensuremath{\delta_{e_{r}}}}}}}
 \end_inset
 
 \end_layout
@@ -1400,7 +1408,7 @@ theorems-ams
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\coefficientLateralForceBodyIncrementForDifferentialElevon}{\glssymbol{coefficientLateralForceBodyIncrementForDifferentialElevon}}
-{\ensuremath{C_{{\ensuremath{Y}}_{\ensuremath{\delta_{a}}}}}}
+{\ensuremath{C_{{\ensuremath{Y}}_{\glsentrysymbol{differentialElevon}}}}}
 \end_inset
 
 \end_layout

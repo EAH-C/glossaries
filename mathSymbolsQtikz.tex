@@ -5,6 +5,7 @@
 \newcommand{\flightSpeed}{V_{T}}
 \newcommand{\angleAttack}{\alpha}
 \newcommand{\angleSideslip}{\beta}
+\newcommand{\angleFlightPath}{\gamma}
 \newcommand{\machAngle}{\mu}
 \newcommand{\machNumber}{M}
 \newcommand{\lateralForceWind}{\mathcal{Y}}
@@ -34,7 +35,6 @@
 \newcommand{\Elevon}{\delta_{e}}
 \newcommand{\rightElevon}{\delta_{e_{r}}}
 \newcommand{\leftElevon}{\delta_{e_{l}}}
-\newcommand{\differentialElevon}{\delta_{a}}
 \newcommand{\rudder}{\delta_{r}}
 \newcommand{\forceVector}{\mathbf{f}}
 \newcommand{\forceVectorPropulsion}{{\mathbf{f}}_{p}}
@@ -54,6 +54,7 @@
 \newcommand{\angleBetweenFramesEcefInertial}{\theta_{\mathrm{i}\mathrm{e}}}
 \newcommand{\geodeticLatitude}{\phi}
 \newcommand{\geodeticLongitude}{\lambda}
+\newcommand{\ellipsoidalHeight}{h}
 \newcommand{\quaternion}{\mathbf{q}}
 \newcommand{\qv}{\mathbf{q}_v}
 \newcommand{\centerOfPressure}{\mathbf{c}_p}
@@ -162,7 +163,7 @@
 \newcommand{\coefficientLateralForceBody}{C_{Y}}
 \newcommand{\coefficientLateralForceBodyZeroLift}{C_{Y_{0}}}
 \newcommand{\coefficientLateralForceBodyIncrementForAngleSideSlip}{C_{{Y}_{\beta}}}
-\newcommand{\coefficientLateralForceBodyIncrementForDifferentialElevon}{C_{{Y}_{\delta_{a}}}}
+\newcommand{\coefficientLateralForceBodyIncrementForDifferentialElevon}{C_{{Y}_{\glsentrysymbol{differentialElevon}}}}
 \newcommand{\coefficientLateralForceBodyIncrementForRudderDeflection}{C_{{Y}_{\delta_{r}}}}
 \newcommand{\coefficientLateralForceBodyIncrementForAngularRatep}{C_{{Y}_{p}}}
 \newcommand{\coefficientLateralForceWind}{C_{\mathcal{Y}}}
@@ -222,7 +223,6 @@
 \newcommand{\ecefAxisx}{\mathbf{x}_{\mathrm{e}}}
 \newcommand{\ecefAxisy}{\mathbf{y}_{\mathrm{e}}}
 \newcommand{\ecefAxisz}{\mathbf{z}_{\mathrm{e}}}
-\newcommand{\ellipsoidalHeight}{h}
 \newcommand{\realSet}{\mathcal{R}}
 \newcommand{\earthRotationVelocity}{\omega_{\mathrm{i}\mathrm{g}}}
 \newcommand{\EarthMass}{M_\oplus}
