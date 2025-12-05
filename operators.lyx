@@ -84,9 +84,18 @@
 \begin_body
 
 \begin_layout Standard
+<<<<<<< HEAD
 
 \lang brazilian
 
+=======
+<<<<<<< HEAD
+=======
+
+\lang brazilian
+
+>>>>>>> refs/remotes/origin/main
+>>>>>>> b8c758ef26e7f362dd092f42f2df2393fdb8d225
 \begin_inset FormulaMacro
 \def\crossProduct #1{\left\llbracket #1\right\rrbracket _{\timesOperator}}
 \end_inset
