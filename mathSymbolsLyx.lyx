@@ -151,6 +151,14 @@ theorems-ams
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\angleFlightPath}{\glssymbol{angleFlightPath}}
+{\ensuremath{\gamma}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\machAngle}{\glssymbol{machAngle}}
 {\ensuremath{\mu}}
 \end_inset
@@ -529,6 +537,14 @@ theorems-ams
 \begin_inset FormulaMacro
 \newcommand{\geodeticLongitude}{\glssymbol{geodeticLongitude}}
 {\ensuremath{\lambda}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\ellipsoidalHeight}{\glssymbol{ellipsoidalHeight}}
+{\ensuremath{h}}
 \end_inset
 
 \end_layout
@@ -1873,14 +1889,6 @@ theorems-ams
 \begin_inset FormulaMacro
 \newcommand{\ecefAxisz}{\glssymbol{ecefAxisz}}
 {\ensuremath{\mathbf{z}_{\ensuremath{\mathrm{e}}}}}
-\end_inset
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset FormulaMacro
-\newcommand{\ellipsoidalHeight}{\glssymbol{ellipsoidalHeight}}
-{\ensuremath{h}}
 \end_inset
 
 \end_layout
