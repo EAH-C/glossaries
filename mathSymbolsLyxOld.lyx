@@ -1903,6 +1903,30 @@ theorems-ams
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\damparedNaturalFrequency}{\glssymbol{damparedNaturalFrequency}}
+{\ensuremath{\omega_{d}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\naturalFrequency}{\glssymbol{naturalFrequency}}
+{\ensuremath{\omega_{n}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\damperFactor}{\glssymbol{damperFactor}}
+{\ensuremath{\zeta}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\earthRotationVelocity}{\glssymbol{earthRotationVelocity}}
 {\ensuremath{\omega_{\ensuremath{\mathrm{i}}\ensuremath{\mathrm{g}}}}}
 \end_inset
