@@ -136,6 +136,7 @@ tex2lyx:
 	$(MAKE) glossaries -B
 	
 complete:
+	$(CHANGE_DIRECTORY) $(TEX_FOLDER) && mkdir -p $(AUX_FOLDER)
 	$(CHANGE_DIRECTORY) $(TEX_FOLDER) && $(MAKE) latex 
 	$(CHANGE_DIRECTORY) $(TEX_FOLDER) && $(MAKE) biber 
 	$(CHANGE_DIRECTORY) $(TEX_FOLDER) && $(MAKE) glossaries
