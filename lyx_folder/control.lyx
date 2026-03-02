@@ -4,13 +4,14 @@
 \begin_header
 \save_transient_properties true
 \origin unavailable
-\textclass article
-\use_default_options true
+\textclass extarticle
+\use_default_options false
+\master main_lyx.lyx
 \maintain_unincluded_children no
 \language brazilian
 \language_package default
 \inputencoding utf8
-\fontencoding auto
+\fontencoding default
 \font_roman "default" "default"
 \font_sans "default" "default"
 \font_typewriter "default" "default"
@@ -32,34 +33,36 @@
 \index_command default
 \float_placement class
 \float_alignment class
-\paperfontsize default
+\paperfontsize 12
+\spacing onehalf
 \use_hyperref false
 \papersize default
 \use_geometry false
 \use_package amsmath 1
-\use_package amssymb 1
-\use_package cancel 1
+\use_package amssymb 0
+\use_package cancel 0
 \use_package esint 1
-\use_package mathdots 1
-\use_package mathtools 1
-\use_package mhchem 1
-\use_package stackrel 1
-\use_package stmaryrd 1
-\use_package undertilde 1
+\use_package mathdots 0
+\use_package mathtools 0
+\use_package mhchem 0
+\use_package stackrel 0
+\use_package stmaryrd 0
+\use_package undertilde 0
 \cite_engine basic
 \cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
 \justification true
-\use_refstyle 1
+\use_refstyle 0
 \use_formatted_ref 0
 \use_minted 0
 \use_lineno 0
 \index Index
 \shortcut idx
-\color #008080
+\color #008000
 \end_index
 \secnumdepth 3
 \tocdepth 3
@@ -87,8 +90,182 @@
 \begin_body
 
 \begin_layout Standard
-Controle de um planador.
+Modelo 
+\begin_inset Formula 
+\begin{align}
+\dot{\positionVector}^{\navigationSystem} & =-_{\bodySystem}^{\navigationSystem}\matrixRotation\velocityVector^{\bodySystem},\label{eq:-11}\\
+\dot{\eulerAngleVector} & =-\matrixTransformationOfKinematics\angularRateVector,\label{eq:-12}\\
+\mass\dot{\velocityVector}^{\bodySystem} & =\angularRateVector\times\velocityVector^{\bodySystem}-{}_{\navigationSystem}^{\bodySystem}\matrixRotation\gravityVector^{\navigationSystem}-\forceVectorAerodynamic[^{\bodySystem}],\label{eq:-9}\\
+\tensorOfInertiaMatrix\dot{\angularRateVector}^{\bodySystem} & =\angularRateVector^{\bodySystem}\timesOperator\tensorOfInertiaMatrix\angularRateVector^{\bodySystem}-\momentVector^{\bodySystem}.\label{eq:-10-1}
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The state,
+ derivative,
+ and control vectors for the system are defined as:
  
+\begin_inset Formula 
+\begin{align}
+\stateVector & =\left[\begin{array}{cccc}
+\positionVector^{\navigationSystem} & \eulerAngleVector & \velocityVector^{\bodySystem} & \angularRateVector\end{array}\right],\label{eq:l-17}\\
+\dot{\stateVector} & =\left[\begin{array}{cccc}
+\dot{\positionVector}^{\navigationSystem} & \dot{\eulerAngleVector} & \dot{\velocityVector}^{\bodySystem} & \dot{\angularRateVector}\end{array}\right],\label{eq:l-18}\\
+\controlVector & =\left[\begin{array}{cccc}
+\forcePropulsion & \rightElevon & \leftElevon & \rudder\end{array}\right]\label{eq:l-45}
+\end{align}
+
+\end_inset
+
+These equations contain terms for aerodynamic forces (
+\begin_inset Formula $\forceVectorAerodynamic$
+\end_inset
+
+) and moments (
+\begin_inset Formula $\momentVector^{\bodySystem}$
+\end_inset
+
+),
+ which are functions of the vehicle's state and control inputs.
+\end_layout
+
+\begin_layout Standard
+No caso do planador,
+ não exite 
+\begin_inset Formula $\forcePropulsion$
+\end_inset
+
+ nem 
+\begin_inset Formula $\rudder$
+\end_inset
+
+.
+ Controle de um planador.
+\end_layout
+
+\begin_layout Standard
+The force and moment coefficients are then expressed as linear functions of the perturbations in these aerodynamic states and control surface deflections:
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{subequations}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\begin{align}
+\coefficientBodyForceAxial & =\coefficientBodyForceAxialZeroLift+\coefficientBodyForceAxialIncrementForAngleAtack\angleAttack+\coefficientBodyForceAxialIncrementForRightElevon\rightElevon+\coefficientBodyForceAxialIncrementForLeftElevon\leftElevon+\coefficientBodyForceAxialIncrementForAngularRateq\frac{\angularRateq\referenceLongitudinalLength}{2\velocity}.\label{eq:l}\\
+\coefficientLateralForceBody & =\coefficientLateralForceBody\left(\angleSideslip\right)+\coefficientLateralForceBodyIncrementForDotAngleSideSlip\frac{\dot{\angleSideslip}\referenceLateralLength}{2\velocity}+\coefficientLateralForceBodyIncrementForAngularRatep\frac{\angularRatep\referenceLateralLength}{2\velocity}+\coefficientLateralForceBodyIncrementForAngularRater\frac{\angularRater\referenceLateralLength}{2\velocity},\label{eq:l-3}\\
+\coefficientBodyForceNormal & =\coefficientBodyForceNormalZeroLift+\coefficientBodyForceNormalIncrementForAngleAtack\angleAttack+\coefficientBodyForceNormalIncrementForRightElevon\rightElevon+\coefficientBodyForceNormalIncrementForLeftElevon\leftElevon+\coefficientBodyForceNormalIncrementForAngularRateq\frac{\angularRateq\referenceLongitudinalLength}{2\velocity}+\coefficientBodyForceNormalIncrementForDotAngleAtack\frac{\dot{\angleAttack}\referenceLongitudinalLength}{2\velocity},\label{eq:l-1}
+\end{align}
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{subequations}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{subequations}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula 
+\begin{align}
+\coefficientPitchingMoment & =\coefficientPitchingMoment\left(\angleAttack\right)+\coefficientPitchingMomentIncrementForRightElevon\rightElevon+\coefficientPitchingMomentIncrementForLeftElevon\leftElevon+\coefficientPitchingMomentIncrementForAngularRateq\frac{\angularRateq\,\referenceLongitudinalLength}{2\velocity}+\coefficientPitchingMomentIncrementForDotAngleAtack\frac{\dot{{\angleAttack}}\referenceLongitudinalLength}{2\velocity}.\label{eq:l-2}\\
+\coefficientRollingMoment & =\coefficientRollingMoment\left(\angleSideslip\right)+\coefficientRollingMomentIncrementForLeftElevon\leftElevon+\coefficientPitchingMomentIncrementForRightElevon\rightElevon+\coefficientRollingMomentIncrementForAngularRatep\frac{\angularRatep\,\referenceLateralLength}{2\velocity}+\coefficientRollingMomentIncrementForAngularRater\frac{\angularRater\,\referenceLateralLength}{2\velocity}+\coefficientRollingMomentIncrementForDotAngleSideSlip\frac{\dot{{\angleSideslip}}\referenceLongitudinalLength}{2\velocity},\label{eq:-2}\\
+\coefficientYawingMoment & =\coefficientYawingMomentIncrementForAngleSideSlip\angleSideslip+\coefficientYawingMomentIncrementForLeftElevon\leftElevon+\coefficientPitchingMomentIncrementForRightElevon\rightElevon+\coefficientYawingMomentIncrementForAngularRatep\frac{\angularRatep\,\referenceLateralLength}{2\velocity}+\coefficientYawingMomentIncrementForAngularRater\frac{\angularRater\,\referenceLateralLength}{2\velocity}+\coefficientYawingMomentIncrementForDotAngleSideSlip\frac{\dot{{\angleSideslip}}\referenceLateralLength}{2\velocity}.\label{eq:-6}
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+par 
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{subequations}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The aerodynamic forces and moments are modeled using a coefficient-based approach.
+ The total force and moment vectors are defined as:
+ 
+\begin_inset Formula 
+\begin{align}
+\forceVectorAerodynamic & =\dynamicPressure\referenceArea\begin{bmatrix}-\coefficientBodyForceAxial\\
+\coefficientLateralForceWind\\
+-\coefficientBodyForceNormal
+\end{bmatrix}.\label{eq:-7}
+\end{align}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{align}
+\momentVector^{\bodySystem} & =\dynamicPressure\referenceArea\begin{bmatrix}\referenceLateralLength\coefficientRollingMoment\\
+\referenceLongitudinalLength\coefficientPitchingMoment\\
+\referenceLateralLength\coefficientYawingMoment
+\end{bmatrix}\label{eq:-8}
+\end{align}
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -104,33 +281,158 @@ As entradas de controle são dois elevons,
 .
  Para isso,
  será implementado duas malhas.
+ A condição de equilíbrio é obtida através de um algorítimo de TRIM.
+ No equilíbrio de um planador as condições são:
  
+\begin_inset Formula 
+\begin{align}
+\angleAttack & =\eulerTheta-\angleFlightPath,\\
+\angleSideslip & =0\rightarrow\velocityv=0,\\
+\angularRateVector & =0,\\
+\eulerPhi & =0,\\
+\eulerPsi & =\text{não importa agora, pode ser zero},
+\end{align}
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Enumerate
-Malha translacional
+Malha translacional 
 \end_layout
 
 \begin_deeper
 \begin_layout Enumerate
-defino os estados de posição e translação no sistema ECEF (p_e e v_e)
+defino os estados de posição (
+\begin_inset Formula $\positionVector$
+\end_inset
+
+) e velocidade (
+\begin_inset Formula $\velocityVector$
+\end_inset
+
+) de translação no sistema 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+gls
 \end_layout
 
-\end_deeper
-\begin_layout Standard
-2.
- defino os meus alvos p_s e v_s (s de setpoint).
- Para obter o setpoint de velocidade eu tenho o ângulo de ataque da missão e o Mach atual,
- e quero que a derrapagem seja nula,
- logo tenho a relação velocidae no corpo w e u com o angulo de ataque.
- 1º pergunta :
- e a posição de setpoint p_s vai ser a integração de v_s?
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+{
 \end_layout
 
-\begin_layout Standard
-3.
+\end_inset
+
+ecef
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+.
+ A saída do simulador compõe os estados atuais,
+ ou seja no instante 
+\begin_inset Formula $k$
+\end_inset
+
+.
  
 \end_layout
 
+\begin_layout Enumerate
+Os alvos são 
+\begin_inset Formula $\positionVector_{s}$
+\end_inset
+
+ e 
+\begin_inset Formula $\velocityVector_{s}$
+\end_inset
+
+.
+ O alvo de velocidade é obtido a partir do número de Mach 
+\begin_inset Formula $\machNumber$
+\end_inset
+
+,
+ condição de não derrapagem (como 
+\begin_inset Formula $\angleSideslip$
+\end_inset
+
+ deve ser nulo,
+ a velocidade no corpo lateral deve ser nula 
+\begin_inset Formula $\velocityv=0$
+\end_inset
+
+).
+ Com 
+\begin_inset Formula $\machNumber$
+\end_inset
+
+ e ângulo de ataque (
+\begin_inset Formula $\angleAttack$
+\end_inset
+
+ obtido por um algorítimo de TRIM) as velocidades no corpo são calculadas.
+ Primeira dúvida,
+ e a referencia de posição?
+ eu integro a velocidade desejada?
+ 
+\end_layout
+
+\begin_layout Enumerate
+A lei de controle considera os erros 
+\begin_inset Formula $\mathbf{e}_{\positionVector}=\positionVector-\positionVector_{s}$
+\end_inset
+
+,
+ 
+\begin_inset Formula $\mathbf{e_{\velocityVector}}=\velocityVector-\velocityVector_{s}$
+\end_inset
+
+ e 
+\begin_inset Formula $\mathbf{e}_{\accelerationVector}=\accelerationVector-\accelerationVector_{s}$
+\end_inset
+
+,
+ ou,
+ por alocação de polos
+\begin_inset Formula 
+\[
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Malha rotacional 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+d 
+\end_layout
+
+\end_deeper
 \end_body
 \end_document

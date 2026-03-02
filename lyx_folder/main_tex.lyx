@@ -3,7 +3,7 @@
 \begin_document
 \begin_header
 \save_transient_properties true
-\origin C:/Users/roneyrds/Documents/repos/linear_analisys/tex_folder/
+\origin /media/Arquivos/eah/repos/control_doc/tex_folder/
 \textclass extarticle
 \begin_preamble
 \usepackage[american, brazil]{babel}
@@ -182,16 +182,7 @@ status collapsed
 \begin_inset CommandInset include
 LatexCommand input
 preview false
-filename "linearized_model.lyx"
-literal "false"
-
-\end_inset
-
- 
-\begin_inset CommandInset include
-LatexCommand input
-preview false
-filename "equilibrium_points.lyx"
+filename "control.lyx"
 literal "false"
 
 \end_inset
@@ -203,15 +194,6 @@ literal "false"
 
 \lang brazilian
 
-\begin_inset CommandInset include
-LatexCommand input
-preview false
-filename "appendix_partial_derivatives.lyx"
-literal "false"
-
-\end_inset
-
- 
 \begin_inset ERT
 status collapsed
 

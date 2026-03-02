@@ -1,25 +1,100 @@
-
-Controle de um planador. 
-
-As entradas de controle são dois elevons, um direito e outro esquerdo $\leftElevon$ and $\rightElevon$. Para isso, será implementado duas malhas. A condição de equilíbrio é obtida através de um algorítimo de TRIM. No equilíbrio de um planador as condições são:
+\selectlanguage{brazil}%
+Modelo 
 \begin{align}
-    \angleAttack &= \eulerTheta - \angleFlightPath, \\
-    \angleSideslip &= 0 \rightarrow \velocityv=0,\\
-    \angularRateVector &= 0,\\
-    \eulerPhi &= 0,\\
-    \eulerPsi &= 0,\\
+\dot{\positionVector}^{\navigationSystem} & =-_{\bodySystem}^{\navigationSystem}\matrixRotation\velocityVector^{\bodySystem},\label{eq:-11}\\
+\dot{\eulerAngleVector} & =-\matrixTransformationOfKinematics\angularRateVector,\label{eq:-12}\\
+\mass\dot{\velocityVector}^{\bodySystem} & =\angularRateVector\times\velocityVector^{\bodySystem}-{}_{\navigationSystem}^{\bodySystem}\matrixRotation\gravityVector^{\navigationSystem}-\forceVectorAerodynamic[^{\bodySystem}],\label{eq:-9}\\
+\tensorOfInertiaMatrix\dot{\angularRateVector}^{\bodySystem} & =\angularRateVector^{\bodySystem}\timesOperator\tensorOfInertiaMatrix\angularRateVector^{\bodySystem}-\momentVector^{\bodySystem}.\label{eq:-10-1}
 \end{align}
-\begin{enumerate}
-\item Malha translacional
-\begin{enumerate}
-\item defino os estados de posição ($\positionVector$) e velocidade ($\velocityVector$) de translação no sistema \gls{ecef}. A saída do simulador compõe os estados atuais, ou seja no instante $k$. 
-\item Os alvos são $\positionVector_{s}$ e $\velocityVector_{s}$. O alvo de velocidade é obtido a partir do número de Mach $\machNumber$, condição de não derrapagem (como $\angleSideslip$ deve ser nulo, a velocidade no corpo lateral deve ser nula $\velocityv=0$). Com $\machNumber$ e ângulo de ataque ($\angleAttack$ obtido por um algorítimo de TRIM) as velocidades no corpo são calculadas. Primeira dúvida, e a referencia de posição? eu integro a velocidade desejada?
-\item A lei de controle considera os erros $\mathbf{e}_{\positionVector}=\positionVector-\positionVector_{s}$, $\mathbf{e}_{velocityVector}_v=\velocityVector-\velocityVector_{s}$ e $\mathbf{e}_{\accelerationVector}=\accelerationVector-\accelerationVector_{s}$
-\end{enumerate}
-\item Malha rotacional
-\begin{enumerate}
-    \item d
-\end{enumerate}
-\end{enumerate}
 
+The state, derivative, and control vectors for the system are defined
+as: 
+\begin{align}
+\stateVector & =\left[\begin{array}{cccc}
+\positionVector^{\navigationSystem} & \eulerAngleVector & \velocityVector^{\bodySystem} & \angularRateVector\end{array}\right],\label{eq:l-17}\\
+\dot{\stateVector} & =\left[\begin{array}{cccc}
+\dot{\positionVector}^{\navigationSystem} & \dot{\eulerAngleVector} & \dot{\velocityVector}^{\bodySystem} & \dot{\angularRateVector}\end{array}\right],\label{eq:l-18}\\
+\controlVector & =\left[\begin{array}{cccc}
+\forcePropulsion & \rightElevon & \leftElevon & \rudder\end{array}\right]\label{eq:l-45}
+\end{align}
+These equations contain terms for aerodynamic forces ($\forceVectorAerodynamic$)
+and moments ($\momentVector^{\bodySystem}$), which are functions
+of the vehicle's state and control inputs.
+
+No caso do planador, não exite $\forcePropulsion$ nem $\rudder$.
+Controle de um planador.
+
+The force and moment coefficients are then expressed as linear functions
+of the perturbations in these aerodynamic states and control surface
+deflections: \begin{subequations} 
+\begin{align}
+\coefficientBodyForceAxial & =\coefficientBodyForceAxialZeroLift+\coefficientBodyForceAxialIncrementForAngleAtack\angleAttack+\coefficientBodyForceAxialIncrementForRightElevon\rightElevon+\coefficientBodyForceAxialIncrementForLeftElevon\leftElevon+\coefficientBodyForceAxialIncrementForAngularRateq\frac{\angularRateq\referenceLongitudinalLength}{2\velocity}.\label{eq:l}\\
+\coefficientLateralForceWind & =\coefficientLateralForceWindIncrementForAngleSideSlip\angleSideslip+\coefficientLateralForceWindIncrementForDotAngleSideSlip\frac{\dot{\angleSideslip}\referenceLateralLength}{2\velocity}+\coefficientLateralForceWindIncrementForAngularRatep\frac{\angularRatep\referenceLateralLength}{2\velocity}+\coefficientLateralForceWindIncrementForAngularRater\frac{\angularRater\referenceLateralLength}{2\velocity},\label{eq:l-3}\\
+\coefficientBodyForceNormal & =\coefficientBodyForceNormalZeroLift+\coefficientBodyForceNormalIncrementForAngleAtack\angleAttack+\coefficientBodyForceNormalIncrementForRightElevon\rightElevon+\coefficientBodyForceNormalIncrementForLeftElevon\leftElevon+\coefficientBodyForceNormalIncrementForAngularRateq\frac{\angularRateq\referenceLongitudinalLength}{2\velocity}+\coefficientBodyForceNormalIncrementForDotAngleAtack\frac{\dot{\angleAttack}\referenceLongitudinalLength}{2\velocity},\label{eq:l-1}
+\end{align}
+\end{subequations}\begin{subequations} 
+\begin{align}
+\coefficientPitchingMoment & =\coefficientPitchingMomentZeroLift+\coefficientPitchingMomentIncrementForAngleAtack\angleAttack+\coefficientPitchingMomentIncrementForRightElevon\rightElevon+\coefficientPitchingMomentIncrementForLeftElevon\leftElevon+\coefficientPitchingMomentIncrementForAngularRateq\frac{\angularRateq\,\referenceLongitudinalLength}{2\velocity}+\coefficientPitchingMomentIncrementForDotAngleAtack\frac{\dot{{\angleAttack}}\referenceLongitudinalLength}{2\velocity}.\label{eq:l-2}\\
+\coefficientRollingMoment & =\coefficientRollingMomentIncrementForAngleSideSlip\angleSideslip+\coefficientRollingMomentIncrementForLeftElevon\leftElevon+\coefficientPitchingMomentIncrementForRightElevon\rightElevon+\coefficientRollingMomentIncrementForAngularRatep\frac{\angularRatep\,\referenceLateralLength}{2\velocity}+\coefficientRollingMomentIncrementForAngularRater\frac{\angularRater\,\referenceLateralLength}{2\velocity}+\coefficientRollingMomentIncrementForDotAngleSideSlip\frac{\dot{{\angleSideslip}}\referenceLongitudinalLength}{2\velocity},\label{eq:-2}\\
+\coefficientYawingMoment & =\coefficientYawingMomentIncrementForAngleSideSlip\angleSideslip+\coefficientYawingMomentIncrementForLeftElevon\leftElevon+\coefficientPitchingMomentIncrementForRightElevon\rightElevon+\coefficientYawingMomentIncrementForAngularRatep\frac{\angularRatep\,\referenceLateralLength}{2\velocity}+\coefficientYawingMomentIncrementForAngularRater\frac{\angularRater\,\referenceLateralLength}{2\velocity}+\coefficientYawingMomentIncrementForDotAngleSideSlip\frac{\dot{{\angleSideslip}}\referenceLateralLength}{2\velocity}.\label{eq:-6}
+\end{align}
+
+\par \end{subequations}
+
+The aerodynamic forces and moments are modeled using a coefficient-based
+approach. The total force and moment vectors are defined as: 
+\begin{align}
+\forceVectorAerodynamic & =\dynamicPressure\referenceArea\begin{bmatrix}-\coefficientBodyForceAxial\\
+\coefficientLateralForceWind\\
+-\coefficientBodyForceNormal
+\end{bmatrix}+\left[\begin{array}{c}
+\forcePropulsion\\
+0\\
+0
+\end{array}\right].\label{eq:-7}
+\end{align}
+\begin{align}
+\momentVector^{\bodySystem} & =\dynamicPressure\referenceArea\begin{bmatrix}\referenceLateralLength\coefficientRollingMoment\\
+\referenceLongitudinalLength\coefficientPitchingMoment\\
+\referenceLateralLength\coefficientYawingMoment
+\end{bmatrix}\label{eq:-8}
+\end{align}
+
+As entradas de controle são dois elevons, um direito e outro esquerdo
+$\leftElevon$ and $\rightElevon$. Para isso, será implementado duas
+malhas. A condição de equilíbrio é obtida através de um algorítimo
+de TRIM. No equilíbrio de um planador as condições são: 
+\begin{align}
+\angleAttack & =\eulerTheta-\angleFlightPath,\\
+\angleSideslip & =0\rightarrow\velocityv=0,\\
+\angularRateVector & =0,\\
+\eulerPhi & =0,\\
+\eulerPsi & =\text{não importa agora, pode ser zero},
+\end{align}
+
+\begin{enumerate}
+\item Malha translacional 
+\begin{enumerate}
+\item defino os estados de posição ($\positionVector$) e velocidade ($\velocityVector$)
+de translação no sistema \gls{ecef}. A saída do simulador compõe
+os estados atuais, ou seja no instante $k$. 
+\item Os alvos são $\positionVector_{s}$ e $\velocityVector_{s}$. O alvo
+de velocidade é obtido a partir do número de Mach $\machNumber$,
+condição de não derrapagem (como $\angleSideslip$ deve ser nulo,
+a velocidade no corpo lateral deve ser nula $\velocityv=0$). Com
+$\machNumber$ e ângulo de ataque ($\angleAttack$ obtido por um algorítimo
+de TRIM) as velocidades no corpo são calculadas. Primeira dúvida,
+e a referencia de posição? eu integro a velocidade desejada? 
+\item A lei de controle considera os erros $\mathbf{e}_{\positionVector}=\positionVector-\positionVector_{s}$,
+$\mathbf{e_{\velocityVector}}=\velocityVector-\velocityVector_{s}$
+e $\mathbf{e}_{\accelerationVector}=\accelerationVector-\accelerationVector_{s}$,
+ou, por alocação de polos
+\[
+\]
+\end{enumerate}
+\item Malha rotacional 
+\begin{enumerate}
+\item d \selectlanguage{american}%
+\end{enumerate}
+\end{enumerate}
 
