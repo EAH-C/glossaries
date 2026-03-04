@@ -1,5 +1,7 @@
 \selectlanguage{brazil}%
-Modelo 
+
+\section{Modelo}
+
 \begin{align}
 \dot{\positionVector}^{\navigationSystem} & =-_{\bodySystem}^{\navigationSystem}\matrixRotation\velocityVector^{\bodySystem},\label{eq:-11}\\
 \dot{\eulerAngleVector} & =-\matrixTransformationOfKinematics\angularRateVector,\label{eq:-12}\\
@@ -28,15 +30,15 @@ The force and moment coefficients are then expressed as linear functions
 of the perturbations in these aerodynamic states and control surface
 deflections: \begin{subequations} 
 \begin{align}
-\coefficientBodyForceAxial & =\coefficientBodyForceAxialZeroLift+\coefficientBodyForceAxialIncrementForAngleAtack\angleAttack+\coefficientBodyForceAxialIncrementForRightElevon\rightElevon+\coefficientBodyForceAxialIncrementForLeftElevon\leftElevon+\coefficientBodyForceAxialIncrementForAngularRateq\frac{\angularRateq\referenceLongitudinalLength}{2\velocity}.\label{eq:l}\\
-\coefficientLateralForceWind & =\coefficientLateralForceWindIncrementForAngleSideSlip\angleSideslip+\coefficientLateralForceWindIncrementForDotAngleSideSlip\frac{\dot{\angleSideslip}\referenceLateralLength}{2\velocity}+\coefficientLateralForceWindIncrementForAngularRatep\frac{\angularRatep\referenceLateralLength}{2\velocity}+\coefficientLateralForceWindIncrementForAngularRater\frac{\angularRater\referenceLateralLength}{2\velocity},\label{eq:l-3}\\
-\coefficientBodyForceNormal & =\coefficientBodyForceNormalZeroLift+\coefficientBodyForceNormalIncrementForAngleAtack\angleAttack+\coefficientBodyForceNormalIncrementForRightElevon\rightElevon+\coefficientBodyForceNormalIncrementForLeftElevon\leftElevon+\coefficientBodyForceNormalIncrementForAngularRateq\frac{\angularRateq\referenceLongitudinalLength}{2\velocity}+\coefficientBodyForceNormalIncrementForDotAngleAtack\frac{\dot{\angleAttack}\referenceLongitudinalLength}{2\velocity},\label{eq:l-1}
+\coefficientBodyForceAxial & =\coefficientBodyForceAxial\left(\angleAttack\right)+\coefficientBodyForceAxialIncrementForAngularRateq\frac{\angularRateq\referenceLongitudinalLength}{2\velocity}+\coefficientBodyForceAxialIncrementForRightElevon\rightElevon+\coefficientBodyForceAxialIncrementForLeftElevon\leftElevon.\label{eq:l}\\
+\coefficientLateralForceBody & =\coefficientLateralForceBody\left(\angleSideslip\right)+\coefficientLateralForceBodyIncrementForDotAngleSideSlip\frac{\dot{\angleSideslip}\referenceLateralLength}{2\velocity}+\coefficientLateralForceBodyIncrementForAngularRatep\frac{\angularRatep\referenceLateralLength}{2\velocity}+\coefficientLateralForceBodyIncrementForAngularRater\frac{\angularRater\referenceLateralLength}{2\velocity},\label{eq:l-3}\\
+\coefficientBodyForceNormal & =\coefficientBodyForceNormal\left(\angleAttack\right)+\coefficientBodyForceNormalIncrementForAngularRateq\frac{\angularRateq\referenceLongitudinalLength}{2\velocity}+\coefficientBodyForceNormalIncrementForDotAngleAtack\frac{\dot{\angleAttack}\referenceLongitudinalLength}{2\velocity}+\coefficientBodyForceNormalIncrementForRightElevon\rightElevon+\coefficientBodyForceNormalIncrementForLeftElevon\leftElevon,\label{eq:l-1}
 \end{align}
 \end{subequations}\begin{subequations} 
 \begin{align}
-\coefficientPitchingMoment & =\coefficientPitchingMomentZeroLift+\coefficientPitchingMomentIncrementForAngleAtack\angleAttack+\coefficientPitchingMomentIncrementForRightElevon\rightElevon+\coefficientPitchingMomentIncrementForLeftElevon\leftElevon+\coefficientPitchingMomentIncrementForAngularRateq\frac{\angularRateq\,\referenceLongitudinalLength}{2\velocity}+\coefficientPitchingMomentIncrementForDotAngleAtack\frac{\dot{{\angleAttack}}\referenceLongitudinalLength}{2\velocity}.\label{eq:l-2}\\
-\coefficientRollingMoment & =\coefficientRollingMomentIncrementForAngleSideSlip\angleSideslip+\coefficientRollingMomentIncrementForLeftElevon\leftElevon+\coefficientPitchingMomentIncrementForRightElevon\rightElevon+\coefficientRollingMomentIncrementForAngularRatep\frac{\angularRatep\,\referenceLateralLength}{2\velocity}+\coefficientRollingMomentIncrementForAngularRater\frac{\angularRater\,\referenceLateralLength}{2\velocity}+\coefficientRollingMomentIncrementForDotAngleSideSlip\frac{\dot{{\angleSideslip}}\referenceLongitudinalLength}{2\velocity},\label{eq:-2}\\
-\coefficientYawingMoment & =\coefficientYawingMomentIncrementForAngleSideSlip\angleSideslip+\coefficientYawingMomentIncrementForLeftElevon\leftElevon+\coefficientPitchingMomentIncrementForRightElevon\rightElevon+\coefficientYawingMomentIncrementForAngularRatep\frac{\angularRatep\,\referenceLateralLength}{2\velocity}+\coefficientYawingMomentIncrementForAngularRater\frac{\angularRater\,\referenceLateralLength}{2\velocity}+\coefficientYawingMomentIncrementForDotAngleSideSlip\frac{\dot{{\angleSideslip}}\referenceLateralLength}{2\velocity}.\label{eq:-6}
+\coefficientPitchingMoment & =\coefficientPitchingMoment\left(\angleAttack\right)+\coefficientPitchingMomentIncrementForAngularRateq\frac{\angularRateq\,\referenceLongitudinalLength}{2\velocity}+\coefficientPitchingMomentIncrementForDotAngleAtack\frac{\dot{{\angleAttack}}\referenceLongitudinalLength}{2\velocity}+\coefficientPitchingMomentIncrementForRightElevon\rightElevon+\coefficientPitchingMomentIncrementForLeftElevon\leftElevon.\label{eq:l-2}\\
+\coefficientRollingMoment & =\coefficientRollingMoment\left(\angleSideslip\right)+\coefficientRollingMomentIncrementForAngularRatep\frac{\angularRatep\,\referenceLateralLength}{2\velocity}+\coefficientRollingMomentIncrementForAngularRater\frac{\angularRater\,\referenceLateralLength}{2\velocity}+\coefficientRollingMomentIncrementForDotAngleSideSlip\frac{\dot{{\angleSideslip}}\referenceLongitudinalLength}{2\velocity}+\coefficientRollingMomentIncrementForLeftElevon\leftElevon+\coefficientPitchingMomentIncrementForRightElevon\rightElevon,\label{eq:-2}\\
+\coefficientYawingMoment & =\coefficientYawingMomentIncrementForAngleSideSlip\left(\angleSideslip\right)+\coefficientYawingMomentIncrementForAngularRatep\frac{\angularRatep\,\referenceLateralLength}{2\velocity}+\coefficientYawingMomentIncrementForAngularRater\frac{\angularRater\,\referenceLateralLength}{2\velocity}+\coefficientYawingMomentIncrementForDotAngleSideSlip\frac{\dot{{\angleSideslip}}\referenceLateralLength}{2\velocity}+\coefficientYawingMomentIncrementForLeftElevon\leftElevon+\coefficientPitchingMomentIncrementForRightElevon\rightElevon.\label{eq:-6}
 \end{align}
 
 \par \end{subequations}
@@ -47,17 +49,20 @@ approach. The total force and moment vectors are defined as:
 \forceVectorAerodynamic & =\dynamicPressure\referenceArea\begin{bmatrix}-\coefficientBodyForceAxial\\
 \coefficientLateralForceWind\\
 -\coefficientBodyForceNormal
-\end{bmatrix}+\left[\begin{array}{c}
-\forcePropulsion\\
-0\\
-0
-\end{array}\right].\label{eq:-7}
+\end{bmatrix}.\label{eq:-7}
 \end{align}
 \begin{align}
 \momentVector^{\bodySystem} & =\dynamicPressure\referenceArea\begin{bmatrix}\referenceLateralLength\coefficientRollingMoment\\
 \referenceLongitudinalLength\coefficientPitchingMoment\\
 \referenceLateralLength\coefficientYawingMoment
 \end{bmatrix}\label{eq:-8}
+\end{align}
+\begin{align}
+\dot{\positionVector}^{\navigationSystem} & =-_{\bodySystem}^{\navigationSystem}\matrixRotation\velocityVector^{\bodySystem},\label{eq:-1}\\
+\mass\dot{\velocityVector}^{\bodySystem} & =\angularRateVector\times\velocityVector^{\bodySystem}-{}_{\navigationSystem}^{\bodySystem}\matrixRotation\gravityVector^{\navigationSystem}-\dynamicPressure\referenceArea\begin{bmatrix}-\coefficientBodyForceAxial\\
+\coefficientLateralForceWind\\
+-\coefficientBodyForceNormal
+\end{bmatrix},\label{eq:}
 \end{align}
 
 As entradas de controle são dois elevons, um direito e outro esquerdo
@@ -89,8 +94,33 @@ e a referencia de posição? eu integro a velocidade desejada?
 $\mathbf{e_{\velocityVector}}=\velocityVector-\velocityVector_{s}$
 e $\mathbf{e}_{\accelerationVector}=\accelerationVector-\accelerationVector_{s}$,
 ou, por alocação de polos
-\[
-\]
+\begin{multline*}
+\left[\begin{array}{c}
+\dot{\positionVector}^{\navigationSystem}\\
+\dot{\velocityVector}^{\bodySystem}+_{\navigationSystem}^{\bodySystem}\matrixRotation\gravityVector^{\navigationSystem}+\dynamicPressure\referenceArea\left[\begin{array}{c}
+\coefficientBodyForceAxial\left(\angleAttack\right)+\coefficientBodyForceAxialIncrementForAngularRateq\frac{\angularRateq\referenceLongitudinalLength}{2\velocity}\\
+\coefficientLateralForceBody\left(\angleSideslip\right)+\coefficientLateralForceBodyIncrementForDotAngleSideSlip\frac{\dot{\angleSideslip}\referenceLateralLength}{2\velocity}+\coefficientLateralForceBodyIncrementForAngularRatep\frac{\angularRatep\referenceLateralLength}{2\velocity}+\coefficientLateralForceBodyIncrementForAngularRater\frac{\angularRater\referenceLateralLength}{2\velocity}\\
+\coefficientBodyForceNormal\left(\angleAttack\right)+\coefficientBodyForceNormalIncrementForAngularRateq\frac{\angularRateq\referenceLongitudinalLength}{2\velocity}+\coefficientBodyForceNormalIncrementForDotAngleAtack\frac{\dot{\angleAttack}\referenceLongitudinalLength}{2\velocity}
+\end{array}\right]
+\end{array}\right]\\
+=\left[\begin{array}{cc}
+\zeroMatrix_{3} & -_{\bodySystem}^{\navigationSystem}\matrixRotation\\
+\zeroMatrix_{3} & \frac{1}{\mass}\crossProduct{\angularRateVector}
+\end{array}\right]\left[\begin{array}{c}
+\positionVector^{\navigationSystem}\\
+\velocityVector^{\bodySystem}
+\end{array}\right]-\dynamicPressure\referenceArea\left[\begin{array}{cc}
+0 & 0\\
+0 & 0\\
+0 & 0\\
+\coefficientBodyForceAxialIncrementForRightElevon+ & \coefficientBodyForceAxialIncrementForLeftElevon\\
+0 & 0\\
+\coefficientBodyForceNormalIncrementForRightElevon & \coefficientBodyForceNormalIncrementForLeftElevon
+\end{array}\right]\left[\begin{array}{c}
+\rightElevon\\
+\leftElevon
+\end{array}\right]
+\end{multline*}
 \end{enumerate}
 \item Malha rotacional 
 \begin{enumerate}
