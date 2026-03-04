@@ -1,9 +1,9 @@
-#LyX 2.4 created this file. For more info see https://www.lyx.org/
+#LyX file created by tex2lyx 2.4
 \lyxformat 620
 \begin_document
 \begin_header
 \save_transient_properties true
-\origin unavailable
+\origin /media/Arquivos/eah/repos/control_doc/glossaries/
 \textclass extarticle
 \use_default_options false
 \maintain_unincluded_children no
@@ -54,9 +54,8 @@
 \suppress_date false
 \justification true
 \use_refstyle 0
-\use_formatted_ref 0
 \use_minted 0
-\use_lineno 0
+\use_lineno false
 \index Index
 \shortcut idx
 \color #008000
@@ -72,11 +71,9 @@
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
-\tablestyle default
 \tracking_changes false
 \output_changes false
 \change_bars false
-\postpone_fragile_content true
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
@@ -87,25 +84,32 @@
 \begin_body
 
 \begin_layout Standard
+
+\lang brazilian
+
+\lang brazilian
+
 \begin_inset FormulaMacro
-\newcommand{\crossProduct}[1]{\left\llbracket #1\right\rrbracket _{\timesOperator}}
+\def\crossProduct #1{\left\llbracket #1\right\rrbracket _{\timesOperator}}
 \end_inset
 
 
 \begin_inset FormulaMacro
-\renewcommand{\transpose}[1]{\glssymbol{transpose}}
+\def\transpose #1{\glssymbol{transpose}}
 \end_inset
 
 
 \begin_inset FormulaMacro
-\renewcommand{\qi}[1]{\glssymbol{qi}_{#1}}
+\def\qi #1{\glssymbol{qi}_{#1}}
 \end_inset
 
 
 \begin_inset FormulaMacro
-\newcommand{\dqi}[1]{\dot{\glssymbol{qi}}_{#1}}
+\def\dqi #1{\dot{\glssymbol{qi}}_{#1}}
 \end_inset
 
+
+\lang american
 
 \end_layout
 
