@@ -1391,6 +1391,14 @@ theorems-ams
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\coefficientLateralForceBodyIncrementForAngularRater}{\glssymbol{coefficientLateralForceBodyIncrementForAngularRater}}
+{\ensuremath{C_{{\ensuremath{Y}}_{\ensuremath{r}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\coefficientLateralForceBody}{\glssymbol{coefficientLateralForceBody}}
 {\ensuremath{C_{\ensuremath{Y}}}}
 \end_inset
@@ -1409,6 +1417,14 @@ theorems-ams
 \begin_inset FormulaMacro
 \newcommand{\coefficientLateralForceBodyIncrementForAngleSideSlip}{\glssymbol{coefficientLateralForceBodyIncrementForAngleSideSlip}}
 {\ensuremath{C_{{\ensuremath{Y}}_{\ensuremath{\beta}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientLateralForceBodyIncrementForDotAngleSideSlip}{\glssymbol{coefficientLateralForceBodyIncrementForDotAngleSideSlip}}
+{\ensuremath{C_{{\ensuremath{Y}}_{\dot{\ensuremath{\beta}}}}}}
 \end_inset
 
 \end_layout
