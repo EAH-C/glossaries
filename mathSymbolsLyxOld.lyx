@@ -1927,6 +1927,22 @@ theorems-ams
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\eigenValue}{\glssymbol{eigenValue}}
+{\ensuremath{\lambda}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\eigenVector}{\glssymbol{eigenVector}}
+{\ensuremath{\mathbf{v}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\earthRotationVelocity}{\glssymbol{earthRotationVelocity}}
 {\ensuremath{\omega_{\ensuremath{\mathrm{i}}\ensuremath{\mathrm{g}}}}}
 \end_inset
