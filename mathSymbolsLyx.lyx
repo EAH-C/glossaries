@@ -1,19 +1,16 @@
-#LyX 2.4 created this file. For more info see https://www.lyx.org/
+#LyX file created by tex2lyx 2.4
 \lyxformat 620
 \begin_document
 \begin_header
 \save_transient_properties true
-\origin unavailable
+\origin C:/Users/roneyrds/Documents/repos/linear_analisys/glossaries/
 \textclass extarticle
 \use_default_options false
-\begin_modules
-theorems-ams
-\end_modules
 \maintain_unincluded_children no
-\language english
+\language brazilian
 \language_package default
 \inputencoding utf8
-\fontencoding T1
+\fontencoding default
 \font_roman "default" "default"
 \font_sans "default" "default"
 \font_typewriter "default" "default"
@@ -30,17 +27,16 @@ theorems-ams
 \use_dash_ligatures true
 \graphics default
 \default_output_format default
-\output_sync 1
-\output_sync_macro "\usepackage[active]{srcltx}"
+\output_sync 0
 \bibtex_command default
 \index_command default
 \paperfontsize 12
 \spacing onehalf
 \use_hyperref false
-\papersize a4
-\use_geometry true
-\use_package amsmath 2
-\use_package amssymb 2
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 0
 \use_package cancel 0
 \use_package esint 1
 \use_package mathdots 0
@@ -49,29 +45,21 @@ theorems-ams
 \use_package stackrel 0
 \use_package stmaryrd 0
 \use_package undertilde 0
-\cite_engine biblatex
-\cite_engine_type authoryear
-\biblio_style plainnat
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
 \justification true
 \use_refstyle 0
-\use_formatted_ref 0
 \use_minted 0
-\use_lineno 0
+\use_lineno false
 \index Index
 \shortcut idx
 \color #008000
 \end_index
-\leftmargin 2cm
-\topmargin 2cm
-\rightmargin 2cm
-\bottommargin 2cm
-\headheight 1cm
-\headsep 1cm
-\footskip 1cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -83,11 +71,9 @@ theorems-ams
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
-\tablestyle default
 \tracking_changes false
 \output_changes false
 \change_bars false
-\postpone_fragile_content true
 \html_math_output 0
 \html_css_as_file 0
 \html_be_strict false
@@ -96,13 +82,11 @@ theorems-ams
 \end_header
 
 \begin_body
-
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\timeState}{\glssymbol{timeState}}
 {\ensuremath{t}}
 \end_inset
-
 
 \end_layout
 
@@ -112,7 +96,6 @@ theorems-ams
 {\ensuremath{T}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -120,7 +103,6 @@ theorems-ams
 \newcommand{\temperatureC}{\glssymbol{temperatureC}}
 {\ensuremath{T_{C}}}
 \end_inset
-
 
 \end_layout
 
@@ -130,7 +112,6 @@ theorems-ams
 {\ensuremath{p}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -138,7 +119,6 @@ theorems-ams
 \newcommand{\flightSpeed}{\glssymbol{flightSpeed}}
 {\ensuremath{V_{T}}}
 \end_inset
-
 
 \end_layout
 
@@ -148,7 +128,6 @@ theorems-ams
 {\ensuremath{\alpha}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -156,7 +135,6 @@ theorems-ams
 \newcommand{\angleSideslip}{\glssymbol{angleSideslip}}
 {\ensuremath{\beta}}
 \end_inset
-
 
 \end_layout
 
@@ -166,7 +144,6 @@ theorems-ams
 {\ensuremath{\gamma}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -174,7 +151,6 @@ theorems-ams
 \newcommand{\machAngle}{\glssymbol{machAngle}}
 {\ensuremath{\mu}}
 \end_inset
-
 
 \end_layout
 
@@ -184,7 +160,6 @@ theorems-ams
 {\ensuremath{M}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -192,7 +167,6 @@ theorems-ams
 \newcommand{\lateralForceWind}{\glssymbol{lateralForceWind}}
 {\ensuremath{\mathcal{Y}}}
 \end_inset
-
 
 \end_layout
 
@@ -202,7 +176,6 @@ theorems-ams
 {\ensuremath{L}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -210,7 +183,6 @@ theorems-ams
 \newcommand{\dragForce}{\glssymbol{dragForce}}
 {\ensuremath{D}}
 \end_inset
-
 
 \end_layout
 
@@ -220,7 +192,6 @@ theorems-ams
 {\ensuremath{M}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -228,7 +199,6 @@ theorems-ams
 \newcommand{\density}{\glssymbol{density}}
 {\ensuremath{\rho}}
 \end_inset
-
 
 \end_layout
 
@@ -238,7 +208,6 @@ theorems-ams
 {\ensuremath{V}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -246,7 +215,6 @@ theorems-ams
 \newcommand{\positionVector}{\glssymbol{positionVector}}
 {\ensuremath{\mathbf{p}}}
 \end_inset
-
 
 \end_layout
 
@@ -256,7 +224,6 @@ theorems-ams
 {\ensuremath{\mathbf{v}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -264,7 +231,6 @@ theorems-ams
 \newcommand{\accelerationVector}{\glssymbol{accelerationVector}}
 {\ensuremath{\mathbf{a}}}
 \end_inset
-
 
 \end_layout
 
@@ -274,7 +240,6 @@ theorems-ams
 {\ensuremath{u}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -282,7 +247,6 @@ theorems-ams
 \newcommand{\velocityv}{\glssymbol{velocityv}}
 {\ensuremath{v}}
 \end_inset
-
 
 \end_layout
 
@@ -292,7 +256,6 @@ theorems-ams
 {\ensuremath{w}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -300,7 +263,6 @@ theorems-ams
 \newcommand{\angularRatep}{\glssymbol{angularRatep}}
 {\ensuremath{p}}
 \end_inset
-
 
 \end_layout
 
@@ -310,7 +272,6 @@ theorems-ams
 {\ensuremath{q}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -318,7 +279,6 @@ theorems-ams
 \newcommand{\angularRater}{\glssymbol{angularRater}}
 {\ensuremath{r}}
 \end_inset
-
 
 \end_layout
 
@@ -328,7 +288,6 @@ theorems-ams
 {\ensuremath{a}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -336,7 +295,6 @@ theorems-ams
 \newcommand{\bodyForceX}{\glssymbol{bodyForceX}}
 {\ensuremath{X}}
 \end_inset
-
 
 \end_layout
 
@@ -346,7 +304,6 @@ theorems-ams
 {\ensuremath{Y}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -354,7 +311,6 @@ theorems-ams
 \newcommand{\bodyForceZ}{\glssymbol{bodyForceZ}}
 {\ensuremath{Z}}
 \end_inset
-
 
 \end_layout
 
@@ -364,7 +320,6 @@ theorems-ams
 {\ensuremath{A}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -372,7 +327,6 @@ theorems-ams
 \newcommand{\bodyForceNormal}{\glssymbol{bodyForceNormal}}
 {\ensuremath{N}}
 \end_inset
-
 
 \end_layout
 
@@ -382,7 +336,6 @@ theorems-ams
 {\ensuremath{l}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -390,7 +343,6 @@ theorems-ams
 \newcommand{\momentPitch}{\glssymbol{momentPitch}}
 {\ensuremath{m}}
 \end_inset
-
 
 \end_layout
 
@@ -400,7 +352,6 @@ theorems-ams
 {\ensuremath{n}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -408,7 +359,6 @@ theorems-ams
 \newcommand{\Elevon}{\glssymbol{Elevon}}
 {\ensuremath{\delta_{e}}}
 \end_inset
-
 
 \end_layout
 
@@ -418,7 +368,6 @@ theorems-ams
 {\ensuremath{\delta_{e_{r}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -426,7 +375,6 @@ theorems-ams
 \newcommand{\leftElevon}{\glssymbol{leftElevon}}
 {\ensuremath{\delta_{e_{l}}}}
 \end_inset
-
 
 \end_layout
 
@@ -436,7 +384,6 @@ theorems-ams
 {\ensuremath{\delta_{r}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -444,7 +391,6 @@ theorems-ams
 \newcommand{\forceVector}{\glssymbol{forceVector}}
 {\ensuremath{\mathbf{f}}}
 \end_inset
-
 
 \end_layout
 
@@ -454,15 +400,13 @@ theorems-ams
 {\ensuremath{{\ensuremath{\mathbf{f}}}_{p}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\specificImpulse}{\glssymbol{specificImpulse}}
-{\ensuremath{I_{\textrm{sp}}}}
+{\ensuremath{I_\textrm{sp}}}
 \end_inset
-
 
 \end_layout
 
@@ -472,7 +416,6 @@ theorems-ams
 {\ensuremath{\ensuremath{f_{p}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -480,7 +423,6 @@ theorems-ams
 \newcommand{\forceVectorAerodynamic}{\glssymbol{forceVectorAerodynamic}}
 {\ensuremath{{\ensuremath{\mathbf{f}}}_{a}}}
 \end_inset
-
 
 \end_layout
 
@@ -490,7 +432,6 @@ theorems-ams
 {\ensuremath{f_{x}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -498,7 +439,6 @@ theorems-ams
 \newcommand{\forceYbody}{\glssymbol{forceYbody}}
 {\ensuremath{f_{y}}}
 \end_inset
-
 
 \end_layout
 
@@ -508,7 +448,6 @@ theorems-ams
 {\ensuremath{f_{z}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -516,7 +455,6 @@ theorems-ams
 \newcommand{\momentVector}{\glssymbol{momentVector}}
 {\ensuremath{\mathbf{m}}}
 \end_inset
-
 
 \end_layout
 
@@ -526,7 +464,6 @@ theorems-ams
 {\ensuremath{m_{x}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -534,7 +471,6 @@ theorems-ams
 \newcommand{\momentYbody}{\glssymbol{momentYbody}}
 {\ensuremath{m_{y}}}
 \end_inset
-
 
 \end_layout
 
@@ -544,7 +480,6 @@ theorems-ams
 {\ensuremath{m_{z}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -552,7 +487,6 @@ theorems-ams
 \newcommand{\gravityVector}{\glssymbol{gravityVector}}
 {\ensuremath{\mathbf{g}}}
 \end_inset
-
 
 \end_layout
 
@@ -562,7 +496,6 @@ theorems-ams
 {\ensuremath{g}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -570,7 +503,6 @@ theorems-ams
 \newcommand{\angularRateVector}{\glssymbol{angularRateVector}}
 {\ensuremath{\boldsymbol{\omega}}}
 \end_inset
-
 
 \end_layout
 
@@ -580,7 +512,6 @@ theorems-ams
 {\ensuremath{\theta_{\ensuremath{\mathrm{i}}\ensuremath{\mathrm{e}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -588,7 +519,6 @@ theorems-ams
 \newcommand{\geodeticLatitude}{\glssymbol{geodeticLatitude}}
 {\ensuremath{\phi}}
 \end_inset
-
 
 \end_layout
 
@@ -598,7 +528,6 @@ theorems-ams
 {\ensuremath{\lambda}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -606,7 +535,6 @@ theorems-ams
 \newcommand{\ellipsoidalHeight}{\glssymbol{ellipsoidalHeight}}
 {\ensuremath{h}}
 \end_inset
-
 
 \end_layout
 
@@ -616,24 +544,21 @@ theorems-ams
 {\ensuremath{\mathbf{q}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\qv}{\glssymbol{qv}}
-{\ensuremath{\mathbf{q}_{v}}}
+{\ensuremath{\mathbf{q}_v}}
 \end_inset
-
 
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\centerOfPressure}{\glssymbol{centerOfPressure}}
-{\ensuremath{\mathbf{c}_{p}}}
+{\ensuremath{\mathbf{c}_p}}
 \end_inset
-
 
 \end_layout
 
@@ -643,7 +568,6 @@ theorems-ams
 {\ensuremath{\boldsymbol{\varPhi}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -651,7 +575,6 @@ theorems-ams
 \newcommand{\eulerPhi}{\glssymbol{eulerPhi}}
 {\ensuremath{\phi}}
 \end_inset
-
 
 \end_layout
 
@@ -661,7 +584,6 @@ theorems-ams
 {\ensuremath{\theta}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -669,7 +591,6 @@ theorems-ams
 \newcommand{\eulerPsi}{\glssymbol{eulerPsi}}
 {\ensuremath{\psi}}
 \end_inset
-
 
 \end_layout
 
@@ -679,7 +600,6 @@ theorems-ams
 {\ensuremath{\boldsymbol{\chi}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -687,7 +607,6 @@ theorems-ams
 \newcommand{\controlVector}{\glssymbol{controlVector}}
 {\ensuremath{\boldsymbol{u}}}
 \end_inset
-
 
 \end_layout
 
@@ -697,7 +616,6 @@ theorems-ams
 {\ensuremath{B}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -705,7 +623,6 @@ theorems-ams
 \newcommand{\BCotTrailingEdge}{\glssymbol{BCotTrailingEdge}}
 {\ensuremath{g}}
 \end_inset
-
 
 \end_layout
 
@@ -715,7 +632,6 @@ theorems-ams
 {\ensuremath{K^{\prime}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -723,7 +639,6 @@ theorems-ams
 \newcommand{\completeEllipticIntegralSecondKind}{\glssymbol{completeEllipticIntegralSecondKind}}
 {\ensuremath{E^{\prime}}}
 \end_inset
-
 
 \end_layout
 
@@ -733,7 +648,6 @@ theorems-ams
 {\ensuremath{I}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -741,7 +655,6 @@ theorems-ams
 \newcommand{\mNaca}{\glssymbol{mNaca}}
 {\ensuremath{m}}
 \end_inset
-
 
 \end_layout
 
@@ -751,7 +664,6 @@ theorems-ams
 {\ensuremath{\omega}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -759,7 +671,6 @@ theorems-ams
 \newcommand{\n}{\glssymbol{n}}
 {\ensuremath{n}}
 \end_inset
-
 
 \end_layout
 
@@ -769,7 +680,6 @@ theorems-ams
 {\ensuremath{b}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -777,7 +687,6 @@ theorems-ams
 \newcommand{\wingRootChord}{\glssymbol{wingRootChord}}
 {\ensuremath{c_{r}}}
 \end_inset
-
 
 \end_layout
 
@@ -787,7 +696,6 @@ theorems-ams
 {\ensuremath{\overline{c}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -795,7 +703,6 @@ theorems-ams
 \newcommand{\wingTipChord}{\glssymbol{wingTipChord}}
 {\ensuremath{c_{t}}}
 \end_inset
-
 
 \end_layout
 
@@ -805,15 +712,13 @@ theorems-ams
 {\ensuremath{\bar{S}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\aspectRation}{\glssymbol{aspectRation}}
-{\ensuremath{A}}
+{\ensuremath{A }}
 \end_inset
-
 
 \end_layout
 
@@ -823,7 +728,6 @@ theorems-ams
 {\ensuremath{\epsilon}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -831,7 +735,6 @@ theorems-ams
 \newcommand{\angleBetweenTrailingEdgeAndAxisSymmetry}{\glssymbol{angleBetweenTrailingEdgeAndAxisSymmetry}}
 {\ensuremath{\delta}}
 \end_inset
-
 
 \end_layout
 
@@ -841,7 +744,6 @@ theorems-ams
 {\ensuremath{\Lambda}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -849,7 +751,6 @@ theorems-ams
 \newcommand{\taperRatio}{\glssymbol{taperRatio}}
 {\ensuremath{\lambda}}
 \end_inset
-
 
 \end_layout
 
@@ -859,7 +760,6 @@ theorems-ams
 {\ensuremath{\bar{c}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -867,7 +767,6 @@ theorems-ams
 \newcommand{\referenceLateralLength}{\glssymbol{referenceLateralLength}}
 {\ensuremath{\bar{b}}}
 \end_inset
-
 
 \end_layout
 
@@ -877,7 +776,6 @@ theorems-ams
 {\ensuremath{m}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -885,7 +783,6 @@ theorems-ams
 \newcommand{\massMomentOfInertiax}{\glssymbol{massMomentOfInertiax}}
 {\ensuremath{I_{x}}}
 \end_inset
-
 
 \end_layout
 
@@ -895,7 +792,6 @@ theorems-ams
 {\ensuremath{I_{y}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -903,7 +799,6 @@ theorems-ams
 \newcommand{\massMomentOfInertiaz}{\glssymbol{massMomentOfInertiaz}}
 {\ensuremath{I_{z}}}
 \end_inset
-
 
 \end_layout
 
@@ -913,78 +808,69 @@ theorems-ams
 {\ensuremath{\ensuremath{\mathbf{I}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\propellantMass}{\glssymbol{propellantMass}}
-{\ensuremath{m_{\mathrm{p}}}}
+{\ensuremath{m_\mathrm{p}}}
 \end_inset
-
 
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\stageMass}{\glssymbol{stageMass}}
-{\ensuremath{m_{\mathrm{s}}}}
+{\ensuremath{m_\mathrm{s}}}
 \end_inset
-
 
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\structuralMass}{\glssymbol{structuralMass}}
-{\ensuremath{{m}_{\mathrm{d}}}}
+{\ensuremath{{m}_\mathrm{d}}}
 \end_inset
-
 
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\cgDry}{\glssymbol{cgDry}}
-{\ensuremath{\mathbf{c}_{\mathrm{g}}}}
+{\ensuremath{\mathbf{c}_\mathrm{g}}}
 \end_inset
-
 
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\cgPropellant}{\glssymbol{cgPropellant}}
-{\ensuremath{\mathbf{c}_{\mathrm{p}}}}
+{\ensuremath{\mathbf{c}_\mathrm{p}}}
 \end_inset
-
 
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\stageCg}{\glssymbol{stageCg}}
-{\ensuremath{\mathbf{c}_{\mathrm{s}}}}
+{\ensuremath{\mathbf{c}_\mathrm{s}}}
 \end_inset
-
 
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\structuralCG}{\glssymbol{structuralCG}}
-{\ensuremath{\mathbf{c}_{\mathrm{d}}}}
+{\ensuremath{\mathbf{c}_\mathrm{d}}}
 \end_inset
-
 
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\propellantCg}{\glssymbol{propellantCg}}
-{\ensuremath{\mathbf{c}_{\mathrm{p}}}}
+{\ensuremath{\mathbf{c}_\mathrm{p}}}
 \end_inset
-
 
 \end_layout
 
@@ -994,60 +880,53 @@ theorems-ams
 {\ensuremath{{\mathbf{c}}_{b}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\stagePosition}{\glssymbol{stagePosition}}
-{\ensuremath{\mathbf{r}_{\mathrm{s}}}}
+{\ensuremath{\mathbf{r}_\mathrm{s}}}
 \end_inset
-
 
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\stageInertia}{\glssymbol{stageInertia}}
-{\ensuremath{\mathbf{I}_{\mathrm{s}}}}
+{\ensuremath{\mathbf{I}_\mathrm{s}}}
 \end_inset
-
 
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\inertiaStructural}{\glssymbol{inertiaStructural}}
-{\ensuremath{\mathbf{I}_{\mathrm{d}}}}
+{\ensuremath{\mathbf{I}_\mathrm{d}}}
 \end_inset
-
 
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\inertiaPropellant}{\glssymbol{inertiaPropellant}}
-{\ensuremath{\mathbf{I}_{\mathrm{p}}}}
+{\ensuremath{\mathbf{I}_\mathrm{p}}}
 \end_inset
-
 
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\displacementVectorStructural}{\glssymbol{displacementVectorStructural}}
-{\ensuremath{\mathbf{d}_{\mathrm{d}}}}
+{\ensuremath{\mathbf{d}_\mathrm{d}}}
 \end_inset
-
 
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\displacementVectorProp}{\glssymbol{displacementVectorProp}}
-{\ensuremath{\mathbf{d}_{\mathrm{p}}}}
+{\ensuremath{\mathbf{d}_\mathrm{p}}}
 \end_inset
-
 
 \end_layout
 
@@ -1057,15 +936,13 @@ theorems-ams
 {\ensuremath{\mathbf{d}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\totalInertiaCG}{\glssymbol{totalInertiaCG}}
-{\ensuremath{\mathbf{I}_{\mathrm{\glsentryname{cg}}}}}
+{\ensuremath{\mathbf{I}_\mathrm{\glsentryname{cg}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1075,7 +952,6 @@ theorems-ams
 {\ensuremath{\mathbf{I}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1083,7 +959,6 @@ theorems-ams
 \newcommand{\vectorDistanceCGToSurface}{\glssymbol{vectorDistanceCGToSurface}}
 {\ensuremath{\ensuremath{\boldsymbol{\varsigma}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1093,7 +968,6 @@ theorems-ams
 {\ensuremath{\boldsymbol{\varrho}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1101,7 +975,6 @@ theorems-ams
 \newcommand{\coefficientMoments}{\glssymbol{coefficientMoments}}
 {\ensuremath{C_{\ensuremath{M}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1111,7 +984,6 @@ theorems-ams
 {\ensuremath{C_{\ensuremath{X}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1119,7 +991,6 @@ theorems-ams
 \newcommand{\coefficientBodyForceY}{\glssymbol{coefficientBodyForceY}}
 {\ensuremath{C_{\ensuremath{Y}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1129,7 +1000,6 @@ theorems-ams
 {\ensuremath{C_{\ensuremath{Z}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1137,7 +1007,6 @@ theorems-ams
 \newcommand{\coefficientBodyForceNormal}{\glssymbol{coefficientBodyForceNormal}}
 {\ensuremath{C_{\ensuremath{N}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1147,7 +1016,6 @@ theorems-ams
 {\ensuremath{C_{\ensuremath{N}_{0}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1155,7 +1023,6 @@ theorems-ams
 \newcommand{\coefficientBodyForceNormalIncrementForAngleAtack}{\glssymbol{coefficientBodyForceNormalIncrementForAngleAtack}}
 {\ensuremath{C_{{\ensuremath{N}}_{\ensuremath{\alpha}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1165,7 +1032,6 @@ theorems-ams
 {\ensuremath{C_{{\ensuremath{N}}_{\ensuremath{\delta_{e_{r}}}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1173,7 +1039,6 @@ theorems-ams
 \newcommand{\coefficientBodyForceNormalIncrementForLeftElevon}{\glssymbol{coefficientBodyForceNormalIncrementForLeftElevon}}
 {\ensuremath{C_{{\ensuremath{N}}_{\ensuremath{\delta_{e_{l}}}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1183,7 +1048,6 @@ theorems-ams
 {\ensuremath{C_{{\ensuremath{N}}_{\dot{\ensuremath{\alpha}}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1191,7 +1055,6 @@ theorems-ams
 \newcommand{\coefficientBodyForceNormalIncrementForAngularRateq}{\glssymbol{coefficientBodyForceNormalIncrementForAngularRateq}}
 {\ensuremath{C_{{\ensuremath{N}}_{\ensuremath{q}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1201,7 +1064,6 @@ theorems-ams
 {\ensuremath{\ensuremath{Q}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1209,7 +1071,6 @@ theorems-ams
 \newcommand{\coefficientDrag}{\glssymbol{coefficientDrag}}
 {\ensuremath{C_{\ensuremath{D}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1219,7 +1080,6 @@ theorems-ams
 {\ensuremath{C_{{\ensuremath{D}}_{\ensuremath{\alpha}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1227,7 +1087,6 @@ theorems-ams
 \newcommand{\coefficientDragIncrementForRightElevon}{\glssymbol{coefficientDragIncrementForRightElevon}}
 {\ensuremath{C_{{\ensuremath{D}}_{\ensuremath{\delta_{e_{r}}}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1237,7 +1096,6 @@ theorems-ams
 {\ensuremath{C_{{\ensuremath{D}}_{\ensuremath{\delta_{r}}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1245,7 +1103,6 @@ theorems-ams
 \newcommand{\coefficientDragIncrementForLeftElevon}{\glssymbol{coefficientDragIncrementForLeftElevon}}
 {\ensuremath{C_{{\ensuremath{D}}_{\ensuremath{\delta_{e_{l}}}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1255,7 +1112,6 @@ theorems-ams
 {\ensuremath{C_{{\ensuremath{D}}_{0}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1263,7 +1119,6 @@ theorems-ams
 \newcommand{\coefficientLift}{\glssymbol{coefficientLift}}
 {\ensuremath{C_{\ensuremath{L}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1273,7 +1128,6 @@ theorems-ams
 {\ensuremath{C_{\ensuremath{L}_{0}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1281,7 +1135,6 @@ theorems-ams
 \newcommand{\coefficientLiftIncrementForAngleAtack}{\glssymbol{coefficientLiftIncrementForAngleAtack}}
 {\ensuremath{C_{{\ensuremath{L}}_{\ensuremath{\alpha}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1291,7 +1144,6 @@ theorems-ams
 {\ensuremath{C_{{\ensuremath{L}}_{\dot{\ensuremath{\alpha}}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1299,7 +1151,6 @@ theorems-ams
 \newcommand{\coefficientLiftIncrementForAngularRateq}{\glssymbol{coefficientLiftIncrementForAngularRateq}}
 {\ensuremath{C_{{\ensuremath{L}}_{\ensuremath{q}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1309,7 +1160,6 @@ theorems-ams
 {\ensuremath{C_{{\ensuremath{L}}_{\ensuremath{\delta_{e}}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1317,7 +1167,6 @@ theorems-ams
 \newcommand{\coefficientLiftIncrementForRightElevon}{\glssymbol{coefficientLiftIncrementForRightElevon}}
 {\ensuremath{C_{{\ensuremath{L}}_{\ensuremath{\delta_{e_{r}}}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1327,7 +1176,6 @@ theorems-ams
 {\ensuremath{C_{{\ensuremath{L}}_{\ensuremath{\delta_{e_{l}}}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1335,7 +1183,6 @@ theorems-ams
 \newcommand{\coefficientPitchingMoment}{\glssymbol{coefficientPitchingMoment}}
 {\ensuremath{C_{\ensuremath{m}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1345,7 +1192,6 @@ theorems-ams
 {\ensuremath{C_{{\ensuremath{m}}_{0}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1353,7 +1199,6 @@ theorems-ams
 \newcommand{\coefficientPitchingMomentIncrementForAngleAtack}{\glssymbol{coefficientPitchingMomentIncrementForAngleAtack}}
 {\ensuremath{C_{{\ensuremath{m}}_{\ensuremath{\alpha}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1363,7 +1208,6 @@ theorems-ams
 {\ensuremath{C_{{\ensuremath{m}}_{\dot{\ensuremath{\alpha}}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1371,7 +1215,6 @@ theorems-ams
 \newcommand{\coefficientPitchingMomentIncrementForRightElevon}{\glssymbol{coefficientPitchingMomentIncrementForRightElevon}}
 {\ensuremath{C_{{\ensuremath{m}}_{\ensuremath{\delta_{e_{r}}}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1381,7 +1224,6 @@ theorems-ams
 {\ensuremath{C_{{\ensuremath{m}}_{\ensuremath{\delta_{e_{l}}}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1389,7 +1231,6 @@ theorems-ams
 \newcommand{\coefficientPitchingMomentIncrementForAngularRateq}{\glssymbol{coefficientPitchingMomentIncrementForAngularRateq}}
 {\ensuremath{C_{{\ensuremath{m}}_{\ensuremath{q}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1399,7 +1240,6 @@ theorems-ams
 {\ensuremath{C_{\ensuremath{l}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1407,7 +1247,6 @@ theorems-ams
 \newcommand{\coefficientRollingMomentZeroLift}{\glssymbol{coefficientRollingMomentZeroLift}}
 {\ensuremath{C_{\ensuremath{l}_{0}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1417,7 +1256,6 @@ theorems-ams
 {\ensuremath{C_{{\ensuremath{l}}_{\ensuremath{\beta}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1425,7 +1263,6 @@ theorems-ams
 \newcommand{\coefficientRollingMomentIncrementForAngularRatep}{\glssymbol{coefficientRollingMomentIncrementForAngularRatep}}
 {\ensuremath{C_{{\ensuremath{l}}_{\ensuremath{p}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1435,7 +1272,6 @@ theorems-ams
 {\ensuremath{C_{{\ensuremath{l}}_{\ensuremath{r}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1443,7 +1279,6 @@ theorems-ams
 \newcommand{\coefficientRollingMomentIncrementForDotAngleSideSlip}{\glssymbol{coefficientRollingMomentIncrementForDotAngleSideSlip}}
 {\ensuremath{C_{{\ensuremath{l}}_{\dot{\ensuremath{\beta}}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1453,7 +1288,6 @@ theorems-ams
 {\ensuremath{C_{{\ensuremath{l}}_{\ensuremath{\delta_{e_{l}}}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1461,7 +1295,6 @@ theorems-ams
 \newcommand{\coefficientRollingMomentIncrementForRightElevon}{\glssymbol{coefficientRollingMomentIncrementForRightElevon}}
 {\ensuremath{C_{{\ensuremath{l}}_{\ensuremath{\delta_{e_{r}}}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1471,15 +1304,13 @@ theorems-ams
 {\ensuremath{C_{{\ensuremath{l}}_{\ensuremath{\delta_{r}}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\coefficientYawingMoment}{\glssymbol{coefficientYawingMoment}}
-{\ensuremath{C_{\ensuremath{n}}}}
+{\ensuremath{C_\ensuremath{n}}}
 \end_inset
-
 
 \end_layout
 
@@ -1489,7 +1320,6 @@ theorems-ams
 {\ensuremath{C_{\ensuremath{n}_{0}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1497,7 +1327,6 @@ theorems-ams
 \newcommand{\coefficientYawingMomentIncrementForAngleSideSlip}{\glssymbol{coefficientYawingMomentIncrementForAngleSideSlip}}
 {\ensuremath{C_{{\ensuremath{n}}_{\ensuremath{\beta}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1507,7 +1336,6 @@ theorems-ams
 {\ensuremath{C_{{\ensuremath{n}}_{\ensuremath{r}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1515,7 +1343,6 @@ theorems-ams
 \newcommand{\coefficientYawingMomentIncrementForLeftElevon}{\glssymbol{coefficientYawingMomentIncrementForLeftElevon}}
 {\ensuremath{C_{{\ensuremath{n}}_{\ensuremath{\delta_{e_{l}}}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1525,7 +1352,6 @@ theorems-ams
 {\ensuremath{C_{{\ensuremath{n}}_{\ensuremath{\delta_{e_{r}}}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1533,7 +1359,6 @@ theorems-ams
 \newcommand{\coefficientYawingMomentIncrementForRudderDeflection}{\glssymbol{coefficientYawingMomentIncrementForRudderDeflection}}
 {\ensuremath{C_{{\ensuremath{n}}_{\ensuremath{\delta_{r}}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1543,7 +1368,6 @@ theorems-ams
 {\ensuremath{C_{{\ensuremath{n}}_{\ensuremath{p}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1551,7 +1375,6 @@ theorems-ams
 \newcommand{\coefficientYawingMomentIncrementForDotAngleSideSlip}{\glssymbol{coefficientYawingMomentIncrementForDotAngleSideSlip}}
 {\ensuremath{C_{{\ensuremath{n}}_{\dot{\ensuremath{\beta}}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1561,7 +1384,6 @@ theorems-ams
 {\ensuremath{C_{{\ensuremath{Y}}_{\ensuremath{r}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1569,7 +1391,6 @@ theorems-ams
 \newcommand{\coefficientLateralForceBody}{\glssymbol{coefficientLateralForceBody}}
 {\ensuremath{C_{\ensuremath{Y}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1579,7 +1400,6 @@ theorems-ams
 {\ensuremath{C_{\ensuremath{Y}_{0}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1587,7 +1407,6 @@ theorems-ams
 \newcommand{\coefficientLateralForceBodyIncrementForAngleSideSlip}{\glssymbol{coefficientLateralForceBodyIncrementForAngleSideSlip}}
 {\ensuremath{C_{{\ensuremath{Y}}_{\ensuremath{\beta}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1597,7 +1416,6 @@ theorems-ams
 {\ensuremath{C_{{\ensuremath{Y}}_{\dot{\ensuremath{\beta}}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1605,7 +1423,6 @@ theorems-ams
 \newcommand{\coefficientLateralForceBodyIncrementForDifferentialElevon}{\glssymbol{coefficientLateralForceBodyIncrementForDifferentialElevon}}
 {\ensuremath{C_{{\ensuremath{Y}}_{\glsentrysymbol{differentialElevon}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1615,7 +1432,6 @@ theorems-ams
 {\ensuremath{C_{{\ensuremath{Y}}_{\ensuremath{\delta_{r}}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1623,7 +1439,6 @@ theorems-ams
 \newcommand{\coefficientLateralForceBodyIncrementForAngularRatep}{\glssymbol{coefficientLateralForceBodyIncrementForAngularRatep}}
 {\ensuremath{C_{{\ensuremath{Y}}_{\ensuremath{p}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1633,7 +1448,6 @@ theorems-ams
 {\ensuremath{C_{\ensuremath{\mathcal{Y}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1641,7 +1455,6 @@ theorems-ams
 \newcommand{\coefficientLateralForceWindZeroLift}{\glssymbol{coefficientLateralForceWindZeroLift}}
 {\ensuremath{C_{\ensuremath{\mathcal{Y}}_{0}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1651,7 +1464,6 @@ theorems-ams
 {\ensuremath{C_{{\ensuremath{\mathcal{Y}}}_{\ensuremath{\beta}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1659,7 +1471,6 @@ theorems-ams
 \newcommand{\coefficientLateralForceWindIncrementForRudderDeflection}{\glssymbol{coefficientLateralForceWindIncrementForRudderDeflection}}
 {\ensuremath{C_{{\ensuremath{\mathcal{Y}}}_{\ensuremath{\delta_{r}}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1669,7 +1480,6 @@ theorems-ams
 {\ensuremath{C_{{\ensuremath{\mathcal{Y}}}_{\ensuremath{p}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1677,7 +1487,6 @@ theorems-ams
 \newcommand{\coefficientLateralForceWindIncrementForAngularRater}{\glssymbol{coefficientLateralForceWindIncrementForAngularRater}}
 {\ensuremath{C_{{\ensuremath{\mathcal{Y}}}_{\ensuremath{r}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1687,7 +1496,6 @@ theorems-ams
 {\ensuremath{C_{{\ensuremath{\mathcal{Y}}}_{\dot{\ensuremath{\beta}}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1695,7 +1503,6 @@ theorems-ams
 \newcommand{\coefficientBodyForceAxial}{\glssymbol{coefficientBodyForceAxial}}
 {\ensuremath{C_{\ensuremath{A}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1705,7 +1512,6 @@ theorems-ams
 {\ensuremath{C_{{\ensuremath{A}}_{\ensuremath{q}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1713,7 +1519,6 @@ theorems-ams
 \newcommand{\coefficientBodyForceAxialIncrementForAngleAtack}{\glssymbol{coefficientBodyForceAxialIncrementForAngleAtack}}
 {\ensuremath{C_{{\ensuremath{A}}_{\ensuremath{\alpha}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1723,7 +1528,6 @@ theorems-ams
 {\ensuremath{C_{{\ensuremath{A}}_{\dot{\ensuremath{\alpha}}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1731,7 +1535,6 @@ theorems-ams
 \newcommand{\coefficientBodyForceAxialIncrementForRightElevon}{\glssymbol{coefficientBodyForceAxialIncrementForRightElevon}}
 {\ensuremath{C_{{\ensuremath{A}}_{\ensuremath{\delta_{e_{r}}}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1741,7 +1544,6 @@ theorems-ams
 {\ensuremath{C_{{\ensuremath{A}}_{\ensuremath{\delta_{e_{l}}}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1749,7 +1551,6 @@ theorems-ams
 \newcommand{\coefficientBodyForceAxialZeroLift}{\glssymbol{coefficientBodyForceAxialZeroLift}}
 {\ensuremath{C_{{\ensuremath{A}}_{0}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1759,7 +1560,6 @@ theorems-ams
 {\ensuremath{\mathbf{R}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1767,7 +1567,6 @@ theorems-ams
 \newcommand{\matrixTransformationOfKinematics}{\glssymbol{matrixTransformationOfKinematics}}
 {\ensuremath{\mathbf{T}}}
 \end_inset
-
 
 \end_layout
 
@@ -1777,7 +1576,6 @@ theorems-ams
 {\ensuremath{\boldsymbol{I}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1785,7 +1583,6 @@ theorems-ams
 \newcommand{\zeroMatrix}{\glssymbol{zeroMatrix}}
 {\ensuremath{\boldsymbol{0}}}
 \end_inset
-
 
 \end_layout
 
@@ -1795,7 +1592,6 @@ theorems-ams
 {\ensuremath{\times}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1803,7 +1599,6 @@ theorems-ams
 \newcommand{\matrixAntssymmetric}{\glssymbol{matrixAntssymmetric}}
 {\ensuremath{\mathcal{A}}}
 \end_inset
-
 
 \end_layout
 
@@ -1813,7 +1608,6 @@ theorems-ams
 {\ensuremath{\intercal}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1821,7 +1615,6 @@ theorems-ams
 \newcommand{\inertialSystem}{\glssymbol{inertialSystem}}
 {\ensuremath{\mathrm{i}}}
 \end_inset
-
 
 \end_layout
 
@@ -1831,7 +1624,6 @@ theorems-ams
 {\ensuremath{x_{\ensuremath{\mathrm{i}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1839,7 +1631,6 @@ theorems-ams
 \newcommand{\eciAxisy}{\glssymbol{eciAxisy}}
 {\ensuremath{y_{\ensuremath{\mathrm{i}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1849,7 +1640,6 @@ theorems-ams
 {\ensuremath{z_{\ensuremath{\mathrm{i}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1857,7 +1647,6 @@ theorems-ams
 \newcommand{\geographicSystem}{\glssymbol{geographicSystem}}
 {\ensuremath{\mathrm{g}}}
 \end_inset
-
 
 \end_layout
 
@@ -1867,7 +1656,6 @@ theorems-ams
 {\ensuremath{\mathrm{n}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1875,7 +1663,6 @@ theorems-ams
 \newcommand{\stabilitySystem}{\glssymbol{stabilitySystem}}
 {\ensuremath{\mathrm{s}}}
 \end_inset
-
 
 \end_layout
 
@@ -1885,7 +1672,6 @@ theorems-ams
 {\ensuremath{\mathcal{S}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1893,7 +1679,6 @@ theorems-ams
 \newcommand{\bodySystem}{\glssymbol{bodySystem}}
 {\ensuremath{\mathrm{b}}}
 \end_inset
-
 
 \end_layout
 
@@ -1903,7 +1688,6 @@ theorems-ams
 {\ensuremath{\mathrm{w}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1911,7 +1695,6 @@ theorems-ams
 \newcommand{\vehicleSystem}{\glssymbol{vehicleSystem}}
 {\ensuremath{\mathrm{v}}}
 \end_inset
-
 
 \end_layout
 
@@ -1921,7 +1704,6 @@ theorems-ams
 {\ensuremath{\mathbf{x}_{\ensuremath{\mathrm{v}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1929,7 +1711,6 @@ theorems-ams
 \newcommand{\vehicleAxisy}{\glssymbol{vehicleAxisy}}
 {\ensuremath{\mathbf{y}_{\ensuremath{\mathrm{v}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1939,7 +1720,6 @@ theorems-ams
 {\ensuremath{\mathbf{z}_{\ensuremath{\mathrm{v}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1947,7 +1727,6 @@ theorems-ams
 \newcommand{\localSurfaceAxisx}{\glssymbol{localSurfaceAxisx}}
 {\ensuremath{\mathbf{x}_{\ensuremath{\mathcal{S}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1957,7 +1736,6 @@ theorems-ams
 {\ensuremath{\mathbf{y}_{\ensuremath{\mathcal{S}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1965,7 +1743,6 @@ theorems-ams
 \newcommand{\localSurfaceAxisz}{\glssymbol{localSurfaceAxisz}}
 {\ensuremath{\mathbf{z}_{\ensuremath{\mathcal{S}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1975,7 +1752,6 @@ theorems-ams
 {\ensuremath{\mathbf{x}_{\ensuremath{\mathrm{w}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -1983,7 +1759,6 @@ theorems-ams
 \newcommand{\windAxisy}{\glssymbol{windAxisy}}
 {\ensuremath{\mathbf{y}_{\ensuremath{\mathrm{w}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -1993,7 +1768,6 @@ theorems-ams
 {\ensuremath{\mathbf{z}_{\ensuremath{\mathrm{w}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -2001,7 +1775,6 @@ theorems-ams
 \newcommand{\bodyAxisx}{\glssymbol{bodyAxisx}}
 {\ensuremath{\mathbf{x}_{\ensuremath{\mathrm{b}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -2011,7 +1784,6 @@ theorems-ams
 {\ensuremath{\mathbf{y}_{\ensuremath{\mathrm{b}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -2019,7 +1791,6 @@ theorems-ams
 \newcommand{\bodyAxisz}{\glssymbol{bodyAxisz}}
 {\ensuremath{\mathbf{z}_{\ensuremath{\mathrm{b}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -2029,7 +1800,6 @@ theorems-ams
 {\ensuremath{\mathbf{x}_{\ensuremath{\mathrm{n}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -2037,7 +1807,6 @@ theorems-ams
 \newcommand{\navigationAxisy}{\glssymbol{navigationAxisy}}
 {\ensuremath{\mathbf{y}_{\ensuremath{\mathrm{n}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -2047,7 +1816,6 @@ theorems-ams
 {\ensuremath{\mathbf{z}_{\ensuremath{\mathrm{n}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -2055,7 +1823,6 @@ theorems-ams
 \newcommand{\geographicAxisx}{\glssymbol{geographicAxisx}}
 {\ensuremath{\mathbf{x}_{\ensuremath{\mathrm{g}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -2065,7 +1832,6 @@ theorems-ams
 {\ensuremath{\mathbf{y}_{\ensuremath{\mathrm{g}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -2073,7 +1839,6 @@ theorems-ams
 \newcommand{\geographicAxisz}{\glssymbol{geographicAxisz}}
 {\ensuremath{\mathbf{z}_{\ensuremath{\mathrm{g}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -2083,7 +1848,6 @@ theorems-ams
 {\ensuremath{\boldsymbol{\mathcal{S}}_{l}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -2091,7 +1855,6 @@ theorems-ams
 \newcommand{\rightQuaternion}{\glssymbol{rightQuaternion}}
 {\ensuremath{\boldsymbol{\mathcal{S}}_{r}}}
 \end_inset
-
 
 \end_layout
 
@@ -2101,7 +1864,6 @@ theorems-ams
 {\ensuremath{q}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -2109,7 +1871,6 @@ theorems-ams
 \newcommand{\ecefSystem}{\glssymbol{ecefSystem}}
 {\ensuremath{\mathrm{e}}}
 \end_inset
-
 
 \end_layout
 
@@ -2119,7 +1880,6 @@ theorems-ams
 {\ensuremath{\mathbf{x}_{\ensuremath{\mathrm{e}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -2127,7 +1887,6 @@ theorems-ams
 \newcommand{\ecefAxisy}{\glssymbol{ecefAxisy}}
 {\ensuremath{\mathbf{y}_{\ensuremath{\mathrm{e}}}}}
 \end_inset
-
 
 \end_layout
 
@@ -2137,7 +1896,6 @@ theorems-ams
 {\ensuremath{\mathbf{z}_{\ensuremath{\mathrm{e}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -2145,7 +1903,6 @@ theorems-ams
 \newcommand{\realSet}{\glssymbol{realSet}}
 {\ensuremath{\mathcal{R}}}
 \end_inset
-
 
 \end_layout
 
@@ -2155,7 +1912,6 @@ theorems-ams
 {\ensuremath{\omega_{d}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -2163,7 +1919,6 @@ theorems-ams
 \newcommand{\naturalFrequency}{\glssymbol{naturalFrequency}}
 {\ensuremath{\omega_{n}}}
 \end_inset
-
 
 \end_layout
 
@@ -2173,7 +1928,6 @@ theorems-ams
 {\ensuremath{\zeta}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -2181,7 +1935,6 @@ theorems-ams
 \newcommand{\eigenValue}{\glssymbol{eigenValue}}
 {\ensuremath{\lambda}}
 \end_inset
-
 
 \end_layout
 
@@ -2191,7 +1944,6 @@ theorems-ams
 {\ensuremath{\mathbf{v}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -2200,15 +1952,13 @@ theorems-ams
 {\ensuremath{\omega_{\ensuremath{\mathrm{i}}\ensuremath{\mathrm{g}}}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\EarthMass}{\glssymbol{EarthMass}}
-{\ensuremath{M_{\oplus}}}
+{\ensuremath{M_\oplus}}
 \end_inset
-
 
 \end_layout
 
@@ -2218,7 +1968,6 @@ theorems-ams
 {\ensuremath{G}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -2226,7 +1975,6 @@ theorems-ams
 \newcommand{\normalRadiusEarth}{\glssymbol{normalRadiusEarth}}
 {\ensuremath{R_{n}}}
 \end_inset
-
 
 \end_layout
 
@@ -2236,7 +1984,6 @@ theorems-ams
 {\ensuremath{e}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -2245,24 +1992,21 @@ theorems-ams
 {\ensuremath{a}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\mediumRadiusEarth}{\glssymbol{mediumRadiusEarth}}
-{\ensuremath{R_{m}}}
+{\ensuremath{R_m}}
 \end_inset
-
 
 \end_layout
 
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\standartGravityOnSeaLevel}{\glssymbol{standartGravityOnSeaLevel}}
-{\ensuremath{g_{0}}}
+{\ensuremath{g_0}}
 \end_inset
-
 
 \end_layout
 
@@ -2272,7 +2016,6 @@ theorems-ams
 {\ensuremath{\mathbf{A}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -2280,7 +2023,6 @@ theorems-ams
 \newcommand{\controlMatrix}{\glssymbol{controlMatrix}}
 {\ensuremath{\mathbf{B}}}
 \end_inset
-
 
 \end_layout
 
@@ -2290,7 +2032,6 @@ theorems-ams
 {\ensuremath{\mathbf{M}}}
 \end_inset
 
-
 \end_layout
 
 \begin_layout Standard
@@ -2298,7 +2039,6 @@ theorems-ams
 \newcommand{\stiffnessMatrix}{\glssymbol{stiffnessMatrix}}
 {\ensuremath{\mathbf{K}}}
 \end_inset
-
 
 \end_layout
 
