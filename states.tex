@@ -90,7 +90,7 @@
 	parent = {states},
 	unit = \unexpanded{},
 	symbol = \ensuremath{M},
-	description={Mach number $(\nicefrac{\glsentrysymbol{flightSpeed}}{\text{Speed of sound}})$}
+	description={Mach number $(\nicefrac{\glsentrysymbol{flightSpeed}}{\glsentrysymbol{soundSpeed}})$}
 }
 
 \newglossaryentry{lateralForceWind}
@@ -319,8 +319,18 @@
 	parent = {states},
 	unit = \unexpanded{\si{\radian}},
 	symbol = \ensuremath{\delta_{e}},
-	description={symmetric elevon angle}
+	description={symmetric elevon angle. $2\glsentryname{Elevon}=\glsentryname{rightElevon}-\glsentryname{leftElevon}$}
 }
+
+\newglossaryentry{Aileron}
+{type=symbols,
+	name= \ensuremath{\delta_{a}},
+	parent = {states},
+	unit = \unexpanded{\si{\radian}},
+	symbol = \ensuremath{\delta_{a}},
+	description={symmetric aileron angle. $2\glsentryname{Aileron}=\glsentryname{rightElevon}+\glsentryname{leftElevon}$}
+}
+
 
 \newglossaryentry{rightElevon}
 {type=symbols,

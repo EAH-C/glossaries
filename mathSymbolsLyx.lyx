@@ -364,6 +364,14 @@
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\Aileron}{\glssymbol{Aileron}}
+{\ensuremath{\delta_{a}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\rightElevon}{\glssymbol{rightElevon}}
 {\ensuremath{\delta_{e_{r}}}}
 \end_inset
