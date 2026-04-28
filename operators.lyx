@@ -7,9 +7,9 @@
 \textclass extarticle
 \use_default_options false
 \maintain_unincluded_children no
-\language brazilian
-\language_package default
-\inputencoding utf8
+\language american
+\language_package none
+\inputencoding auto-legacy
 \fontencoding default
 \font_roman "default" "default"
 \font_sans "default" "default"
@@ -85,17 +85,10 @@
 
 \begin_layout Standard
 
-\lang brazilian
-
-\lang brazilian
+\lang american
 
 \begin_inset FormulaMacro
 \def\crossProduct #1{\left\llbracket #1\right\rrbracket _{\timesOperator}}
-\end_inset
-
-
-\begin_inset FormulaMacro
-\def\transpose #1{\glssymbol{transpose}}
 \end_inset
 
 
@@ -108,8 +101,6 @@
 \def\dqi #1{\dot{\glssymbol{qi}}_{#1}}
 \end_inset
 
-
-\lang american
 
 \end_layout
 
