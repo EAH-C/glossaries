@@ -1068,6 +1068,22 @@
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\coefficientBodyForceNormalIncrementForAngularRatep}{\glssymbol{coefficientBodyForceNormalIncrementForAngularRatep}}
+{\ensuremath{C_{{\ensuremath{N}}_{\ensuremath{p}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientBodyForceNormalIncrementForAngleSideSlip}{\glssymbol{coefficientBodyForceNormalIncrementForAngleSideSlip}}
+{\ensuremath{C_{{\ensuremath{N}}_{\ensuremath{\beta}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\dynamicPressure}{\glssymbol{dynamicPressure}}
 {\ensuremath{\ensuremath{Q}}}
 \end_inset
@@ -1524,8 +1540,32 @@
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\coefficientBodyForceAxialIncrementForAngularRatep}{\glssymbol{coefficientBodyForceAxialIncrementForAngularRatep}}
+{\ensuremath{C_{{\ensuremath{A}}_{\ensuremath{p}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientBodyForceAxialIncrementForAngularRater}{\glssymbol{coefficientBodyForceAxialIncrementForAngularRater}}
+{\ensuremath{C_{{\ensuremath{A}}_{\ensuremath{r}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\coefficientBodyForceAxialIncrementForAngleAtack}{\glssymbol{coefficientBodyForceAxialIncrementForAngleAtack}}
 {\ensuremath{C_{{\ensuremath{A}}_{\ensuremath{\alpha}}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coefficientBodyForceAxialIncrementForAngleSideSlip}{\glssymbol{coefficientBodyForceAxialIncrementForAngleSideSlip}}
+{\ensuremath{C_{{\ensuremath{A}}_{\ensuremath{\beta}}}}}
 \end_inset
 
 \end_layout

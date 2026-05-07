@@ -8,8 +8,8 @@
 \use_default_options false
 \maintain_unincluded_children no
 \language american
-\language_package none
-\inputencoding auto-legacy
+\language_package default
+\inputencoding utf8
 \fontencoding default
 \font_roman "default" "default"
 \font_sans "default" "default"
