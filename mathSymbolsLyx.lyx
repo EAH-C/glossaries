@@ -1084,6 +1084,14 @@
 
 \begin_layout Standard
 \begin_inset FormulaMacro
+\newcommand{\thermalFlux}{\glssymbol{thermalFlux}}
+{\ensuremath{\ensuremath{\dot{q}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
 \newcommand{\dynamicPressure}{\glssymbol{dynamicPressure}}
 {\ensuremath{\ensuremath{Q}}}
 \end_inset
