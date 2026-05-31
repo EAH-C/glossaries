@@ -1,7 +1,7 @@
 \newglossaryentry{control}
 {type=symbols,
     name= {Control variables},
-    description={}
+    description={Variables and matrices associated with the control system design and optimization}
 }
 
 \newglossaryentry{stateMatrix}
@@ -38,4 +38,139 @@
     unit = \unexpanded{},
     symbol = \ensuremath{\mathbf{K}},
     description={stiffness matrix}
+}
+
+\newglossaryentry{gainMatrix}
+{type=symbols,
+    name= \ensuremath{\mathbf{K}},
+    parent = {control},
+    unit = \unexpanded{},
+    symbol = \ensuremath{\mathbf{K}},
+    description={feedback gain matrix}
+}
+
+\newglossaryentry{weightingMatrixQ}
+{type=symbols,
+    name= \ensuremath{\mathbf{Q}},
+    parent = {control},
+    unit = \unexpanded{},
+    symbol = \ensuremath{\mathbf{Q}},
+    description={state weighting matrix}
+}
+
+\newglossaryentry{weightingMatrixR}
+{type=symbols,
+    name= \ensuremath{\mathbf{R}},
+    parent = {control},
+    unit = \unexpanded{},
+    symbol = \ensuremath{\mathbf{R}},
+    description={control weighting matrix}
+}
+
+\newglossaryentry{riccatiSolution}
+{type=symbols,
+    name= \ensuremath{\mathbf{P}},
+    parent = {control},
+    unit = \unexpanded{},
+    symbol = \ensuremath{\mathbf{P}},
+    description={solution matrix for the algebraic Riccati equation}
+}
+
+\newglossaryentry{outputMatrix}
+{type=symbols,
+    name= \ensuremath{\mathbf{C}},
+    parent = {control},
+    unit = \unexpanded{},
+    symbol = \ensuremath{\mathbf{C}},
+    description={output selection or measurement matrix}
+}
+
+\newglossaryentry{augmentedStateVector}
+{type=symbols,
+    name= \ensuremath{\stateVector_{aug}},
+    parent = {control},
+    unit = \unexpanded{},
+    symbol = \ensuremath{\stateVector_{aug}},
+    description={augmented state vector (includes integral states)}
+}
+
+\newglossaryentry{errorVector}
+{type=symbols,
+    name= \ensuremath{\mathbf{e}},
+    parent = {control},
+    unit = \unexpanded{},
+    symbol = \ensuremath{\mathbf{e}},
+    description={tracking error vector}
+}
+
+\newglossaryentry{costFunctional}
+{type=symbols,
+    name= \ensuremath{J},
+    parent = {control},
+    unit = \unexpanded{},
+    symbol = \ensuremath{J},
+    description={quadratic cost functional}
+}
+
+\newglossaryentry{angleAttackRate}
+{type=symbols,
+    name= \ensuremath{\dot{\alpha}},
+    parent = {control},
+    unit = \unexpanded{\si{\radian\per\second}},
+    symbol = \ensuremath{\dot{\alpha}},
+    description={rate of change of angle of attack}
+}
+
+\newglossaryentry{angleAttackRateMax}
+{type=symbols,
+    name= \ensuremath{\dot{\alpha}_{\text{max}}},
+    parent = {control},
+    unit = \unexpanded{\si{\radian\per\second}},
+    symbol = \ensuremath{\dot{\alpha}_{\text{max}}},
+    description={maximum rate of change of angle of attack}
+}
+
+\newglossaryentry{weightingGamma}
+{type=symbols,
+    name= \ensuremath{W_{\gamma}},
+    parent = {control},
+    unit = \unexpanded{},
+    symbol = \ensuremath{W_{\gamma}},
+    description={weighting factor for flight path angle penalty}
+}
+
+\newglossaryentry{weightingSmoothness}
+{type=symbols,
+    name= \ensuremath{W_{s}},
+    parent = {control},
+    unit = \unexpanded{},
+    symbol = \ensuremath{W_{s}},
+    description={weighting factor for control command smoothness}
+}
+
+\newglossaryentry{toleranceAltitude}
+{type=symbols,
+    name= \ensuremath{\epsilon_{h}},
+    parent = {control},
+    unit = \unexpanded{\si{\meter}},
+    symbol = \ensuremath{\epsilon_{h}},
+    description={terminal altitude tolerance}
+}
+
+\newglossaryentry{toleranceVelocity}
+{type=symbols,
+    name= \ensuremath{\epsilon_{V}},
+    parent = {control},
+    unit = \unexpanded{\si{\meter\per\second}},
+    symbol = \ensuremath{\epsilon_{V}},
+    description={terminal velocity tolerance}
+}
+
+\newglossaryentry{toleranceFlightPath}
+{type=symbols,
+    name= \ensuremath{\epsilon_{\gamma}},
+    parent = {control},
+    unit = \unexpanded{\si{\radian}},
+    symbol = \ensuremath{\epsilon_{\gamma}},
+    description={terminal flight path angle tolerance}
 }
