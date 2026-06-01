@@ -525,7 +525,7 @@
 \begin_layout Standard
 \begin_inset FormulaMacro
 \newcommand{\geodeticLatitude}{\glssymbol{geodeticLatitude}}
-{\ensuremath{\phi}}
+{\ensuremath{\varphi}}
 \end_inset
 
 \end_layout
@@ -2094,6 +2094,126 @@
 \begin_inset FormulaMacro
 \newcommand{\stiffnessMatrix}{\glssymbol{stiffnessMatrix}}
 {\ensuremath{\mathbf{K}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\gainMatrix}{\glssymbol{gainMatrix}}
+{\ensuremath{\mathbf{K}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\weightingMatrixQ}{\glssymbol{weightingMatrixQ}}
+{\ensuremath{\mathbf{Q}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\weightingMatrixR}{\glssymbol{weightingMatrixR}}
+{\ensuremath{\mathbf{R}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\riccatiSolution}{\glssymbol{riccatiSolution}}
+{\ensuremath{\mathbf{P}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\outputMatrix}{\glssymbol{outputMatrix}}
+{\ensuremath{\mathbf{C}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\augmentedStateVector}{\glssymbol{augmentedStateVector}}
+{\ensuremath{\stateVector_{aug}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\errorVector}{\glssymbol{errorVector}}
+{\ensuremath{\mathbf{e}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\costFunctional}{\glssymbol{costFunctional}}
+{\ensuremath{J}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\angleAttackRate}{\glssymbol{angleAttackRate}}
+{\ensuremath{\dot{\alpha}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\angleAttackRateMax}{\glssymbol{angleAttackRateMax}}
+{\ensuremath{\dot{\alpha}_{\text{max}}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\weightingGamma}{\glssymbol{weightingGamma}}
+{\ensuremath{W_{\gamma}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\weightingSmoothness}{\glssymbol{weightingSmoothness}}
+{\ensuremath{W_{s}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\toleranceAltitude}{\glssymbol{toleranceAltitude}}
+{\ensuremath{\epsilon_{h}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\toleranceVelocity}{\glssymbol{toleranceVelocity}}
+{\ensuremath{\epsilon_{V}}}
+\end_inset
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\toleranceFlightPath}{\glssymbol{toleranceFlightPath}}
+{\ensuremath{\epsilon_{\gamma}}}
 \end_inset
 
 \end_layout
